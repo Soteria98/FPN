@@ -1,0 +1,35 @@
+Cluster #	x	y	z	ALE	P	Z	Label (Nearest Gray Matter within 5mm)
+1	2	14	50	0.10130485	1.17069125E-27	10.836902	Left Cerebrum.Frontal Lobe.Superior Frontal Gyrus.Gray Matter.Brodmann area 6
+1	46	38	22	0.08924305	3.36924E-23	9.852803	Right Cerebrum.Frontal Lobe.Middle Frontal Gyrus.Gray Matter.Brodmann area 9
+1	30	8	54	0.077444926	4.483952E-19	8.84797	Right Cerebrum.Frontal Lobe.Sub-Gyral.Gray Matter.Brodmann area 6
+1	4	20	40	0.071957916	3.0381672E-17	8.36427	Right Cerebrum.Limbic Lobe.Cingulate Gyrus.Gray Matter.Brodmann area 32
+1	36	22	-8	0.061239514	7.956951E-14	7.379576	Right Cerebrum.Sub-lobar.Insula.Gray Matter.*
+1	40	52	8	0.05256441	3.1495067E-11	6.5366116	Right Cerebrum.Frontal Lobe.Middle Frontal Gyrus.Gray Matter.Brodmann area 10
+1	50	10	32	0.048697803	3.9855194E-10	6.145604	Right Cerebrum.Frontal Lobe.Inferior Frontal Gyrus.Gray Matter.Brodmann area 9
+1	50	14	22	0.045914706	2.3743267E-9	5.8558226	Right Cerebrum.Frontal Lobe.Inferior Frontal Gyrus.Gray Matter.Brodmann area 9
+1	36	56	-2	0.027206488	1.07927866E-4	3.6996992	Right Cerebrum.Frontal Lobe.Middle Frontal Gyrus.Gray Matter.Brodmann area 10
+2	-46	10	28	0.08728094	1.6950114E-22	9.689048	Left Cerebrum.Frontal Lobe.Inferior Frontal Gyrus.Gray Matter.Brodmann area 9
+2	-46	6	36	0.08502876	1.0635406E-21	9.499549	Left Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 6
+2	-44	20	24	0.080375195	4.4353075E-20	9.102755	Left Cerebrum.Frontal Lobe.Middle Frontal Gyrus.Gray Matter.Brodmann area 9
+2	-28	6	54	0.060093418	1.7947673E-13	7.2704678	Left Cerebrum.Frontal Lobe.Sub-Gyral.Gray Matter.Brodmann area 6
+2	-38	50	10	0.054730117	7.3124215E-12	6.7517533	Left Cerebrum.Frontal Lobe.Middle Frontal Gyrus.Gray Matter.Brodmann area 10
+2	-40	34	24	0.052133016	4.1948032E-11	6.4935856	Left Cerebrum.Frontal Lobe.Middle Frontal Gyrus.Gray Matter.Brodmann area 9
+2	-40	36	10	0.033876326	3.087094E-6	4.5203443	Left Cerebrum.Frontal Lobe.Middle Frontal Gyrus.Gray Matter.Brodmann area 46
+2	-28	60	-4	0.028915115	4.482143E-5	3.9170418	Left Cerebrum.Frontal Lobe.Superior Frontal Gyrus.Gray Matter.Brodmann area 10
+2	-54	20	2	0.02664378	1.4391329E-4	3.6260173	Left Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 44
+2	-52	14	4	0.024703018	3.7522992E-4	3.3704484	Left Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 44
+3	44	-48	44	0.0936762	8.206871E-25	10.219594	Right Cerebrum.Parietal Lobe.Inferior Parietal Lobule.Gray Matter.Brodmann area 40
+3	34	-56	48	0.065753795	3.0896782E-15	7.800615	Right Cerebrum.Parietal Lobe.Superior Parietal Lobule.Gray Matter.Brodmann area 7
+3	14	-66	52	0.050784405	1.02506593E-10	6.3576627	Right Cerebrum.Parietal Lobe.Precuneus.Gray Matter.Brodmann area 7
+3	24	-58	62	0.03590642	9.818787E-7	4.7571335	Right Cerebrum.Parietal Lobe.Superior Parietal Lobule.Gray Matter.Brodmann area 7
+4	-36	-50	44	0.1017831	7.6951364E-28	10.875258	Left Cerebrum.Parietal Lobe.Inferior Parietal Lobule.Gray Matter.Brodmann area 40
+4	-26	-58	50	0.07774403	3.5475908E-19	8.87409	Left Cerebrum.Parietal Lobe.Superior Parietal Lobule.Gray Matter.Brodmann area 7
+5	-34	22	0	0.084432825	1.7293614E-21	9.448763	Left Cerebrum.Sub-lobar.Insula.Gray Matter.Brodmann area 13
+6	36	-64	-28	0.036652572	6.422483E-7	4.842155	Right Cerebellum.Anterior Lobe.Culmen.Gray Matter.*
+6	36	-64	-36	0.03560816	1.165082E-6	4.7224674	Right Cerebellum.Posterior Lobe.Cerebellar Tonsil.Gray Matter.*
+7	-40	-58	-22	0.032825146	5.5213004E-6	4.395688	Left Cerebellum.Anterior Lobe.Culmen.Gray Matter.*
+7	-44	-52	-12	0.031155448	1.3695008E-5	4.1941514	Left Cerebrum.Temporal Lobe.Fusiform Gyrus.Gray Matter.Brodmann area 37
+7	-44	-60	-10	0.028173052	6.610001E-5	3.822325	Left Cerebrum.Temporal Lobe.Fusiform Gyrus.Gray Matter.Brodmann area 37
+7	-34	-68	-24	0.027380722	9.900888E-5	3.7215328	Left Cerebellum.Posterior Lobe.Uvula.Gray Matter.*
+8	-16	-2	8	0.032847743	5.460867E-6	4.398078	Left Cerebrum.Sub-lobar.Lentiform Nucleus.Gray Matter.Lateral Globus Pallidus
+8	-16	4	-2	0.030566081	1.878399E-5	4.1219525	Left Cerebrum.Sub-lobar.Lentiform Nucleus.Gray Matter.Lateral Globus Pallidus

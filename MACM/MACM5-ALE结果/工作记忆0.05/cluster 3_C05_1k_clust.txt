@@ -1,0 +1,82 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = cluster 3.txt
+Number of foci                = 273
+Number of experiments         = 11
+Total number of subjects      = 129
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = cluster 3_ALE.nii
+FWHM minimum value            = 9.241242951547518
+FWHM median value             = 9.868515026564658
+FWHM maximum value            = 11.37334466796002
+Minimum ALE score             = 1.4864353E-37
+Maximum ALE score             = 0.024972618
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = cluster 3_P.nii
+Minimum P value               = 1.1962804E-9
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.05
+Volume > Threshold            = 92208 mm^3
+Chosen min. cluster size      = 9512 mm^3
+Thresholded ALE image         = cluster 3_C05_1k_ALE.nii
+
+Cluster Analysis:
+ #1: 54304 mm^3 from (-56,-12,8) to (48,56,66) centered at (-7.9,13.7,42.8) with 20 peaks
+     with a max value of 0.0213 ALE, 4.56982E-8 P, 5.34 Z at (26,2,52) 
+   Labels: (Gray Matter only)
+     Hemisphere: 58.3% Left Cerebrum, 41.7% Right Cerebrum
+     Lobe: 83.6% Frontal Lobe, 16.4% Limbic Lobe
+     Gyrus: 27.4% Middle Frontal Gyrus, 19.6% Precentral Gyrus, 15.8% Superior Frontal Gyrus, 15.6% Cingulate Gyrus, 11.3% Medial Frontal Gyrus, 4.3% Sub-Gyral, 3.5% Anterior Cingulate, 2.3% Inferior Frontal Gyrus
+     Cell Type: 60.4% Brodmann area 6, 16.7% Brodmann area 32, 12.2% Brodmann area 9, 3.9% Brodmann area 24, 3.2% Brodmann area 8, 2.3% Brodmann area 4, 1.1% Brodmann area 46
+
+ #2: 37904 mm^3 from (-52,-82,30) to (58,-32,68) centered at (2,-58,49.2) with 19 peaks
+     with a max value of 0.025 ALE, 1.1962804E-9 P, 5.97 Z at (-6,-60,50) 
+   Labels: (Gray Matter only)
+     Hemisphere: 51.7% Left Cerebrum, 48.3% Right Cerebrum
+     Lobe: 97.4% Parietal Lobe, 1.1% Occipital Lobe
+     Gyrus: 61.3% Precuneus, 19% Superior Parietal Lobule, 15.2% Inferior Parietal Lobule, 1.3% Supramarginal Gyrus, 1% Cuneus
+     Cell Type: 77.5% Brodmann area 7, 14.4% Brodmann area 40, 4% Brodmann area 19, 3.3% Brodmann area 39
+
+
+Experiment Table:
+[ 8 8 6 1 19 24 3 5 4 5 7 ]
+[ 5 4 5 2 16 16 2 2 5 5 2 ]
+
+Contributors to cluster #1
+8 foci from Cabeza R, 2002: WM - Fixation 
+8 foci from Dade L A, 2001: Face Working Memory - Baseline 
+6 foci from Garavan H, 2000: VSWM vs. CTL 
+1 foci from Leveroni C L, 2000: Newly-learned faces > Foils 
+19 foci from Carlson S, 1998: Two-Back vs. Zero-Back Carlson S, 1998: Two-Back vs. One-Back 
+24 foci from Martinkauppi S, 2000: 3-Back vs. 1-Back Martinkauppi S, 2000: 2-Back vs. 1-Back 
+3 foci from Grasby P M, 1994: Positive Correlations of Word List Length 
+5 foci from LaBar K S, 1999: Working Memory 
+4 foci from Cairo T A, 2004: Encoding, Linear Regression with Load 
+5 foci from Koppelstaetter F, 2008: 2 Back - 0 Back, Placebo 
+7 foci from Malisza K L, 2005: Healthy Children 
+
+Contributors to cluster #2
+5 foci from Cabeza R, 2002: WM - Fixation 
+4 foci from Dade L A, 2001: Face Working Memory - Baseline 
+5 foci from Garavan H, 2000: VSWM vs. CTL 
+2 foci from Leveroni C L, 2000: Newly-learned faces > Foils 
+16 foci from Carlson S, 1998: Two-Back vs. Zero-Back Carlson S, 1998: Two-Back vs. One-Back 
+16 foci from Martinkauppi S, 2000: 3-Back vs. 1-Back Martinkauppi S, 2000: 2-Back vs. 1-Back 
+2 foci from Grasby P M, 1994: Positive Correlations of Word List Length 
+2 foci from LaBar K S, 1999: Working Memory 
+5 foci from Cairo T A, 2004: Encoding, Linear Regression with Load 
+5 foci from Koppelstaetter F, 2008: 2 Back - 0 Back, Placebo 
+2 foci from Malisza K L, 2005: Healthy Children 

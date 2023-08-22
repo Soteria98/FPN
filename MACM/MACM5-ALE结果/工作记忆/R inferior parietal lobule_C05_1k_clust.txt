@@ -1,0 +1,402 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = R inferior parietal lobule.txt
+Number of foci                = 773
+Number of experiments         = 40
+Total number of subjects      = 625
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = R inferior parietal lobule_ALE.nii
+FWHM minimum value            = 8.696744897516824
+FWHM median value             = 9.755397007122182
+FWHM maximum value            = 10.935527854620133
+Minimum ALE score             = 7.0245546E-23
+Maximum ALE score             = 0.074783124
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = R inferior parietal lobule_P.nii
+Minimum P value               = 2.0835586E-24
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 58112 mm^3
+Chosen min. cluster size      = 896 mm^3
+Thresholded ALE image         = R inferior parietal lobule_C05_1k_ALE.nii
+
+Cluster Analysis:
+  #1: 12152 mm^3 from (-54,-4,6) to (-30,52,46) centered at (-44.2,19,24) with 7 peaks
+      with a max value of 0.0369 ALE, 4.305505E-10 P, 6.13 Z at (-44,12,22) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 97.1% Frontal Lobe, 2.9% Sub-lobar
+      Gyrus: 47.4% Precentral Gyrus, 28.2% Middle Frontal Gyrus, 21.2% Inferior Frontal Gyrus, 2.9% Insula
+      Cell Type: 51.8% Brodmann area 6, 33.8% Brodmann area 9, 6.8% Brodmann area 46, 4.7% Brodmann area 10, 2.9% Brodmann area 13
+
+  #2: 11016 mm^3 from (-48,-74,36) to (-6,-34,60) centered at (-31.2,-54.2,45.9) with 4 peaks
+      with a max value of 0.0551 ALE, 1.5114182E-16 P, 8.17 Z at (-38,-48,44) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Parietal Lobe
+      Gyrus: 37.6% Inferior Parietal Lobule, 26.7% Precuneus, 24.2% Superior Parietal Lobule, 9.6% Supramarginal Gyrus, 1.7% Angular Gyrus
+      Cell Type: 48.9% Brodmann area 7, 44.9% Brodmann area 40, 3.4% Brodmann area 39, 2.8% Brodmann area 19
+
+  #3: 7984 mm^3 from (-12,4,28) to (12,36,62) centered at (0,17.4,44.7) with 2 peaks
+      with a max value of 0.0389 ALE, 9.764445E-11 P, 6.37 Z at (-2,18,42) 
+    Labels: (Gray Matter only)
+      Hemisphere: 66% Left Cerebrum, 34% Right Cerebrum
+      Lobe: 68.1% Frontal Lobe, 31.9% Limbic Lobe
+      Gyrus: 42% Cingulate Gyrus, 33.1% Medial Frontal Gyrus, 24.9% Superior Frontal Gyrus
+      Cell Type: 42.4% Brodmann area 32, 42.4% Brodmann area 6, 8.2% Brodmann area 24, 6.3% Brodmann area 8
+
+  #4: 6840 mm^3 from (26,-64,34) to (52,-38,56) centered at (41.2,-50.1,44.9) with 1 peaks
+      with a max value of 0.0748 ALE, 2.0835586E-24 P, 10.13 Z at (44,-48,44) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Parietal Lobe
+      Gyrus: 67.9% Inferior Parietal Lobule, 23.4% Superior Parietal Lobule, 6.2% Supramarginal Gyrus
+      Cell Type: 69.9% Brodmann area 40, 26.3% Brodmann area 7, 2.9% Brodmann area 39
+
+  #5: 4072 mm^3 from (34,26,12) to (52,48,32) centered at (44.2,35.7,21.5) with 1 peaks
+      with a max value of 0.0483 ALE, 4.9583774E-14 P, 7.44 Z at (46,36,22) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 89.2% Middle Frontal Gyrus, 10.8% Superior Frontal Gyrus
+      Cell Type: 81.5% Brodmann area 9, 9.2% Brodmann area 46, 9.2% Brodmann area 10
+
+  #6: 3600 mm^3 from (22,-74,-36) to (46,-56,-22) centered at (35.1,-65.5,-27.9) with 1 peaks
+      with a max value of 0.0383 ALE, 1.5255998E-10 P, 6.3 Z at (34,-66,-28) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebellum
+      Lobe: 67.6% Posterior Lobe, 32.4% Anterior Lobe
+      Gyrus: 25.8% Culmen, 24.7% Tuber, 20.2% Declive, 10.2% Cerebellar Tonsil, 7.3% Uvula, 5.1% Pyramis
+      Cell Type: 1.1% Dentate
+
+  #7: 2944 mm^3 from (16,-6,44) to (40,14,66) centered at (31,5.6,55) with 3 peaks
+      with a max value of 0.0278 ALE, 3.2831963E-7 P, 4.97 Z at (32,8,52) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 71.1% Middle Frontal Gyrus, 24.4% Sub-Gyral, 2.2% Precentral Gyrus, 2.2% Superior Frontal Gyrus
+      Cell Type: 100% Brodmann area 6
+
+  #8: 2704 mm^3 from (-22,-18,0) to (-8,4,16) centered at (-14.8,-4.2,7.7) with 1 peaks
+      with a max value of 0.0304 ALE, 5.2155126E-8 P, 5.32 Z at (-16,-2,8) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Sub-lobar
+      Gyrus: 54.7% Thalamus, 39% Lentiform Nucleus, 6.4% Caudate
+      Cell Type: 19.9% Ventral Lateral Nucleus, 18.2% Putamen, 17.8% Lateral Globus Pallidus, 8.5% Medial Dorsal Nucleus, 8.1% Ventral Anterior Nucleus, 6.4% Caudate Body, 2.5% Anterior Nucleus
+
+  #9: 1672 mm^3 from (6,-70,48) to (22,-58,60) centered at (15.2,-65,53.6) with 1 peaks
+      with a max value of 0.0281 ALE, 2.6851706E-7 P, 5.01 Z at (16,-64,56) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Parietal Lobe
+      Gyrus: 96.8% Precuneus, 3.2% Superior Parietal Lobule
+      Cell Type: 100% Brodmann area 7
+
+ #10: 1584 mm^3 from (28,18,-14) to (40,28,6) centered at (33.9,23.4,-3.5) with 1 peaks
+      with a max value of 0.0281 ALE, 2.59341E-7 P, 5.02 Z at (34,24,-2) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 93.3% Sub-lobar, 6.7% Frontal Lobe
+      Gyrus: 53.3% Insula, 36.7% Claustrum, 8.3% Inferior Frontal Gyrus, 1.7% Extra-Nuclear
+      Cell Type: 35% Brodmann area 13, 16.7% Brodmann area 47, 1.7% Brodmann area 45
+
+ #11: 1280 mm^3 from (-34,-6,48) to (-20,8,58) centered at (-27.5,1.5,53.7) with 1 peaks
+      with a max value of 0.0224 ALE, 1.2284921E-5 P, 4.22 Z at (-26,4,56) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 45.8% Middle Frontal Gyrus, 34.9% Sub-Gyral, 19.3% Precentral Gyrus
+      Cell Type: 100% Brodmann area 6
+
+ #12: 1272 mm^3 from (-40,18,-12) to (-26,28,6) centered at (-32.7,23.2,-1.7) with 2 peaks
+      with a max value of 0.0235 ALE, 6.0435773E-6 P, 4.38 Z at (-32,24,0) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 95.9% Sub-lobar, 4.1% Frontal Lobe
+      Gyrus: 69.4% Insula, 16.3% Claustrum, 10.2% Extra-Nuclear, 4.1% Inferior Frontal Gyrus
+      Cell Type: 63.3% Brodmann area 13, 10.2% Brodmann area 47
+
+ #13: 992 mm^3 from (46,8,8) to (58,18,28) centered at (51.2,12.2,19.9) with 3 peaks
+      with a max value of 0.0228 ALE, 9.542736E-6 P, 4.28 Z at (52,12,22) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 77.8% Frontal Lobe, 22.2% Sub-lobar
+      Gyrus: 77.8% Inferior Frontal Gyrus, 22.2% Insula
+      Cell Type: 77.8% Brodmann area 9, 22.2% Brodmann area 13
+
+
+Experiment Table:
+[ 2 1 2 1 1 1 3 2 1 2 0 1 2 0 0 1 4 1 4 1 1 6 4 3 2 2 1 1 1 2 1 3 1 2 0 1 1 1 1 0 ]
+[ 1 3 1 1 2 2 1 0 2 4 0 0 1 2 0 1 4 1 2 0 1 5 1 1 1 1 0 2 1 4 1 3 0 6 1 1 1 0 1 1 ]
+[ 0 1 2 2 2 2 0 1 1 5 0 0 1 1 1 1 2 2 1 1 0 2 1 3 0 1 0 1 1 2 2 1 0 4 0 0 0 0 0 0 ]
+[ 1 1 0 0 0 2 1 1 2 1 0 0 0 2 0 0 2 0 0 1 1 3 0 2 1 1 1 1 1 1 1 1 1 4 1 1 1 1 1 3 ]
+[ 1 1 0 0 0 1 1 0 1 0 0 1 0 1 0 0 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 0 2 1 1 0 0 0 0 ]
+[ 0 0 1 1 0 0 2 0 0 0 0 1 1 2 1 1 1 2 1 2 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 0 1 0 1 0 0 1 1 0 0 0 0 2 1 0 0 2 1 0 0 1 1 0 0 0 0 0 1 1 0 0 1 0 1 0 0 0 0 0 0 ]
+[ 1 0 1 0 2 1 1 1 1 2 6 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 ]
+[ 0 1 0 1 0 0 0 0 0 1 0 0 2 0 0 0 2 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 ]
+[ 0 0 0 0 0 0 1 0 0 1 0 2 1 0 0 0 0 1 0 1 0 2 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 ]
+[ 0 0 0 0 0 0 1 0 0 0 0 2 1 0 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 2 1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 ]
+
+Contributors to cluster #1
+2 foci from Sperling R A, 2001: Novel vs. Fixation 
+1 foci from Smith E E, 1996: Spatial 3-Back - Control 
+2 foci from Awh E, 1996: Subject Group 1 
+1 foci from Awh E, 1996: Subject Group 2 
+1 foci from Johnson M R, 2006: Controls 
+1 foci from Meisenzahl E M, 2006: Normals 
+3 foci from Walter H, 2007: Normals 
+2 foci from Ricciardi E, 2006: Tactile Maintenance vs. Rest 
+1 foci from Frangou S, 2008: Healthy Controls 
+2 foci from Lee T W, 2013: Healthy Controls 
+1 foci from Wolf R C, 2009: Healthy Controls 
+2 foci from Hautzel H, 2002: Conjunction Analysis 
+1 foci from Fiez J A, 1996: Positive Changes in Short Term Maintenance - Fixation 
+4 foci from Schumacher E H, 1996: Visual Memory - Control, Increases Schumacher E H, 1996: Auditory Memory - Control, Increases 
+1 foci from Cairo T A, 2004: Maintenance Cairo T A, 2004: Retrieval, Linear Regression with Load 
+4 foci from Audoin B, 2005: Control Subjects 
+1 foci from Kirschen M P, 2005: Linear Activations 
+1 foci from Mendrek A, 2005: Normal Subjects 
+6 foci from Sanchez-Carrion R, 2008: Healthy Controls 
+4 foci from Gray J R, 2003: Regions in which gF predicted neural activity on lure  trials 
+3 foci from Carlson S, 1998: Two-Back vs. Zero-Back 
+2 foci from Cohen J D, 1997: Load 
+2 foci from Ragland J D, 2002: Fractal 2Back - 0Back 
+1 foci from Landau S M, 2004: Retrieval:  Practice by Load Interaction 
+1 foci from Drobyshevsky A, 2006: Working Memory 
+1 foci from Perlstein W M, 2003: Normals 
+2 foci from Linden D E J, 2003: Middle and Late Delay 
+1 foci from Allen P P, 2006: 2-Back > 0-Back, Sham Depletion 
+3 foci from Pfefferbaum A, 2001: Controls 
+1 foci from Sheridan M A, 2007: Normal Adolescent Girls 
+2 foci from Mayer J S, 2007: Common Activation, WM Load Mayer J S, 2007: Common Activation, 2-Way Interaction 
+1 foci from Drapier D, 2008: Healthy Controls 
+1 foci from McAllister T W, 1999: Healthy Controls 
+1 foci from Fernandez-Corcuera P, 2013: Healthy Controls 
+1 foci from Christodoulou C, 2001: Healthy Controls 
+
+Contributors to cluster #2
+1 foci from Sperling R A, 2001: Novel vs. Fixation 
+3 foci from Smith E E, 1996: Spatial 3-Back - Control 
+1 foci from Awh E, 1996: Subject Group 1 
+1 foci from Awh E, 1996: Subject Group 2 
+2 foci from Johnson M R, 2006: Controls 
+2 foci from Meisenzahl E M, 2006: Normals 
+1 foci from Walter H, 2007: Normals 
+2 foci from Frangou S, 2008: Healthy Controls 
+4 foci from Lee T W, 2013: Healthy Controls 
+1 foci from Hautzel H, 2002: Conjunction Analysis 
+2 foci from Jonides J, 1997: 2-back minus Control, Activations 
+1 foci from Fiez J A, 1996: Positive Changes in Short Term Maintenance - Fixation 
+4 foci from Schumacher E H, 1996: Visual Memory - Control, Increases Schumacher E H, 1996: Auditory Memory - Control, Increases 
+1 foci from Cairo T A, 2004: Maintenance Cairo T A, 2004: Retrieval, Linear Regression with Load 
+2 foci from Audoin B, 2005: Control Subjects 
+1 foci from Mendrek A, 2005: Normal Subjects 
+5 foci from Sanchez-Carrion R, 2008: Healthy Controls 
+1 foci from Gray J R, 2003: Regions in which gF predicted neural activity on lure  trials 
+1 foci from Carlson S, 1998: Two-Back vs. Zero-Back 
+1 foci from Cohen J D, 1997: Load 
+1 foci from Ragland J D, 2002: Fractal 2Back - 0Back 
+2 foci from Drobyshevsky A, 2006: Working Memory 
+1 foci from Perlstein W M, 2003: Normals 
+4 foci from Linden D E J, 2003: Middle and Late Delay 
+1 foci from Allen P P, 2006: 2-Back > 0-Back, Sham Depletion 
+3 foci from Pfefferbaum A, 2001: Controls 
+6 foci from Mayer J S, 2007: Common Activation, WM Load Mayer J S, 2007: Common Activation, 2-Way Interaction 
+1 foci from Drapier D, 2008: Healthy Relatives 
+1 foci from Drapier D, 2008: Healthy Controls 
+1 foci from McAllister T W, 1999: Healthy Controls 
+1 foci from Christodoulou C, 2001: Healthy Controls 
+1 foci from Antonova E, 2009: Older Normals 
+
+Contributors to cluster #3
+1 foci from Smith E E, 1996: Spatial 3-Back - Control 
+2 foci from Awh E, 1996: Subject Group 1 
+2 foci from Awh E, 1996: Subject Group 2 
+2 foci from Johnson M R, 2006: Controls 
+2 foci from Meisenzahl E M, 2006: Normals 
+1 foci from Ricciardi E, 2006: Tactile Maintenance vs. Rest 
+1 foci from Frangou S, 2008: Healthy Controls 
+5 foci from Lee T W, 2013: Healthy Controls 
+1 foci from Hautzel H, 2002: Conjunction Analysis 
+1 foci from Jonides J, 1997: 2-back minus Control, Activations 
+1 foci from Kim J J, 2002: Korean Words - Control 
+1 foci from Fiez J A, 1996: Positive Changes in Short Term Maintenance - Fixation 
+2 foci from Schumacher E H, 1996: Visual Memory - Control, Increases Schumacher E H, 1996: Auditory Memory - Control, Increases 
+2 foci from Cairo T A, 2004: Maintenance Cairo T A, 2004: Retrieval, Linear Regression with Load 
+1 foci from Audoin B, 2005: Control Subjects 
+1 foci from Kirschen M P, 2005: Linear Activations 
+2 foci from Sanchez-Carrion R, 2008: Healthy Controls 
+1 foci from Gray J R, 2003: Regions in which gF predicted neural activity on lure  trials 
+3 foci from Carlson S, 1998: Two-Back vs. Zero-Back 
+1 foci from Ragland J D, 2002: Fractal 2Back - 0Back 
+1 foci from Drobyshevsky A, 2006: Working Memory 
+1 foci from Perlstein W M, 2003: Normals 
+2 foci from Linden D E J, 2003: Middle and Late Delay 
+2 foci from Allen P P, 2006: 2-Back > 0-Back, Sham Depletion 
+1 foci from Pfefferbaum A, 2001: Controls 
+4 foci from Mayer J S, 2007: Common Activation, WM Load Mayer J S, 2007: Common Activation, 2-Way Interaction 
+
+Contributors to cluster #4
+1 foci from Sperling R A, 2001: Novel vs. Fixation 
+1 foci from Smith E E, 1996: Spatial 3-Back - Control 
+2 foci from Meisenzahl E M, 2006: Normals 
+1 foci from Walter H, 2007: Normals 
+1 foci from Ricciardi E, 2006: Tactile Maintenance vs. Rest 
+2 foci from Frangou S, 2008: Healthy Controls 
+1 foci from Lee T W, 2013: Healthy Controls 
+2 foci from Jonides J, 1997: 2-back minus Control, Activations 
+2 foci from Schumacher E H, 1996: Visual Memory - Control, Increases Schumacher E H, 1996: Auditory Memory - Control, Increases 
+1 foci from Kirschen M P, 2005: Linear Activations 
+1 foci from Mendrek A, 2005: Normal Subjects 
+3 foci from Sanchez-Carrion R, 2008: Healthy Controls 
+2 foci from Carlson S, 1998: Two-Back vs. Zero-Back 
+1 foci from Cohen J D, 1997: Load 
+1 foci from Ragland J D, 2002: Fractal 2Back - 0Back 
+1 foci from Landau S M, 2004: Retrieval:  Practice by Load Interaction 
+1 foci from Drobyshevsky A, 2006: Working Memory 
+1 foci from Perlstein W M, 2003: Normals 
+1 foci from Linden D E J, 2003: Middle and Late Delay 
+1 foci from Allen P P, 2006: 2-Back > 0-Back, Sham Depletion 
+1 foci from Pfefferbaum A, 2001: Controls 
+1 foci from Sheridan M A, 2007: Normal Adolescent Girls 
+4 foci from Mayer J S, 2007: Common Activation, WM Load Mayer J S, 2007: Common Activation, 2-Way Interaction 
+1 foci from Drapier D, 2008: Healthy Relatives 
+1 foci from Drapier D, 2008: Healthy Controls 
+1 foci from McAllister T W, 1999: Healthy Controls 
+1 foci from Fernandez-Corcuera P, 2013: Healthy Controls 
+1 foci from Christodoulou C, 2001: Healthy Controls 
+3 foci from Antonova E, 2009: Older Normals 
+
+Contributors to cluster #5
+1 foci from Sperling R A, 2001: Novel vs. Fixation 
+1 foci from Smith E E, 1996: Spatial 3-Back - Control 
+1 foci from Meisenzahl E M, 2006: Normals 
+1 foci from Walter H, 2007: Normals 
+1 foci from Frangou S, 2008: Healthy Controls 
+1 foci from Wolf R C, 2009: Healthy Controls 
+1 foci from Jonides J, 1997: 2-back minus Control, Activations 
+1 foci from Cairo T A, 2004: Maintenance Cairo T A, 2004: Retrieval, Linear Regression with Load 
+1 foci from Mendrek A, 2005: Normal Subjects 
+1 foci from Sanchez-Carrion R, 2008: Healthy Controls 
+1 foci from Gray J R, 2003: Regions in which gF predicted neural activity on lure  trials 
+1 foci from Carlson S, 1998: Two-Back vs. Zero-Back 
+1 foci from Cohen J D, 1997: Load 
+1 foci from Ragland J D, 2002: Fractal 2Back - 0Back 
+1 foci from Perlstein W M, 2003: Normals 
+1 foci from Linden D E J, 2003: Middle and Late Delay 
+1 foci from Allen P P, 2006: 2-Back > 0-Back, Sham Depletion 
+1 foci from Pfefferbaum A, 2001: Controls 
+2 foci from Mayer J S, 2007: Common Activation, WM Load Mayer J S, 2007: Common Activation, 2-Way Interaction 
+1 foci from Drapier D, 2008: Healthy Relatives 
+1 foci from Drapier D, 2008: Healthy Controls 
+
+Contributors to cluster #6
+1 foci from Awh E, 1996: Subject Group 1 
+1 foci from Awh E, 1996: Subject Group 2 
+2 foci from Walter H, 2007: Normals 
+1 foci from Wolf R C, 2009: Healthy Controls 
+1 foci from Hautzel H, 2002: Conjunction Analysis 
+2 foci from Jonides J, 1997: 2-back minus Control, Activations 
+1 foci from Kim J J, 2002: Korean Words - Control 
+1 foci from Fiez J A, 1996: Positive Changes in Short Term Maintenance - Fixation 
+1 foci from Schumacher E H, 1996: Visual Memory - Control, Increases Schumacher E H, 1996: Auditory Memory - Control, Increases 
+2 foci from Cairo T A, 2004: Maintenance Cairo T A, 2004: Retrieval, Linear Regression with Load 
+1 foci from Audoin B, 2005: Control Subjects 
+2 foci from Kirschen M P, 2005: Linear Activations 
+1 foci from Mendrek A, 2005: Normal Subjects 
+1 foci from Sanchez-Carrion R, 2008: Healthy Controls 
+1 foci from Gray J R, 2003: Regions in which gF predicted neural activity on lure  trials 
+
+Contributors to cluster #7
+1 foci from Smith E E, 1996: Spatial 3-Back - Control 
+1 foci from Awh E, 1996: Subject Group 2 
+1 foci from Walter H, 2007: Normals 
+1 foci from Ricciardi E, 2006: Tactile Maintenance vs. Rest 
+2 foci from Hautzel H, 2002: Conjunction Analysis 
+1 foci from Jonides J, 1997: 2-back minus Control, Activations 
+2 foci from Schumacher E H, 1996: Visual Memory - Control, Increases Schumacher E H, 1996: Auditory Memory - Control, Increases 
+1 foci from Cairo T A, 2004: Maintenance Cairo T A, 2004: Retrieval, Linear Regression with Load 
+1 foci from Mendrek A, 2005: Normal Subjects 
+1 foci from Sanchez-Carrion R, 2008: Healthy Controls 
+1 foci from Drobyshevsky A, 2006: Working Memory 
+1 foci from Perlstein W M, 2003: Normals 
+1 foci from Pfefferbaum A, 2001: Controls 
+1 foci from Mayer J S, 2007: Common Activation, WM Load Mayer J S, 2007: Common Activation, 2-Way Interaction 
+
+Contributors to cluster #8
+1 foci from Sperling R A, 2001: Novel vs. Fixation 
+1 foci from Awh E, 1996: Subject Group 1 
+2 foci from Johnson M R, 2006: Controls 
+1 foci from Meisenzahl E M, 2006: Normals 
+1 foci from Walter H, 2007: Normals 
+1 foci from Ricciardi E, 2006: Tactile Maintenance vs. Rest 
+1 foci from Frangou S, 2008: Healthy Controls 
+2 foci from Lee T W, 2013: Healthy Controls 
+6 foci from de Rover M, 2008: Healthy Controls, Experiment 2 
+1 foci from Wolf R C, 2009: Healthy Controls 
+1 foci from Christodoulou C, 2001: Healthy Controls 
+1 foci from Antonova E, 2009: Older Normals 
+
+Contributors to cluster #9
+1 foci from Smith E E, 1996: Spatial 3-Back - Control 
+1 foci from Awh E, 1996: Subject Group 2 
+1 foci from Lee T W, 2013: Healthy Controls 
+2 foci from Hautzel H, 2002: Conjunction Analysis 
+2 foci from Schumacher E H, 1996: Visual Memory - Control, Increases Schumacher E H, 1996: Auditory Memory - Control, Increases 
+1 foci from Sanchez-Carrion R, 2008: Healthy Controls 
+1 foci from Drobyshevsky A, 2006: Working Memory 
+1 foci from Antonova E, 2009: Older Normals 
+
+Contributors to cluster #10
+1 foci from Walter H, 2007: Normals 
+1 foci from Lee T W, 2013: Healthy Controls 
+2 foci from Wolf R C, 2009: Healthy Controls 
+1 foci from Hautzel H, 2002: Conjunction Analysis 
+1 foci from Cairo T A, 2004: Maintenance Cairo T A, 2004: Retrieval, Linear Regression with Load 
+1 foci from Kirschen M P, 2005: Linear Activations 
+2 foci from Sanchez-Carrion R, 2008: Healthy Controls 
+1 foci from Carlson S, 1998: Two-Back vs. Zero-Back 
+1 foci from Ragland J D, 2002: Fractal 2Back - 0Back 
+
+Contributors to cluster #11
+1 foci from Awh E, 1996: Subject Group 2 
+1 foci from Lee T W, 2013: Healthy Controls 
+1 foci from Jonides J, 1997: 2-back minus Control, Activations 
+1 foci from Schumacher E H, 1996: Visual Memory - Control, Increases Schumacher E H, 1996: Auditory Memory - Control, Increases 
+1 foci from Sanchez-Carrion R, 2008: Healthy Controls 
+1 foci from Drobyshevsky A, 2006: Working Memory 
+1 foci from Linden D E J, 2003: Middle and Late Delay 
+1 foci from Christodoulou C, 2001: Healthy Controls 
+
+Contributors to cluster #12
+1 foci from Walter H, 2007: Normals 
+2 foci from Wolf R C, 2009: Healthy Controls 
+1 foci from Hautzel H, 2002: Conjunction Analysis 
+1 foci from Fiez J A, 1996: Positive Changes in Short Term Maintenance - Fixation 
+2 foci from Sanchez-Carrion R, 2008: Healthy Controls 
+1 foci from Mayer J S, 2007: Common Activation, WM Load Mayer J S, 2007: Common Activation, 2-Way Interaction 
+
+Contributors to cluster #13
+1 foci from Lee T W, 2013: Healthy Controls 
+1 foci from Wolf R C, 2009: Healthy Controls 
+2 foci from Audoin B, 2005: Control Subjects 
+1 foci from Kirschen M P, 2005: Linear Activations 
+1 foci from Gray J R, 2003: Regions in which gF predicted neural activity on lure  trials 
+1 foci from Mayer J S, 2007: Common Activation, WM Load Mayer J S, 2007: Common Activation, 2-Way Interaction 

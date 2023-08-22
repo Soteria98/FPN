@@ -1,0 +1,199 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = superior frontal gyrus.txt
+Number of foci                = 474
+Number of experiments         = 23
+Total number of subjects      = 325
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = superior frontal gyrus_ALE.nii
+FWHM minimum value            = 9.056468275459084
+FWHM median value             = 9.6586470675157
+FWHM maximum value            = 10.935527854620133
+Minimum ALE score             = 1.667011E-30
+Maximum ALE score             = 0.065630525
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = superior frontal gyrus_P.nii
+Minimum P value               = 3.1227928E-26
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 24872 mm^3
+Chosen min. cluster size      = 848 mm^3
+Thresholded ALE image         = superior frontal gyrus_C05_1k_ALE.nii
+
+Cluster Analysis:
+ #1: 7928 mm^3 from (-14,4,36) to (10,32,60) centered at (-.9,16.3,47.1) with 1 peaks
+     with a max value of 0.0656 ALE, 3.1227928E-26 P, 10.53 Z at (0,16,48) 
+   Labels: (Gray Matter only)
+     Hemisphere: 71.2% Left Cerebrum, 28.8% Right Cerebrum
+     Lobe: 74.6% Frontal Lobe, 25.4% Limbic Lobe
+     Gyrus: 40.2% Medial Frontal Gyrus, 33.2% Superior Frontal Gyrus, 26.6% Cingulate Gyrus
+     Cell Type: 46.7% Brodmann area 6, 29% Brodmann area 32, 13.1% Brodmann area 8, 11.2% Brodmann area 24
+
+ #2: 3808 mm^3 from (-50,-70,44) to (-18,-38,56) centered at (-31.3,-54.1,50.5) with 3 peaks
+     with a max value of 0.0276 ALE, 3.788145E-9 P, 5.78 Z at (-24,-62,50) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Parietal Lobe
+     Gyrus: 49% Inferior Parietal Lobule, 31% Superior Parietal Lobule, 20% Precuneus
+     Cell Type: 51.4% Brodmann area 7, 48.6% Brodmann area 40
+
+ #3: 3760 mm^3 from (-56,0,22) to (-38,22,44) centered at (-45.7,9.2,33.4) with 2 peaks
+     with a max value of 0.0317 ALE, 1.0306959E-10 P, 6.36 Z at (-46,8,34) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 46.3% Precentral Gyrus, 30.9% Middle Frontal Gyrus, 22.9% Inferior Frontal Gyrus
+     Cell Type: 51.6% Brodmann area 6, 47.3% Brodmann area 9, 1.1% Brodmann area 8
+
+ #4: 3608 mm^3 from (30,12,-12) to (58,28,8) centered at (40,19.8,-1.8) with 2 peaks
+     with a max value of 0.0247 ALE, 4.6872273E-8 P, 5.34 Z at (38,22,-4) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 72.8% Sub-lobar, 27.2% Frontal Lobe
+     Gyrus: 51.5% Insula, 17.8% Claustrum, 15.4% Inferior Frontal Gyrus, 13% Precentral Gyrus, 2.4% Extra-Nuclear
+     Cell Type: 39.6% Brodmann area 13, 18.9% Brodmann area 47, 13% Brodmann area 44, 1.2% Brodmann area 45
+
+ #5: 2424 mm^3 from (36,-2,22) to (56,20,42) centered at (46.4,11.6,31.9) with 3 peaks
+     with a max value of 0.0207 ALE, 1.252943E-6 P, 4.71 Z at (42,14,28) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 53.7% Precentral Gyrus, 34.7% Middle Frontal Gyrus, 11.6% Inferior Frontal Gyrus
+     Cell Type: 58.9% Brodmann area 9, 41.1% Brodmann area 6
+
+ #6: 1888 mm^3 from (-50,24,14) to (-32,44,30) centered at (-42.9,31.8,18.8) with 4 peaks
+     with a max value of 0.02 ALE, 2.1348724E-6 P, 4.6 Z at (-44,28,18) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 100% Middle Frontal Gyrus
+     Cell Type: 50% Brodmann area 46, 50% Brodmann area 9
+
+ #7: 1456 mm^3 from (-40,20,-8) to (-30,32,8) centered at (-34.7,26.3,-.2) with 1 peaks
+     with a max value of 0.0184 ALE, 7.7966115E-6 P, 4.32 Z at (-36,28,-2) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 61.8% Sub-lobar, 38.2% Frontal Lobe
+     Gyrus: 60.3% Insula, 38.2% Inferior Frontal Gyrus, 1.5% Extra-Nuclear
+     Cell Type: 61.8% Brodmann area 13, 16.2% Brodmann area 45, 14.7% Brodmann area 47
+
+
+Experiment Table:
+[ 2 3 3 1 2 1 5 1 1 1 9 1 1 1 1 2 1 1 1 1 1 1 3 ]
+[ 0 0 0 3 1 0 2 1 0 0 0 2 1 1 0 3 0 0 0 1 2 0 1 ]
+[ 0 2 1 1 0 0 3 1 1 0 0 0 1 1 1 2 0 0 0 1 1 0 4 ]
+[ 2 0 0 0 1 0 2 0 0 1 0 1 0 1 1 3 0 1 0 1 1 0 2 ]
+[ 2 0 0 0 1 0 1 1 1 0 1 0 0 1 0 2 0 0 0 0 1 0 1 ]
+[ 0 0 1 1 0 0 3 0 0 0 3 0 0 1 1 1 0 0 0 0 1 0 0 ]
+[ 0 0 0 0 1 0 3 1 0 0 1 0 0 0 0 0 0 1 0 1 1 0 0 ]
+
+Contributors to cluster #1
+2 foci from Steel C, 2001: Stroop Facilitation vs. Control 
+3 foci from Ruff C C, 2001: Repeated Color Naming, Incongruent vs. Neutral Ruff C C, 2001: Switching Color Naming, Incongruent vs. Neutral 
+3 foci from Milham M P, 2003: Within-Region Analysis:  Interference vs. Control Milham M P, 2003: Region-Based Analysis:  Interference vs. Control 
+1 foci from Milham M P, 2001: Incongruent > Neutral 
+2 foci from Gitelman D R, 1999: Posner Task vs. Baseline 
+1 foci from Winterer G, 2002: Target Identification vs. Fixation 
+5 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Dove A, 2000: Task Switch - Task Repetition 
+1 foci from Kringelbach M L, 2003: Conjunction of Main Reversal Task and Control  Reversal Task 
+1 foci from Swainson R, 2003: Switch vs. Nonswitch, Wait 
+9 foci from Luks T L, 2002: Informative Switch Cue > Baseline Luks T L, 2002: Informative Repeat Cue > Baseline Luks T L, 2002: Informative Cues > Neutral Cues 
+1 foci from Sylvester C C, 2003: Normals, Group 1 
+1 foci from Sylvester C C, 2003: Normals, Group 2 
+1 foci from Kerns J G, 2005: Normal Subjects 
+1 foci from Heckers S, 2004: Normals 
+2 foci from Nakao T, 2005: Normals 
+1 foci from Kerns J G, 2006: Regions on Conflict Trials Predicting Good Behavioral  Adjustments 
+1 foci from Carlsson K, 2000: Anticipation vs. Rest 
+1 foci from Gusnard D A, 2001: Externally Cued Condition (ECC) > Fixation 
+1 foci from Ye Z, 2009: Effects of Congruency in Stroop Task 
+1 foci from Rudie J D, 2012: Typically Developing Controls 
+1 foci from Rodriguez-Cano E, 2017: Healthy Controls 
+3 foci from Haist F, 2005: Healthy Controls 
+
+Contributors to cluster #2
+3 foci from Milham M P, 2001: Incongruent > Neutral 
+1 foci from Gitelman D R, 1999: Posner Task vs. Baseline 
+2 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Dove A, 2000: Task Switch - Task Repetition 
+2 foci from Sylvester C C, 2003: Normals, Group 1 
+1 foci from Sylvester C C, 2003: Normals, Group 2 
+1 foci from Kerns J G, 2005: Normal Subjects 
+3 foci from Nakao T, 2005: Normals 
+1 foci from Ye Z, 2009: Effects of Congruency in Stroop Task 
+2 foci from Rudie J D, 2012: Typically Developing Controls 
+1 foci from Haist F, 2005: Healthy Controls 
+
+Contributors to cluster #3
+2 foci from Ruff C C, 2001: Repeated Color Naming, Incongruent vs. Neutral Ruff C C, 2001: Switching Color Naming, Incongruent vs. Neutral 
+1 foci from Milham M P, 2003: Within-Region Analysis:  Interference vs. Control Milham M P, 2003: Region-Based Analysis:  Interference vs. Control 
+1 foci from Milham M P, 2001: Incongruent > Neutral 
+3 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Dove A, 2000: Task Switch - Task Repetition 
+1 foci from Kringelbach M L, 2003: Conjunction of Main Reversal Task and Control  Reversal Task 
+1 foci from Sylvester C C, 2003: Normals, Group 2 
+1 foci from Kerns J G, 2005: Normal Subjects 
+1 foci from Heckers S, 2004: Normals 
+2 foci from Nakao T, 2005: Normals 
+1 foci from Ye Z, 2009: Effects of Congruency in Stroop Task 
+1 foci from Rudie J D, 2012: Typically Developing Controls 
+4 foci from Haist F, 2005: Healthy Controls 
+
+Contributors to cluster #4
+2 foci from Steel C, 2001: Stroop Facilitation vs. Control 
+1 foci from Gitelman D R, 1999: Posner Task vs. Baseline 
+2 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Swainson R, 2003: Switch vs. Nonswitch, Wait 
+1 foci from Sylvester C C, 2003: Normals, Group 1 
+1 foci from Kerns J G, 2005: Normal Subjects 
+1 foci from Heckers S, 2004: Normals 
+3 foci from Nakao T, 2005: Normals 
+1 foci from Carlsson K, 2000: Anticipation vs. Rest 
+1 foci from Ye Z, 2009: Effects of Congruency in Stroop Task 
+1 foci from Rudie J D, 2012: Typically Developing Controls 
+2 foci from Haist F, 2005: Healthy Controls 
+
+Contributors to cluster #5
+2 foci from Steel C, 2001: Stroop Facilitation vs. Control 
+1 foci from Gitelman D R, 1999: Posner Task vs. Baseline 
+1 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Dove A, 2000: Task Switch - Task Repetition 
+1 foci from Kringelbach M L, 2003: Conjunction of Main Reversal Task and Control  Reversal Task 
+1 foci from Luks T L, 2002: Informative Switch Cue > Baseline Luks T L, 2002: Informative Repeat Cue > Baseline Luks T L, 2002: Informative Cues > Neutral Cues 
+1 foci from Kerns J G, 2005: Normal Subjects 
+2 foci from Nakao T, 2005: Normals 
+1 foci from Rudie J D, 2012: Typically Developing Controls 
+1 foci from Haist F, 2005: Healthy Controls 
+
+Contributors to cluster #6
+1 foci from Milham M P, 2003: Within-Region Analysis:  Interference vs. Control Milham M P, 2003: Region-Based Analysis:  Interference vs. Control 
+1 foci from Milham M P, 2001: Incongruent > Neutral 
+3 foci from DiGirolamo G J, 2001: Young Normals 
+3 foci from Luks T L, 2002: Informative Switch Cue > Baseline Luks T L, 2002: Informative Repeat Cue > Baseline Luks T L, 2002: Informative Cues > Neutral Cues 
+1 foci from Kerns J G, 2005: Normal Subjects 
+1 foci from Heckers S, 2004: Normals 
+1 foci from Nakao T, 2005: Normals 
+1 foci from Rudie J D, 2012: Typically Developing Controls 
+
+Contributors to cluster #7
+1 foci from Gitelman D R, 1999: Posner Task vs. Baseline 
+3 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Dove A, 2000: Task Switch - Task Repetition 
+1 foci from Luks T L, 2002: Informative Switch Cue > Baseline Luks T L, 2002: Informative Repeat Cue > Baseline Luks T L, 2002: Informative Cues > Neutral Cues 
+1 foci from Carlsson K, 2000: Anticipation vs. Rest 
+1 foci from Ye Z, 2009: Effects of Congruency in Stroop Task 
+1 foci from Rudie J D, 2012: Typically Developing Controls 

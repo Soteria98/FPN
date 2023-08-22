@@ -1,0 +1,470 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = R precentral.txt
+Number of foci                = 1314
+Number of experiments         = 52
+Total number of subjects      = 822
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = R precentral_ALE.nii
+FWHM minimum value            = 8.727885998662787
+FWHM median value             = 9.574940482272122
+FWHM maximum value            = 11.37334466796002
+Minimum ALE score             = 4.8577077E-20
+Maximum ALE score             = 0.078390606
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = R precentral_P.nii
+Minimum P value               = 2.0471824E-21
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 83824 mm^3
+Chosen min. cluster size      = 1016 mm^3
+Thresholded ALE image         = R precentral_C05_1k_ALE.nii
+
+Cluster Analysis:
+  #1: 16288 mm^3 from (18,-68,18) to (68,-22,60) centered at (47.1,-43.7,43.1) with 9 peaks
+      with a max value of 0.0643 ALE, 2.1270412E-16 P, 8.13 Z at (44,-44,48) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 96.8% Parietal Lobe, 1.6% Sub-lobar, 1.6% Temporal Lobe
+      Gyrus: 68.8% Inferior Parietal Lobule, 11% Superior Parietal Lobule, 9.7% Supramarginal Gyrus, 4.5% Precuneus, 2.9% Postcentral Gyrus, 1.6% Insula
+      Cell Type: 80.4% Brodmann area 40, 14.9% Brodmann area 7, 1.6% Brodmann area 13, 1.1% Brodmann area 2
+
+  #2: 14376 mm^3 from (-10,-10,28) to (16,32,68) centered at (1.5,8.7,49.5) with 4 peaks
+      with a max value of 0.0671 ALE, 2.2308442E-17 P, 8.4 Z at (4,16,44) 
+    Labels: (Gray Matter only)
+      Hemisphere: 50.2% Right Cerebrum, 49.8% Left Cerebrum
+      Lobe: 70.7% Frontal Lobe, 29.3% Limbic Lobe
+      Gyrus: 53% Medial Frontal Gyrus, 33% Cingulate Gyrus, 12.9% Superior Frontal Gyrus, 1.1% Paracentral Lobule
+      Cell Type: 57.9% Brodmann area 6, 22% Brodmann area 32, 17.3% Brodmann area 24, 1.4% Brodmann area 8, 1.4% Brodmann area 31
+
+  #3: 13504 mm^3 from (24,-14,8) to (66,22,64) centered at (45,2.3,40.7) with 5 peaks
+      with a max value of 0.0689 ALE, 5.301998E-18 P, 8.57 Z at (40,-4,52) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 53.2% Precentral Gyrus, 31.3% Middle Frontal Gyrus, 15.1% Inferior Frontal Gyrus
+      Cell Type: 77.8% Brodmann area 6, 16.2% Brodmann area 9, 5.5% Brodmann area 4
+
+  #4: 8280 mm^3 from (-62,-56,16) to (-32,-26,56) centered at (-46.6,-40.9,39.7) with 4 peaks
+      with a max value of 0.0525 ALE, 1.50452E-12 P, 6.98 Z at (-44,-40,46) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 82.6% Parietal Lobe, 8.8% Sub-lobar, 8.6% Temporal Lobe
+      Gyrus: 67.7% Inferior Parietal Lobule, 15.6% Supramarginal Gyrus, 8.8% Insula, 6.6% Superior Temporal Gyrus, 1.2% Postcentral Gyrus
+      Cell Type: 83.4% Brodmann area 40, 14.4% Brodmann area 13, 1.2% Brodmann area 2
+
+  #5: 7216 mm^3 from (-50,-26,28) to (-18,4,66) centered at (-35.2,-9.5,53.1) with 4 peaks
+      with a max value of 0.0507 ALE, 5.6358637E-12 P, 6.79 Z at (-24,-4,56) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 75.3% Frontal Lobe, 24.7% Parietal Lobe
+      Gyrus: 54.5% Precentral Gyrus, 25.5% Postcentral Gyrus, 18.4% Middle Frontal Gyrus, 1.6% Sub-Gyral
+      Cell Type: 39.1% Brodmann area 6, 35.9% Brodmann area 4, 22.6% Brodmann area 3, 2.4% Brodmann area 2
+
+  #6: 5752 mm^3 from (-56,-2,-10) to (-26,26,26) centered at (-39.7,14.5,2.9) with 5 peaks
+      with a max value of 0.0492 ALE, 1.6085187E-11 P, 6.64 Z at (-34,18,0) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 76.9% Sub-lobar, 23.1% Frontal Lobe
+      Gyrus: 58.4% Insula, 16.4% Claustrum, 12.2% Inferior Frontal Gyrus, 10.9% Precentral Gyrus, 2.1% Lentiform Nucleus
+      Cell Type: 56.7% Brodmann area 13, 12.6% Brodmann area 44, 3.8% Brodmann area 9, 3.4% Brodmann area 47, 2.1% Putamen
+
+  #7: 4976 mm^3 from (24,24,14) to (48,54,34) centered at (40.1,36.8,24.7) with 2 peaks
+      with a max value of 0.053 ALE, 1.0479664E-12 P, 7.03 Z at (40,32,26) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 66.3% Middle Frontal Gyrus, 27.8% Superior Frontal Gyrus, 5.9% Precentral Gyrus
+      Cell Type: 100% Brodmann area 9
+
+  #8: 4752 mm^3 from (28,10,-10) to (46,30,12) centered at (36.4,20.1,-.6) with 1 peaks
+      with a max value of 0.0784 ALE, 2.0471824E-21 P, 9.43 Z at (36,20,0) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 90.2% Sub-lobar, 9.8% Frontal Lobe
+      Gyrus: 61.8% Insula, 25% Claustrum, 10.8% Inferior Frontal Gyrus, 2% Extra-Nuclear
+      Cell Type: 54.4% Brodmann area 13, 8.8% Brodmann area 47, 2.5% Brodmann area 45
+
+  #9: 3352 mm^3 from (6,-22,-12) to (20,-8,16) centered at (11.5,-15.1,3.5) with 2 peaks
+      with a max value of 0.0469 ALE, 7.8937724E-11 P, 6.4 Z at (12,-18,8) 
+    Labels: (Gray Matter only)
+      Hemisphere: 92.3% Right Cerebrum, 7.7% Right Brainstem
+      Lobe: 92.3% Sub-lobar, 7.7% Midbrain
+      Gyrus: 92.3% Thalamus
+      Cell Type: 30.1% Medial Dorsal Nucleus, 17.3% Ventral Lateral Nucleus, 4.8% Mammillary Body, 3.5% Red Nucleus, 3.5% Subthalamic Nucleus, 2.1% Ventral Posterior Lateral Nucleus, 1.9% Lateral Dorsal Nucleus, 1.1% Pulvinar
+
+ #10: 2248 mm^3 from (-22,-24,0) to (-8,0,14) centered at (-14.4,-15.8,7.4) with 2 peaks
+      with a max value of 0.0515 ALE, 3.1813046E-12 P, 6.87 Z at (-14,-18,6) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Sub-lobar
+      Gyrus: 100% Thalamus
+      Cell Type: 28.8% Ventral Lateral Nucleus, 10.5% Ventral Posterior Lateral Nucleus, 9.4% Ventral Posterior Medial Nucleus, 7.9% Lateral Posterior Nucleus, 6.7% Pulvinar, 6.7% Medial Dorsal Nucleus, 5.2% Mammillary Body, 5.2% Ventral Anterior Nucleus, 1.1% Lateral Dorsal Nucleus
+
+ #11: 2016 mm^3 from (-32,-68,36) to (-18,-52,62) centered at (-24.7,-61.2,50.7) with 3 peaks
+      with a max value of 0.0347 ALE, 2.3468954E-7 P, 5.04 Z at (-24,-64,50) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Parietal Lobe
+      Gyrus: 52.4% Precuneus, 45.1% Superior Parietal Lobule, 2.4% Angular Gyrus
+      Cell Type: 96.3% Brodmann area 7, 3.7% Brodmann area 39
+
+ #12: 1064 mm^3 from (14,0,-4) to (28,12,12) centered at (19.3,6.5,4.8) with 2 peaks
+      with a max value of 0.0295 ALE, 5.11251E-6 P, 4.41 Z at (18,8,6) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Sub-lobar
+      Gyrus: 83.1% Lentiform Nucleus, 16.9% Caudate
+      Cell Type: 80% Putamen, 16.9% Caudate Body, 3.1% Lateral Globus Pallidus
+
+
+Experiment Table:
+[ 0 1 1 1 3 2 0 2 1 7 12 4 1 2 1 6 3 1 2 5 0 0 5 2 2 0 1 1 0 2 1 10 1 1 2 1 2 3 0 0 0 2 1 1 1 4 3 0 1 2 1 0 ]
+[ 2 2 1 1 1 1 0 2 2 5 12 2 1 1 1 10 4 2 1 3 0 3 1 1 0 2 1 1 1 4 1 9 0 1 2 3 2 5 1 0 1 3 3 0 1 1 3 0 0 1 2 2 ]
+[ 1 0 0 1 0 0 0 1 1 5 9 5 1 0 1 6 3 2 1 0 0 0 2 2 0 2 2 1 0 0 0 14 1 2 0 4 2 6 2 1 3 1 1 3 2 2 2 1 1 1 1 2 ]
+[ 0 0 0 0 1 3 0 0 1 4 3 1 0 4 0 5 2 1 1 0 0 1 1 2 1 0 2 0 0 0 0 8 0 1 2 4 2 1 1 2 0 0 0 4 3 0 0 0 1 1 1 0 ]
+[ 0 0 0 1 0 0 1 1 0 0 3 2 0 1 0 0 1 0 0 4 0 3 1 1 0 1 1 0 0 0 0 6 0 3 2 2 4 3 1 1 0 1 0 0 0 2 1 0 0 0 2 2 ]
+[ 0 1 1 0 0 1 1 2 1 3 7 0 1 2 1 4 2 2 0 0 0 0 1 1 0 0 1 0 0 2 0 2 0 2 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 0 0 ]
+[ 0 0 0 0 2 2 0 0 1 2 3 1 0 0 1 0 1 0 1 3 1 1 1 1 2 1 0 1 1 2 1 4 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 1 1 1 1 1 1 1 1 3 1 5 1 2 1 1 3 1 1 2 0 0 0 1 0 0 0 0 0 0 2 0 3 0 1 0 0 0 0 0 0 0 0 0 2 2 0 1 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 1 1 3 2 0 0 0 2 0 0 0 2 0 1 0 1 0 1 0 0 0 0 0 1 0 3 0 0 1 0 0 0 1 0 1 0 0 0 0 0 1 0 0 1 1 0 ]
+[ 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 2 1 1 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 ]
+[ 0 0 0 0 0 1 0 1 0 2 1 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 1 1 0 0 0 3 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 1 4 0 0 1 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+
+Contributors to cluster #1
+1 foci from Rubia K, 2001: Generic Stop Activation 
+1 foci from Braver T S, 2001: Conjunction Analysis 
+1 foci from Menon V, 2001: Go/NoGo - Go 
+3 foci from Garavan H, 1999: Response Inhibition 
+2 foci from Kelly A M, 2004: Fast and Slow Successful Response Inhibitions 
+2 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+1 foci from Aron A R, 2006: Stop - Go 
+7 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go 
+12 foci from Chikazoe J, 2009: No-Go vs. Frequent-Go Chikazoe J, 2009: No-Go vs. Infrequent-Go 
+4 foci from Ehrsson H H, 2000: Precision Grip - Matching Rest 
+1 foci from Shulman G L, 2002: Delayed Activation of BOLD Response 
+2 foci from Townsend J D, 2012: Healthy Controls 
+1 foci from Shafritz K M, 2015: Healthy Controls 
+6 foci from Zarate J M, 2010: Regions of peak neural activity for compensate (COMP)  200c and COMP 25c Zarate J M, 2010: COMP 200c - Simple Zarate J M, 2010: COMP 25c - Simple 
+3 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+1 foci from Aramaki Y, 2006: Phase Transition 
+2 foci from Larsson J, 1996: Self Paced Movement - Reference Larsson J, 1996: Visually Triggered Movement - Reference 
+5 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+5 foci from Ehrsson H H, 2001: Precision Grip - Baseline 
+2 foci from Bellgrove M A, 2004: Response Inhibition 
+2 foci from Garavan H, 2003: Event-Related STOPS 
+1 foci from Cross E S, 2007: Movement Time: Block Increasing (Early > Late) > Random  Increasing (Early > Late) 
+1 foci from Welander-Vatn A S, 2009: Healthy Controls 
+2 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+1 foci from Shane M S, 2008: Observed Errors > Observed Correct Responses 
+10 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Njiboer M, 2014: Tracking > Baseline 
+1 foci from Valera E M, 2010: Healthy Controls 
+2 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+1 foci from Binkofski F, 2000: Somatosensory Guided Movement vs. Rest Binkofski F, 2000: Visually Guided Movement vs. Rest 
+2 foci from Astafiev S V, 2003: Pointing vs. Fixation 
+3 foci from Connolly J D, 2000: Pro-Pointing vs. Fixation Connolly J D, 2000: Anti-Pointing vs. Fixation 
+2 foci from Wiese H, 2006: Healthy Controls 
+1 foci from van Beilen M, 2011: Feigners > Healthy Controls, Unaffected Execution 
+1 foci from Zarate J M, 2008: Healthy experienced singers 
+1 foci from Zarate J M, 2008: Healthy non-musicians 
+4 foci from Sebastian A, 2012: control 
+3 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Harrington D L, 2000: Regions activated by transitions 
+2 foci from Lehericy S, 2006: Complex - Scale 
+1 foci from Yoo S S, 2005: Group-Level Finger Tapping Activation 
+
+Contributors to cluster #2
+2 foci from Indovina I, 2001: Attend vs. No-Move 
+2 foci from Rubia K, 2001: Generic Stop Activation 
+1 foci from Braver T S, 2001: Conjunction Analysis 
+1 foci from Menon V, 2001: Go/NoGo - Go 
+1 foci from Garavan H, 1999: Response Inhibition 
+1 foci from Kelly A M, 2004: Fast and Slow Successful Response Inhibitions 
+2 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+2 foci from Aron A R, 2006: Stop - Go 
+5 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go 
+12 foci from Chikazoe J, 2009: No-Go vs. Frequent-Go Chikazoe J, 2009: No-Go vs. Infrequent-Go 
+2 foci from Ehrsson H H, 2000: Precision Grip - Matching Rest 
+1 foci from Shulman G L, 2002: Delayed Activation of BOLD Response 
+1 foci from Townsend J D, 2012: Healthy Controls 
+1 foci from Shafritz K M, 2015: Healthy Controls 
+10 foci from Zarate J M, 2010: Regions of peak neural activity for compensate (COMP)  200c and COMP 25c Zarate J M, 2010: COMP 200c - Simple Zarate J M, 2010: COMP 25c - Simple 
+4 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+2 foci from Aramaki Y, 2006: Phase Transition 
+1 foci from Larsson J, 1996: Self Paced Movement - Reference Larsson J, 1996: Visually Triggered Movement - Reference 
+3 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+3 foci from Kawashima R, 1996: Go/NoGo Task - Control Task 
+1 foci from Ehrsson H H, 2001: Precision Grip - Baseline 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+2 foci from Rounis E, 2005: Main Effects of Movement 
+1 foci from Cross E S, 2007: Movement Time: Block Increasing (Early > Late) > Random  Increasing (Early > Late) 
+1 foci from Welander-Vatn A S, 2009: Healthy Controls 
+1 foci from Durston S, 2002: Go vs. No-Go 
+4 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+1 foci from Shane M S, 2008: Observed Errors > Observed Correct Responses 
+9 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Valera E M, 2010: Healthy Controls 
+2 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+3 foci from Binkofski F, 2000: Somatosensory Guided Movement vs. Rest Binkofski F, 2000: Visually Guided Movement vs. Rest 
+2 foci from Astafiev S V, 2003: Pointing vs. Fixation 
+5 foci from Connolly J D, 2000: Pro-Pointing vs. Fixation Connolly J D, 2000: Anti-Pointing vs. Fixation 
+1 foci from Watanabe J, 2004: RIGHT > REST 
+1 foci from Bennett D S, 2009: Prenatal Tobacco Exposed Subjects 
+3 foci from Wiese H, 2006: Healthy Controls 
+3 foci from van Beilen M, 2011: Feigners > Healthy Controls, Unaffected Execution 
+1 foci from Zarate J M, 2008: Healthy non-musicians 
+1 foci from Sebastian A, 2012: control 
+3 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Lehericy S, 2006: Complex - Scale 
+2 foci from Yoo S S, 2005: Group-Level Finger Tapping Activation 
+2 foci from Lutz K, 2000: Random > Rest 
+
+Contributors to cluster #3
+1 foci from Indovina I, 2001: Attend vs. No-Move 
+1 foci from Menon V, 2001: Go/NoGo - Go 
+1 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+1 foci from Aron A R, 2006: Stop - Go 
+5 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go 
+9 foci from Chikazoe J, 2009: No-Go vs. Frequent-Go Chikazoe J, 2009: No-Go vs. Infrequent-Go 
+5 foci from Ehrsson H H, 2000: Precision Grip - Matching Rest 
+1 foci from Shulman G L, 2002: Delayed Activation of BOLD Response 
+1 foci from Shafritz K M, 2015: Healthy Controls 
+6 foci from Zarate J M, 2010: Regions of peak neural activity for compensate (COMP)  200c and COMP 25c Zarate J M, 2010: COMP 200c - Simple Zarate J M, 2010: COMP 25c - Simple 
+3 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+2 foci from Aramaki Y, 2006: Phase Transition 
+1 foci from Larsson J, 1996: Self Paced Movement - Reference Larsson J, 1996: Visually Triggered Movement - Reference 
+2 foci from Ehrsson H H, 2001: Precision Grip - Baseline 
+2 foci from Bellgrove M A, 2004: Response Inhibition 
+2 foci from Rounis E, 2005: Main Effects of Movement 
+2 foci from Cross E S, 2007: Movement Time: Block Increasing (Early > Late) > Random  Increasing (Early > Late) 
+1 foci from Welander-Vatn A S, 2009: Healthy Controls 
+14 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Njiboer M, 2014: Tracking > Baseline 
+2 foci from Valera E M, 2010: Healthy Controls 
+4 foci from Binkofski F, 2000: Somatosensory Guided Movement vs. Rest Binkofski F, 2000: Visually Guided Movement vs. Rest 
+2 foci from Astafiev S V, 2003: Pointing vs. Fixation 
+6 foci from Connolly J D, 2000: Pro-Pointing vs. Fixation Connolly J D, 2000: Anti-Pointing vs. Fixation 
+2 foci from Watanabe J, 2004: RIGHT > REST 
+1 foci from Johnson-Frey S H, 2005: Tool, No Go, Right > Move, No Go, Right 
+3 foci from Bennett D S, 2009: Prenatal Tobacco Exposed Subjects 
+1 foci from Wiese H, 2006: Healthy Controls 
+1 foci from van Beilen M, 2011: Feigners > Healthy Controls, Unaffected Execution 
+3 foci from Zarate J M, 2008: Healthy experienced singers 
+2 foci from Zarate J M, 2008: Healthy non-musicians 
+2 foci from Sebastian A, 2012: control 
+2 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Hanakawa T, 2002: Complex finger-tapping > Simple finger-tapping 
+1 foci from Harrington D L, 2000: Regions activated by transitions 
+1 foci from Lehericy S, 2006: Complex - Scale 
+1 foci from Yoo S S, 2005: Group-Level Finger Tapping Activation 
+2 foci from Lutz K, 2000: Random > Rest 
+
+Contributors to cluster #4
+1 foci from Garavan H, 1999: Response Inhibition 
+3 foci from Kelly A M, 2004: Fast and Slow Successful Response Inhibitions 
+1 foci from Aron A R, 2006: Stop - Go 
+4 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go 
+3 foci from Chikazoe J, 2009: No-Go vs. Frequent-Go Chikazoe J, 2009: No-Go vs. Infrequent-Go 
+1 foci from Ehrsson H H, 2000: Precision Grip - Matching Rest 
+4 foci from Townsend J D, 2012: Healthy Controls 
+5 foci from Zarate J M, 2010: Regions of peak neural activity for compensate (COMP)  200c and COMP 25c Zarate J M, 2010: COMP 200c - Simple Zarate J M, 2010: COMP 25c - Simple 
+2 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+1 foci from Aramaki Y, 2006: Phase Transition 
+1 foci from Larsson J, 1996: Self Paced Movement - Reference Larsson J, 1996: Visually Triggered Movement - Reference 
+1 foci from Kawashima R, 1996: Go/NoGo Task - Control Task 
+1 foci from Ehrsson H H, 2001: Precision Grip - Baseline 
+2 foci from Bellgrove M A, 2004: Response Inhibition 
+1 foci from Garavan H, 2003: Event-Related STOPS 
+2 foci from Cross E S, 2007: Movement Time: Block Increasing (Early > Late) > Random  Increasing (Early > Late) 
+8 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Valera E M, 2010: Healthy Controls 
+2 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+4 foci from Binkofski F, 2000: Somatosensory Guided Movement vs. Rest Binkofski F, 2000: Visually Guided Movement vs. Rest 
+2 foci from Astafiev S V, 2003: Pointing vs. Fixation 
+1 foci from Connolly J D, 2000: Pro-Pointing vs. Fixation Connolly J D, 2000: Anti-Pointing vs. Fixation 
+1 foci from Watanabe J, 2004: RIGHT > REST 
+2 foci from Johnson-Frey S H, 2005: Tool, No Go, Right > Move, No Go, Right 
+4 foci from Zarate J M, 2008: Healthy experienced singers 
+3 foci from Zarate J M, 2008: Healthy non-musicians 
+1 foci from Harrington D L, 2000: Regions activated by transitions 
+1 foci from Lehericy S, 2006: Complex - Scale 
+1 foci from Yoo S S, 2005: Group-Level Finger Tapping Activation 
+
+Contributors to cluster #5
+1 foci from Menon V, 2001: Go/NoGo - Go 
+1 foci from MacDonald III A W, 2003: Normal Subjects 
+1 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+3 foci from Chikazoe J, 2009: No-Go vs. Frequent-Go Chikazoe J, 2009: No-Go vs. Infrequent-Go 
+2 foci from Ehrsson H H, 2000: Precision Grip - Matching Rest 
+1 foci from Townsend J D, 2012: Healthy Controls 
+1 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+4 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+3 foci from Kawashima R, 1996: Go/NoGo Task - Control Task 
+1 foci from Ehrsson H H, 2001: Precision Grip - Baseline 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+1 foci from Rounis E, 2005: Main Effects of Movement 
+1 foci from Cross E S, 2007: Movement Time: Block Increasing (Early > Late) > Random  Increasing (Early > Late) 
+6 foci from Zandbelt B B, 2011: Healthy Controls 
+3 foci from Valera E M, 2010: Healthy Controls 
+2 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+2 foci from Binkofski F, 2000: Somatosensory Guided Movement vs. Rest Binkofski F, 2000: Visually Guided Movement vs. Rest 
+4 foci from Astafiev S V, 2003: Pointing vs. Fixation 
+3 foci from Connolly J D, 2000: Pro-Pointing vs. Fixation Connolly J D, 2000: Anti-Pointing vs. Fixation 
+1 foci from Watanabe J, 2004: RIGHT > REST 
+1 foci from Johnson-Frey S H, 2005: Tool, No Go, Right > Move, No Go, Right 
+1 foci from Wiese H, 2006: Healthy Controls 
+2 foci from Sebastian A, 2012: control 
+1 foci from Misra G, 2015: Force Only > Baseline 
+2 foci from Yoo S S, 2005: Group-Level Finger Tapping Activation 
+2 foci from Lutz K, 2000: Random > Rest 
+
+Contributors to cluster #6
+1 foci from Rubia K, 2001: Generic Stop Activation 
+1 foci from Braver T S, 2001: Conjunction Analysis 
+1 foci from Kelly A M, 2004: Fast and Slow Successful Response Inhibitions 
+1 foci from MacDonald III A W, 2003: Normal Subjects 
+2 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+1 foci from Aron A R, 2006: Stop - Go 
+3 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go 
+7 foci from Chikazoe J, 2009: No-Go vs. Frequent-Go Chikazoe J, 2009: No-Go vs. Infrequent-Go 
+1 foci from Shulman G L, 2002: Delayed Activation of BOLD Response 
+2 foci from Townsend J D, 2012: Healthy Controls 
+1 foci from Shafritz K M, 2015: Healthy Controls 
+4 foci from Zarate J M, 2010: Regions of peak neural activity for compensate (COMP)  200c and COMP 25c Zarate J M, 2010: COMP 200c - Simple Zarate J M, 2010: COMP 25c - Simple 
+2 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+2 foci from Aramaki Y, 2006: Phase Transition 
+1 foci from Ehrsson H H, 2001: Precision Grip - Baseline 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+1 foci from Cross E S, 2007: Movement Time: Block Increasing (Early > Late) > Random  Increasing (Early > Late) 
+2 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+2 foci from Zandbelt B B, 2011: Healthy Controls 
+2 foci from Valera E M, 2010: Healthy Controls 
+1 foci from Connolly J D, 2000: Pro-Pointing vs. Fixation Connolly J D, 2000: Anti-Pointing vs. Fixation 
+1 foci from Wiese H, 2006: Healthy Controls 
+1 foci from van Beilen M, 2011: Feigners > Healthy Controls, Unaffected Execution 
+1 foci from Misra G, 2015: Force Only > Baseline 
+
+Contributors to cluster #7
+2 foci from Garavan H, 1999: Response Inhibition 
+2 foci from Kelly A M, 2004: Fast and Slow Successful Response Inhibitions 
+1 foci from Aron A R, 2006: Stop - Go 
+2 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go 
+3 foci from Chikazoe J, 2009: No-Go vs. Frequent-Go Chikazoe J, 2009: No-Go vs. Infrequent-Go 
+1 foci from Ehrsson H H, 2000: Precision Grip - Matching Rest 
+1 foci from Shafritz K M, 2015: Healthy Controls 
+1 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+1 foci from Larsson J, 1996: Self Paced Movement - Reference Larsson J, 1996: Visually Triggered Movement - Reference 
+3 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+1 foci from Binkofski F, 2002: Visually-directed Attention 
+1 foci from Kawashima R, 1996: Go/NoGo Task - Control Task 
+1 foci from Ehrsson H H, 2001: Precision Grip - Baseline 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+2 foci from Garavan H, 2003: Event-Related STOPS 
+1 foci from Rounis E, 2005: Main Effects of Movement 
+1 foci from Welander-Vatn A S, 2009: Healthy Controls 
+1 foci from Durston S, 2002: Go vs. No-Go 
+2 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+1 foci from Shane M S, 2008: Observed Errors > Observed Correct Responses 
+4 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Valera E M, 2010: Healthy Controls 
+1 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+
+Contributors to cluster #8
+1 foci from Indovina I, 2001: Attend vs. No-Move 
+1 foci from Rubia K, 2001: Generic Stop Activation 
+1 foci from Braver T S, 2001: Conjunction Analysis 
+1 foci from Menon V, 2001: Go/NoGo - Go 
+1 foci from Garavan H, 1999: Response Inhibition 
+1 foci from Kelly A M, 2004: Fast and Slow Successful Response Inhibitions 
+1 foci from MacDonald III A W, 2003: Normal Subjects 
+1 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+3 foci from Aron A R, 2006: Stop - Go 
+1 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go 
+5 foci from Chikazoe J, 2009: No-Go vs. Frequent-Go Chikazoe J, 2009: No-Go vs. Infrequent-Go 
+1 foci from Ehrsson H H, 2000: Precision Grip - Matching Rest 
+2 foci from Shulman G L, 2002: Delayed Activation of BOLD Response 
+1 foci from Townsend J D, 2012: Healthy Controls 
+1 foci from Shafritz K M, 2015: Healthy Controls 
+3 foci from Zarate J M, 2010: Regions of peak neural activity for compensate (COMP)  200c and COMP 25c Zarate J M, 2010: COMP 200c - Simple Zarate J M, 2010: COMP 25c - Simple 
+1 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+1 foci from Aramaki Y, 2006: Phase Transition 
+2 foci from Larsson J, 1996: Self Paced Movement - Reference Larsson J, 1996: Visually Triggered Movement - Reference 
+1 foci from Ehrsson H H, 2001: Precision Grip - Baseline 
+2 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+3 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Valera E M, 2010: Healthy Controls 
+2 foci from Zarate J M, 2008: Healthy experienced singers 
+2 foci from Zarate J M, 2008: Healthy non-musicians 
+1 foci from Misra G, 2015: Force Only > Baseline 
+
+Contributors to cluster #9
+1 foci from MacDonald III A W, 2003: Normal Subjects 
+1 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+3 foci from Aron A R, 2006: Stop - Go 
+2 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go 
+2 foci from Townsend J D, 2012: Healthy Controls 
+2 foci from Aramaki Y, 2006: Phase Transition 
+1 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+1 foci from Kawashima R, 1996: Go/NoGo Task - Control Task 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+1 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+3 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+1 foci from Watanabe J, 2004: RIGHT > REST 
+1 foci from Bennett D S, 2009: Prenatal Tobacco Exposed Subjects 
+1 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Lehericy S, 2006: Complex - Scale 
+1 foci from Yoo S S, 2005: Group-Level Finger Tapping Activation 
+
+Contributors to cluster #10
+1 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go 
+1 foci from Ehrsson H H, 2000: Precision Grip - Matching Rest 
+1 foci from Townsend J D, 2012: Healthy Controls 
+1 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+1 foci from Ehrsson H H, 2001: Precision Grip - Baseline 
+1 foci from Shane M S, 2008: Observed Errors > Observed Correct Responses 
+2 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Njiboer M, 2014: Tracking > Baseline 
+1 foci from Valera E M, 2010: Healthy Controls 
+1 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+1 foci from Watanabe J, 2004: RIGHT > REST 
+1 foci from Wiese H, 2006: Healthy Controls 
+1 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Lehericy S, 2006: Complex - Scale 
+
+Contributors to cluster #11
+1 foci from Kelly A M, 2004: Fast and Slow Successful Response Inhibitions 
+1 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+2 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go 
+1 foci from Chikazoe J, 2009: No-Go vs. Frequent-Go Chikazoe J, 2009: No-Go vs. Infrequent-Go 
+1 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+1 foci from Ehrsson H H, 2001: Precision Grip - Baseline 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+1 foci from Cross E S, 2007: Movement Time: Block Increasing (Early > Late) > Random  Increasing (Early > Late) 
+1 foci from Welander-Vatn A S, 2009: Healthy Controls 
+3 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+1 foci from Astafiev S V, 2003: Pointing vs. Fixation 
+1 foci from Connolly J D, 2000: Pro-Pointing vs. Fixation Connolly J D, 2000: Anti-Pointing vs. Fixation 
+
+Contributors to cluster #12
+1 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go 
+4 foci from Chikazoe J, 2009: No-Go vs. Frequent-Go Chikazoe J, 2009: No-Go vs. Infrequent-Go 
+1 foci from Townsend J D, 2012: Healthy Controls 
+2 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+2 foci from Zandbelt B B, 2011: Healthy Controls 

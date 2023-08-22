@@ -1,0 +1,11 @@
+#aal 90
+-42	-70	0	1	0.04	MOG.L
+22	-54	-22	2	0.05	Culmen.R
+38	20	2	3	0.06	Insula.R
+12	-14	8	4	0.06	Thalamus.R
+-34	18	0	3	0.05	Insula.L
+-14	-20	8	4	0.06	Thalamus.L
+40	-2	50	5	0.08	Precentral.R
+40	34	26	5	0.05	dlPFC.R
+0	4	54	5	0.13	SuppMotorArea.L
+42	-44	48	6	0.08	IPL.R

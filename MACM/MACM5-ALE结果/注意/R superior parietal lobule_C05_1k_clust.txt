@@ -1,0 +1,196 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = R superior parietal lobule.txt
+Number of foci                = 320
+Number of experiments         = 18
+Total number of subjects      = 256
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = R superior parietal lobule_ALE.nii
+FWHM minimum value            = 9.01191592595652
+FWHM median value             = 9.574940482272122
+FWHM maximum value            = 10.362276299774612
+Minimum ALE score             = 1.0606409E-33
+Maximum ALE score             = 0.050681945
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = R superior parietal lobule_P.nii
+Minimum P value               = 4.5290243E-19
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 20976 mm^3
+Chosen min. cluster size      = 872 mm^3
+Thresholded ALE image         = R superior parietal lobule_C05_1k_ALE.nii
+
+Cluster Analysis:
+ #1: 5528 mm^3 from (24,-66,40) to (44,-46,62) centered at (33.9,-55.3,50.7) with 1 peaks
+     with a max value of 0.0507 ALE, 4.5290243E-19 P, 8.85 Z at (36,-56,50) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Parietal Lobe
+     Gyrus: 52.2% Superior Parietal Lobule, 29.6% Precuneus, 15% Inferior Parietal Lobule, 2.2% Angular Gyrus
+     Cell Type: 79.6% Brodmann area 7, 8.8% Brodmann area 40, 7.5% Brodmann area 39, 4% Brodmann area 19
+
+ #2: 5088 mm^3 from (-42,-68,38) to (-18,-46,62) centered at (-30.1,-58.3,50.6) with 2 peaks
+     with a max value of 0.0407 ALE, 1.5434843E-14 P, 7.59 Z at (-28,-62,52) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Parietal Lobe
+     Gyrus: 58.6% Superior Parietal Lobule, 21.6% Precuneus, 19.8% Inferior Parietal Lobule
+     Cell Type: 84.1% Brodmann area 7, 11.5% Brodmann area 40, 2.2% Brodmann area 19, 2.2% Brodmann area 39
+
+ #3: 3104 mm^3 from (-52,0,22) to (-38,26,42) centered at (-44.5,10.4,32) with 4 peaks
+     with a max value of 0.0214 ALE, 5.146525E-7 P, 4.89 Z at (-44,4,36) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 57.7% Precentral Gyrus, 23.9% Middle Frontal Gyrus, 18.3% Inferior Frontal Gyrus
+     Cell Type: 52.8% Brodmann area 6, 47.2% Brodmann area 9
+
+ #4: 2360 mm^3 from (38,0,26) to (58,26,52) centered at (49,13.8,35.1) with 3 peaks
+     with a max value of 0.0203 ALE, 1.2110298E-6 P, 4.71 Z at (52,16,32) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 63.1% Middle Frontal Gyrus, 33.6% Precentral Gyrus, 3.3% Inferior Frontal Gyrus
+     Cell Type: 47.5% Brodmann area 9, 34.4% Brodmann area 6, 18% Brodmann area 8
+
+ #5: 1368 mm^3 from (-6,20,30) to (8,32,48) centered at (1.6,26.2,39.9) with 1 peaks
+     with a max value of 0.021 ALE, 7.2357693E-7 P, 4.82 Z at (2,26,40) 
+   Labels: (Gray Matter only)
+     Hemisphere: 58.6% Left Cerebrum, 41.4% Right Cerebrum
+     Lobe: 58.6% Frontal Lobe, 41.4% Limbic Lobe
+     Gyrus: 52.9% Cingulate Gyrus, 41.4% Medial Frontal Gyrus, 5.7% Superior Frontal Gyrus
+     Cell Type: 52.9% Brodmann area 32, 24.3% Brodmann area 8, 22.9% Brodmann area 6
+
+ #6: 1352 mm^3 from (30,10,-12) to (42,24,2) centered at (36.3,18,-4.2) with 1 peaks
+     with a max value of 0.0258 ALE, 1.3712823E-8 P, 5.56 Z at (36,18,-4) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 95.6% Sub-lobar, 4.4% Frontal Lobe
+     Gyrus: 48.9% Claustrum, 44.4% Insula, 4.4% Inferior Frontal Gyrus, 2.2% Extra-Nuclear
+     Cell Type: 31.1% Brodmann area 13, 8.9% Brodmann area 47
+
+ #7: 1216 mm^3 from (-34,-8,50) to (-24,6,62) centered at (-28.9,-.3,55.9) with 1 peaks
+     with a max value of 0.022 ALE, 3.272948E-7 P, 4.97 Z at (-28,0,56) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 54.2% Middle Frontal Gyrus, 27.8% Precentral Gyrus, 18.1% Sub-Gyral
+     Cell Type: 100% Brodmann area 6
+
+ #8: 960 mm^3 from (-36,16,-6) to (-26,26,8) centered at (-30.7,21.7,0) with 2 peaks
+     with a max value of 0.0194 ALE, 2.5151642E-6 P, 4.56 Z at (-32,22,2) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Sub-lobar
+     Gyrus: 55% Claustrum, 45% Insula
+     Cell Type: 45% Brodmann area 13
+
+
+Experiment Table:
+[ 2 1 1 1 1 1 1 1 1 1 2 2 1 2 3 1 1 2 ]
+[ 3 1 1 1 1 0 1 0 0 0 2 1 0 2 3 2 1 2 ]
+[ 0 1 1 0 1 1 1 0 1 0 2 0 1 0 2 0 2 1 ]
+[ 1 1 2 0 1 0 0 0 0 0 3 0 0 0 2 1 1 2 ]
+[ 0 0 2 0 0 0 0 0 0 0 3 0 1 0 1 0 0 1 ]
+[ 0 0 0 0 0 0 0 0 0 0 3 0 1 0 2 1 0 1 ]
+[ 1 1 0 0 0 0 1 1 0 0 0 0 0 0 1 1 0 0 ]
+[ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 2 1 0 0 ]
+
+Contributors to cluster #1
+2 foci from Astafiev S V, 2003: Attention vs. Fixation 
+1 foci from Beauchamp M S, 2001: Shifts of Attention vs. Fixation 
+1 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Kimberg D Y, 2000: Switch - Repeat 
+1 foci from Milham M P, 2003: Oddball 
+1 foci from Brass M, 2004: Meaning Switch vs. Cue Switch 
+1 foci from Dreher J C, 2002: Switching vs. Baseline 
+1 foci from Sylvester C C, 2003: Normals, Group 1 
+1 foci from Weiss E M, 2003: Controls 
+1 foci from Durston S, 2003: Compatible Increased, Incompatible No Monotonic  Relationship 
+2 foci from Nakao T, 2005: Normals 
+2 foci from Stern E R, 2007: Position - Neutral Stern E R, 2007: Position - Neutral, Positive Correlation with Behavioral  Cueing Effect 
+1 foci from Talmi D, 2008: High Attention (HA) > Low Attention (LA): Scrambled Pictures 
+2 foci from Belger A, 1998: Shape Task > Fixation Belger A, 1998: Location Task > Fixation 
+3 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Rudie J D, 2012: Typically Developing Controls 
+1 foci from Barros-Loscertales A, 2011: Healthy Controls 
+2 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #2
+3 foci from Astafiev S V, 2003: Attention vs. Fixation 
+1 foci from Beauchamp M S, 2001: Shifts of Attention vs. Fixation 
+1 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Kimberg D Y, 2000: Switch - Repeat 
+1 foci from Milham M P, 2003: Oddball 
+1 foci from Dreher J C, 2002: Switching vs. Baseline 
+2 foci from Nakao T, 2005: Normals 
+1 foci from Stern E R, 2007: Position - Neutral Stern E R, 2007: Position - Neutral, Positive Correlation with Behavioral  Cueing Effect 
+2 foci from Belger A, 1998: Shape Task > Fixation Belger A, 1998: Location Task > Fixation 
+3 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+2 foci from Rudie J D, 2012: Typically Developing Controls 
+1 foci from Barros-Loscertales A, 2011: Healthy Controls 
+2 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #3
+1 foci from Beauchamp M S, 2001: Shifts of Attention vs. Fixation 
+1 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Milham M P, 2003: Oddball 
+1 foci from Brass M, 2004: Meaning Switch vs. Cue Switch 
+1 foci from Dreher J C, 2002: Switching vs. Baseline 
+1 foci from Weiss E M, 2003: Controls 
+2 foci from Nakao T, 2005: Normals 
+1 foci from Talmi D, 2008: High Attention (HA) > Low Attention (LA): Scrambled Pictures 
+2 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+2 foci from Barros-Loscertales A, 2011: Healthy Controls 
+1 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #4
+1 foci from Astafiev S V, 2003: Attention vs. Fixation 
+1 foci from Beauchamp M S, 2001: Shifts of Attention vs. Fixation 
+2 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Milham M P, 2003: Oddball 
+3 foci from Nakao T, 2005: Normals 
+2 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Rudie J D, 2012: Typically Developing Controls 
+1 foci from Barros-Loscertales A, 2011: Healthy Controls 
+2 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #5
+2 foci from DiGirolamo G J, 2001: Young Normals 
+3 foci from Nakao T, 2005: Normals 
+1 foci from Talmi D, 2008: High Attention (HA) > Low Attention (LA): Scrambled Pictures 
+1 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #6
+3 foci from Nakao T, 2005: Normals 
+1 foci from Talmi D, 2008: High Attention (HA) > Low Attention (LA): Scrambled Pictures 
+2 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Rudie J D, 2012: Typically Developing Controls 
+1 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #7
+1 foci from Astafiev S V, 2003: Attention vs. Fixation 
+1 foci from Beauchamp M S, 2001: Shifts of Attention vs. Fixation 
+1 foci from Dreher J C, 2002: Switching vs. Baseline 
+1 foci from Sylvester C C, 2003: Normals, Group 1 
+1 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Rudie J D, 2012: Typically Developing Controls 
+
+Contributors to cluster #8
+1 foci from Weiss E M, 2003: Controls 
+2 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Rudie J D, 2012: Typically Developing Controls 

@@ -1,0 +1,255 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = L middle occipital gyrus.txt
+Number of foci                = 419
+Number of experiments         = 19
+Total number of subjects      = 309
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = L middle occipital gyrus_ALE.nii
+FWHM minimum value            = 9.01191592595652
+FWHM median value             = 9.501798304955097
+FWHM maximum value            = 10.935527854620133
+Minimum ALE score             = 7.6977614E-30
+Maximum ALE score             = 0.067824885
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = L middle occipital gyrus_P.nii
+Minimum P value               = 1.2577092E-25
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 21464 mm^3
+Chosen min. cluster size      = 656 mm^3
+Thresholded ALE image         = L middle occipital gyrus_C05_1k_ALE.nii
+
+Cluster Analysis:
+  #1: 4472 mm^3 from (-54,-82,-10) to (-36,-62,8) centered at (-44.2,-70.9,-1.1) with 1 peaks
+      with a max value of 0.0678 ALE, 1.2577092E-25 P, 10.4 Z at (-44,-72,-2) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 82.1% Occipital Lobe, 17.9% Temporal Lobe
+      Gyrus: 34.5% Inferior Temporal Gyrus, 21.4% Middle Temporal Gyrus, 20.2% Middle Occipital Gyrus, 13.1% Inferior Occipital Gyrus, 10.7% Fusiform Gyrus
+      Cell Type: 59.5% Brodmann area 37, 28.6% Brodmann area 19
+
+  #2: 2840 mm^3 from (-8,-8,46) to (12,10,66) centered at (-.8,-.1,56.2) with 2 peaks
+      with a max value of 0.0226 ALE, 6.158259E-7 P, 4.85 Z at (0,-2,60) 
+    Labels: (Gray Matter only)
+      Hemisphere: 82.7% Left Cerebrum, 17.3% Right Cerebrum
+      Lobe: 87.8% Frontal Lobe, 12.2% Limbic Lobe
+      Gyrus: 86.5% Medial Frontal Gyrus, 12.2% Cingulate Gyrus, 1.3% Paracentral Lobule
+      Cell Type: 86.5% Brodmann area 6, 11.5% Brodmann area 24, 1.9% Brodmann area 31
+
+  #3: 2408 mm^3 from (-44,-32,50) to (-28,-8,68) centered at (-37.2,-19.2,56.6) with 2 peaks
+      with a max value of 0.0297 ALE, 2.1651665E-9 P, 5.87 Z at (-38,-16,56) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 56.8% Frontal Lobe, 43.2% Parietal Lobe
+      Gyrus: 57.5% Precentral Gyrus, 42.5% Postcentral Gyrus
+      Cell Type: 56.8% Brodmann area 4, 39.7% Brodmann area 3, 2.7% Brodmann area 2
+
+  #4: 2176 mm^3 from (42,-76,-14) to (54,-56,4) centered at (47.4,-63.7,-3) with 2 peaks
+      with a max value of 0.0314 ALE, 5.291842E-10 P, 6.1 Z at (46,-64,-2) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 52% Occipital Lobe, 48% Temporal Lobe
+      Gyrus: 52% Inferior Temporal Gyrus, 48% Middle Temporal Gyrus
+      Cell Type: 60% Brodmann area 37, 8% Brodmann area 19
+
+  #5: 1984 mm^3 from (26,-98,-6) to (42,-80,12) centered at (34.6,-87.2,1.2) with 3 peaks
+      with a max value of 0.0282 ALE, 7.962952E-9 P, 5.65 Z at (34,-86,2) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Occipital Lobe
+      Gyrus: 76.4% Middle Occipital Gyrus, 20% Inferior Occipital Gyrus, 3.6% Lingual Gyrus
+      Cell Type: 85.5% Brodmann area 18, 7.3% Brodmann area 19
+
+  #6: 1624 mm^3 from (44,-4,20) to (60,12,38) centered at (51.8,4.5,30.1) with 3 peaks
+      with a max value of 0.0186 ALE, 1.2054129E-5 P, 4.22 Z at (48,2,34) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 67.7% Precentral Gyrus, 31.3% Inferior Frontal Gyrus, 1% Middle Frontal Gyrus
+      Cell Type: 72.7% Brodmann area 6, 27.3% Brodmann area 9
+
+  #7: 1360 mm^3 from (24,-66,42) to (36,-44,58) centered at (31.6,-53.1,50.7) with 2 peaks
+      with a max value of 0.021 ALE, 2.1275964E-6 P, 4.6 Z at (34,-48,54) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Parietal Lobe
+      Gyrus: 50.8% Superior Parietal Lobule, 49.2% Precuneus
+      Cell Type: 100% Brodmann area 7
+
+  #8: 1160 mm^3 from (12,-60,-28) to (24,-50,-16) centered at (18.5,-54.7,-21.6) with 1 peaks
+      with a max value of 0.024 ALE, 2.2206706E-7 P, 5.05 Z at (18,-56,-22) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebellum
+      Lobe: 100% Anterior Lobe
+      Gyrus: 57.9% Culmen, 2.8% Fastigium
+      Cell Type: 39.3% Dentate
+
+  #9: 1144 mm^3 from (-36,-58,50) to (-24,-46,60) centered at (-30.2,-51.9,55.7) with 1 peaks
+      with a max value of 0.0222 ALE, 8.7536824E-7 P, 4.78 Z at (-28,-52,56) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Parietal Lobe
+      Gyrus: 50.8% Superior Parietal Lobule, 30.8% Precuneus, 18.5% Inferior Parietal Lobule
+      Cell Type: 90.8% Brodmann area 7, 9.2% Brodmann area 40
+
+ #10: 776 mm^3 from (-32,-10,0) to (-18,0,10) centered at (-24.4,-5,4.4) with 1 peaks
+      with a max value of 0.018 ALE, 1.9278443E-5 P, 4.12 Z at (-22,-4,6) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Sub-lobar
+      Gyrus: 100% Lentiform Nucleus
+      Cell Type: 82.6% Putamen, 16.3% Lateral Globus Pallidus
+
+ #11: 776 mm^3 from (-20,-24,4) to (-8,-14,14) centered at (-14.1,-19.1,8.9) with 1 peaks
+      with a max value of 0.0246 ALE, 1.3670135E-7 P, 5.14 Z at (-14,-20,8) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Sub-lobar
+      Gyrus: 100% Thalamus
+      Cell Type: 22.7% Lateral Posterior Nucleus, 17.5% Medial Dorsal Nucleus, 13.4% Ventral Posterior Medial Nucleus, 12.4% Ventral Posterior Lateral Nucleus, 9.3% Pulvinar, 3.1% Ventral Lateral Nucleus, 2.1% Mammillary Body, 2.1% Lateral Dorsal Nucleus
+
+ #12: 744 mm^3 from (-2,-64,-22) to (10,-54,-12) centered at (4,-59.5,-17.2) with 1 peaks
+      with a max value of 0.0203 ALE, 3.6173299E-6 P, 4.49 Z at (4,-58,-18) 
+    Labels: (Gray Matter only)
+      Hemisphere: 79.6% Right Cerebellum, 20.4% Left Cerebellum
+      Lobe: 77.4% Anterior Lobe, 22.6% Posterior Lobe
+      Gyrus: 74.2% Culmen, 22.6% Declive, 3.2% Fastigium
+      null
+
+
+Experiment Table:
+[ 1 1 1 1 2 1 1 1 1 2 1 1 4 2 1 1 2 1 4 ]
+[ 0 1 1 0 0 0 0 0 0 0 0 0 4 1 0 2 3 0 3 ]
+[ 1 1 0 0 0 0 0 0 0 2 0 0 6 0 0 1 1 1 1 ]
+[ 0 0 0 0 2 0 1 0 0 0 1 0 3 1 1 1 1 0 2 ]
+[ 0 1 0 1 2 0 0 0 0 0 1 0 5 0 1 2 0 0 0 ]
+[ 0 1 0 0 0 0 0 1 0 1 0 0 2 1 0 1 1 0 1 ]
+[ 0 0 0 1 0 0 0 0 0 0 2 0 0 0 0 1 2 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 1 0 0 3 1 0 1 0 1 2 ]
+[ 1 0 1 0 0 0 0 0 0 0 1 0 1 0 0 1 1 0 0 ]
+[ 2 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 0 0 3 2 0 1 0 0 0 ]
+[ 1 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1 ]
+
+Contributors to cluster #1
+1 foci from Winstein C J, 1997: Movement-Related Brain Areas During Reciprocal Aiming 
+1 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART 
+1 foci from Maguire R P, 2003: Go/No-Go vs. Fixation 
+1 foci from Cunnington R, 2006: Observation > Self-Selection Movements 
+2 foci from Leslie K R, 2004: Face Imitation Leslie K R, 2004: Face Viewing 
+1 foci from Suskauer S J, 2008: Normals (Typically Developing Children) 
+1 foci from Lee T W, 2006: Activations Associated with Facial Movements, Licking Faces 
+1 foci from Kaladjian A, 2009: Healthy Controls 
+1 foci from Kaladjian A, 2009: Healthy Controls 
+2 foci from van Duinen H, 2008: Activity Correlating with "Activation Per Se", Right  Contractions 
+1 foci from Shulman G L, 2002: Reactivation of BOLD Response 
+1 foci from Kaladjian A, 2007: Healthy Controls 
+4 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+2 foci from Njiboer M, 2014: Tracking > Baseline Njiboer M, 2014: 2-Back and Tracking > Baseline 
+1 foci from Sebastian A, 2012: control 
+1 foci from Misra G, 2015: Force Only > Baseline 
+2 foci from Walz A D, 2015: Conjunction over task and time: Fist clenching Walz A D, 2015: Conjunction over task and time: Writing 
+1 foci from Aoki T, 2005: Double Finger Tapping - Rest 
+4 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 
+
+Contributors to cluster #2
+1 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART 
+1 foci from Maguire R P, 2003: Go/No-Go vs. Fixation 
+4 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+1 foci from Njiboer M, 2014: Tracking > Baseline Njiboer M, 2014: 2-Back and Tracking > Baseline 
+2 foci from Misra G, 2015: Force Only > Baseline 
+3 foci from Walz A D, 2015: Conjunction over task and time: Fist clenching Walz A D, 2015: Conjunction over task and time: Writing 
+3 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 
+
+Contributors to cluster #3
+1 foci from Winstein C J, 1997: Movement-Related Brain Areas During Reciprocal Aiming 
+1 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART 
+2 foci from van Duinen H, 2008: Activity Correlating with "Activation Per Se", Right  Contractions 
+6 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+1 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Walz A D, 2015: Conjunction over task and time: Fist clenching Walz A D, 2015: Conjunction over task and time: Writing 
+1 foci from Aoki T, 2005: Double Finger Tapping - Rest 
+1 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 
+
+Contributors to cluster #4
+2 foci from Leslie K R, 2004: Face Imitation Leslie K R, 2004: Face Viewing 
+1 foci from Lee T W, 2006: Activations Associated with Facial Movements, Licking Faces 
+1 foci from Shulman G L, 2002: Reactivation of BOLD Response 
+3 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+1 foci from Njiboer M, 2014: Tracking > Baseline Njiboer M, 2014: 2-Back and Tracking > Baseline 
+1 foci from Sebastian A, 2012: control 
+1 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Walz A D, 2015: Conjunction over task and time: Fist clenching Walz A D, 2015: Conjunction over task and time: Writing 
+2 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 
+
+Contributors to cluster #5
+1 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART 
+1 foci from Cunnington R, 2006: Observation > Self-Selection Movements 
+2 foci from Leslie K R, 2004: Face Imitation Leslie K R, 2004: Face Viewing 
+1 foci from Shulman G L, 2002: Reactivation of BOLD Response 
+5 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+1 foci from Sebastian A, 2012: control 
+2 foci from Misra G, 2015: Force Only > Baseline 
+
+Contributors to cluster #6
+1 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART 
+1 foci from Kaladjian A, 2009: Healthy Controls 
+1 foci from van Duinen H, 2008: Activity Correlating with "Activation Per Se", Right  Contractions 
+2 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+1 foci from Njiboer M, 2014: Tracking > Baseline Njiboer M, 2014: 2-Back and Tracking > Baseline 
+1 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Walz A D, 2015: Conjunction over task and time: Fist clenching Walz A D, 2015: Conjunction over task and time: Writing 
+1 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 
+
+Contributors to cluster #7
+1 foci from Cunnington R, 2006: Observation > Self-Selection Movements 
+2 foci from Shulman G L, 2002: Reactivation of BOLD Response 
+1 foci from Misra G, 2015: Force Only > Baseline 
+2 foci from Walz A D, 2015: Conjunction over task and time: Fist clenching Walz A D, 2015: Conjunction over task and time: Writing 
+
+Contributors to cluster #8
+1 foci from van Duinen H, 2008: Activity Correlating with "Activation Per Se", Right  Contractions 
+3 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+1 foci from Njiboer M, 2014: Tracking > Baseline Njiboer M, 2014: 2-Back and Tracking > Baseline 
+1 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Aoki T, 2005: Double Finger Tapping - Rest 
+2 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 
+
+Contributors to cluster #9
+1 foci from Winstein C J, 1997: Movement-Related Brain Areas During Reciprocal Aiming 
+1 foci from Maguire R P, 2003: Go/No-Go vs. Fixation 
+1 foci from Shulman G L, 2002: Reactivation of BOLD Response 
+1 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+1 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Walz A D, 2015: Conjunction over task and time: Fist clenching Walz A D, 2015: Conjunction over task and time: Writing 
+
+Contributors to cluster #10
+2 foci from Winstein C J, 1997: Movement-Related Brain Areas During Reciprocal Aiming 
+1 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART 
+1 foci from van Duinen H, 2008: Activity Correlating with "Activation Per Se", Right  Contractions 
+1 foci from Misra G, 2015: Force Only > Baseline 
+
+Contributors to cluster #11
+3 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+2 foci from Njiboer M, 2014: Tracking > Baseline Njiboer M, 2014: 2-Back and Tracking > Baseline 
+1 foci from Misra G, 2015: Force Only > Baseline 
+
+Contributors to cluster #12
+1 foci from Winstein C J, 1997: Movement-Related Brain Areas During Reciprocal Aiming 
+1 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART 
+2 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+1 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 

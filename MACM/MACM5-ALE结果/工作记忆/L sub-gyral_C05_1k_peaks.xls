@@ -1,0 +1,11 @@
+Cluster #	x	y	z	ALE	P	Z	Label (Nearest Gray Matter within 5mm)
+1	-40	-58	-22	0.035881866	8.987055E-16	7.955001	Left Cerebellum.Anterior Lobe.Culmen.Gray Matter.*
+2	40	-56	-22	0.022872891	2.7219091E-9	5.833076	Right Cerebellum.Anterior Lobe.Culmen.Gray Matter.*
+2	48	-54	-10	0.016235685	1.9110562E-6	4.6208396	Right Cerebrum.Temporal Lobe.Fusiform Gyrus.Gray Matter.Brodmann area 37
+3	0	18	48	0.016669508	1.282433E-6	4.7029176	Left Cerebrum.Frontal Lobe.Superior Frontal Gyrus.Gray Matter.Brodmann area 6
+4	-14	18	-8	0.017334409	6.892661E-7	4.8281007	Left Cerebrum.Sub-lobar.Caudate.Gray Matter.Caudate Head
+4	-14	14	-8	0.016987137	9.5073983E-7	4.7636375	Left Cerebrum.Sub-lobar.Lentiform Nucleus.Gray Matter.Putamen
+4	-22	8	-2	0.016645249	1.3067703E-6	4.6990795	Left Cerebrum.Sub-lobar.Lentiform Nucleus.Gray Matter.Putamen
+5	-44	12	32	0.01763251	5.1725345E-7	4.8849773	Left Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 9
+6	18	-12	8	0.015497895	3.7515977E-6	4.478899	Right Cerebrum.Sub-lobar.Thalamus.Gray Matter.Ventral Lateral Nucleus
+7	40	-38	42	0.016257145	1.8757851E-6	4.6247025	Right Cerebrum.Parietal Lobe.Sub-Gyral.Gray Matter.Brodmann area 40

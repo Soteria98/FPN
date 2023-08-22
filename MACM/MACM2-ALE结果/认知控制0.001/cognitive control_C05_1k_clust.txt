@@ -1,0 +1,583 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = cognitive control.txt
+Number of foci                = 2929
+Number of experiments         = 133
+Total number of subjects      = 1695
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = cognitive control_ALE.nii
+FWHM minimum value            = 8.727885998662787
+FWHM median value             = 9.868515026564658
+FWHM maximum value            = 19.072644189655946
+Minimum ALE score             = 1.8860563E-17
+Maximum ALE score             = 0.12964147
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = cognitive control_P.nii
+Minimum P value               = 5.8195066E-34
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 125624 mm^3
+Chosen min. cluster size      = 1648 mm^3
+Thresholded ALE image         = cognitive control_C05_1k_ALE.nii
+
+Cluster Analysis:
+  #1: 64288 mm^3 from (-68,-78,24) to (14,26,72) centered at (-23.1,-16.5,51.8) with 17 peaks
+      with a max value of .1296 ALE, 5.8195066E-34 P, 12.09 Z at (0,4,54) 
+    Labels: (Gray Matter only)
+      Hemisphere: 86.3% Left Cerebrum, 13.7% Right Cerebrum
+      Lobe: 50% Frontal Lobe, 41.5% Parietal Lobe, 8.3% Limbic Lobe
+      Gyrus: 18.2% Precentral Gyrus, 17.2% Medial Frontal Gyrus, 13.2% Inferior Parietal Lobule, 10.3% Postcentral Gyrus, 9.1% Cingulate Gyrus, 8.3% Precuneus, 7.1% Middle Frontal Gyrus, 7% Superior Parietal Lobule, 4.3% Superior Frontal Gyrus, 2.4% Supramarginal Gyrus, 1.2% Inferior Frontal Gyrus
+      Cell Type: 37.7% Brodmann area 6, 16.3% Brodmann area 40, 15.2% Brodmann area 7, 7.8% Brodmann area 4, 6.8% Brodmann area 3, 5.7% Brodmann area 24, 4.8% Brodmann area 32, 2.2% Brodmann area 2, 1.1% Brodmann area 9
+
+  #2: 18848 mm^3 from (4,-74,30) to (60,-26,66) centered at (34.4,-53,49.2) with 6 peaks
+      with a max value of 0.0797 ALE, 8.235796E-17 P, 8.25 Z at (42,-44,48) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Parietal Lobe
+      Gyrus: 34.3% Inferior Parietal Lobule, 32.9% Precuneus, 27.9% Superior Parietal Lobule, 3.1% Supramarginal Gyrus
+      Cell Type: 60.5% Brodmann area 7, 36.8% Brodmann area 40, 1.8% Brodmann area 39
+
+  #3: 16672 mm^3 from (18,-12,14) to (64,28,62) centered at (43.2,2.8,41.4) with 7 peaks
+      with a max value of 0.0841 ALE, 3.582685E-18 P, 8.61 Z at (40,-2,50) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 50.5% Precentral Gyrus, 32.5% Middle Frontal Gyrus, 11.6% Inferior Frontal Gyrus, 4.8% Sub-Gyral
+      Cell Type: 75.5% Brodmann area 6, 18.9% Brodmann area 9, 4.4% Brodmann area 4
+
+  #4: 6184 mm^3 from (2,-26,-10) to (30,10,14) centered at (15.2,-8,5.2) with 4 peaks
+      with a max value of 0.0563 ALE, 3.182613E-10 P, 6.18 Z at (12,-14,8) 
+    Labels: (Gray Matter only)
+      Hemisphere: 97.7% Right Cerebrum, 2.3% Right Brainstem
+      Lobe: 97.7% Sub-lobar, 2.3% Midbrain
+      Gyrus: 68.4% Thalamus, 28.8% Lentiform Nucleus
+      Cell Type: 25.3% Putamen, 19.3% Medial Dorsal Nucleus, 14.6% Ventral Lateral Nucleus, 4.9% Ventral Anterior Nucleus, 3.2% Lateral Globus Pallidus, 2.6% Mammillary Body, 2.6% Anterior Nucleus, 1.6% Red Nucleus, 1.4% Ventral Posterior Lateral Nucleus, 1.1% Pulvinar
+
+  #5: 5456 mm^3 from (-44,-8,-8) to (-12,24,12) centered at (-27.4,7.8,2.6) with 3 peaks
+      with a max value of 0.0511 ALE, 6.9627752E-9 P, 5.67 Z at (-34,18,0) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Sub-lobar
+      Gyrus: 84.3% Lentiform Nucleus, 8% Insula, 7.7% Claustrum
+      Cell Type: 76.1% Putamen, 7.5% Lateral Globus Pallidus, 7.2% Brodmann area 13
+
+  #6: 3480 mm^3 from (2,-68,-28) to (34,-48,-10) centered at (18.6,-57.2,-19.9) with 2 peaks
+      with a max value of 0.0506 ALE, 9.159923E-9 P, 5.63 Z at (22,-54,-22) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebellum
+      Lobe: 75.2% Anterior Lobe, 24.8% Posterior Lobe
+      Gyrus: 58.9% Culmen, 24.8% Declive
+      Cell Type: 13.1% Dentate
+
+  #7: 3256 mm^3 from (24,28,16) to (46,52,34) centered at (38.2,39.9,25.9) with 3 peaks
+      with a max value of 0.0501 ALE, 1.2379715E-8 P, 5.58 Z at (40,34,26) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 73.1% Middle Frontal Gyrus, 26.1% Superior Frontal Gyrus
+      Cell Type: 100% Brodmann area 9
+
+  #8: 3160 mm^3 from (32,6,-20) to (58,28,8) centered at (42.2,19.5,-1.6) with 6 peaks
+      with a max value of 0.057 ALE, 2.1678573E-10 P, 6.24 Z at (38,20,2) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 80.5% Sub-lobar, 19.5% Frontal Lobe
+      Gyrus: 74% Insula, 20.1% Inferior Frontal Gyrus, 3.9% Claustrum, 1.9% Extra-Nuclear
+      Cell Type: 64.3% Brodmann area 13, 15.6% Brodmann area 47, 3.9% Brodmann area 45
+
+  #9: 2224 mm^3 from (-20,-24,-4) to (-6,-12,14) centered at (-12.7,-18.4,6.1) with 1 peaks
+      with a max value of 0.0603 ALE, 2.9373646E-11 P, 6.55 Z at (-14,-20,8) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Sub-lobar
+      Gyrus: 100% Thalamus
+      Cell Type: 14.4% Medial Dorsal Nucleus, 13.3% Ventral Lateral Nucleus, 10.3% Mammillary Body, 9.6% Ventral Posterior Medial Nucleus, 9.6% Pulvinar, 9.2% Ventral Posterior Lateral Nucleus, 8.9% Lateral Posterior Nucleus, 1.5% Lateral Dorsal Nucleus
+
+ #10: 2056 mm^3 from (-48,-78,-28) to (-20,-56,4) centered at (-37.6,-65.5,-13.1) with 2 peaks
+      with a max value of 0.0416 ALE, 1.2471785E-6 P, 4.71 Z at (-42,-70,0) 
+    Labels: (Gray Matter only)
+      Hemisphere: 91% Left Cerebellum, 9% Left Cerebrum
+      Lobe: 69% Anterior Lobe, 22.1% Posterior Lobe, 6.2% Occipital Lobe, 2.8% Temporal Lobe
+      Gyrus: 68.3% Culmen, 21.4% Declive, 3.4% Fusiform Gyrus, 3.4% Inferior Temporal Gyrus, 2.1% Inferior Occipital Gyrus
+      Cell Type: 5.5% Brodmann area 37, 2.8% Brodmann area 19
+
+
+Experiment Table:
+[ 7 5 1 15 20 18 8 11 10 3 5 4 7 4 7 2 4 4 22 14 11 1 1 6 17 5 4 4 1 9 2 1 4 3 4 4 4 4 4 4 3 4 4 4 0 13 5 15 19 7 2 3 0 4 7 8 12 4 15 2 3 0 5 4 7 6 6 0 2 20 8 6 9 4 2 1 4 6 1 1 4 5 4 2 1 9 24 8 0 15 0 19 4 3 0 0 2 0 2 0 1 1 3 1 2 1 6 3 2 0 0 4 1 1 0 1 1 3 2 4 20 0 8 2 0 2 2 8 6 4 2 11 7 ]
+[ 0 0 0 2 11 3 0 1 1 1 0 1 2 3 3 1 0 0 5 0 1 2 0 4 0 0 1 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 5 2 4 5 3 4 0 0 2 1 3 3 2 2 0 0 0 2 1 2 2 2 2 1 4 2 1 4 1 0 2 1 3 0 0 0 0 0 1 0 3 3 2 0 5 0 7 0 0 1 1 1 0 1 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 2 0 1 1 3 0 2 1 4 0 0 3 0 1 0 2 3 ]
+[ 0 2 0 3 6 5 1 1 4 3 0 1 0 2 1 1 0 0 9 0 4 0 0 2 0 0 2 2 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 3 2 2 4 9 1 0 0 0 1 2 4 2 0 3 0 0 1 1 1 2 1 2 0 0 11 4 2 4 0 1 0 1 3 1 0 0 2 0 1 0 3 8 1 0 0 0 4 0 0 1 1 1 0 1 1 0 1 1 0 1 2 0 0 0 1 0 0 0 0 0 0 0 0 2 0 5 0 2 0 2 0 2 3 1 1 1 1 0 ]
+[ 2 4 0 1 1 2 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 2 0 0 0 2 0 0 3 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 10 1 1 0 0 1 0 0 0 0 0 0 6 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 3 4 0 0 1 0 0 0 2 0 0 0 1 1 ]
+[ 0 0 0 1 0 0 1 0 3 0 0 0 2 1 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 2 0 1 0 1 0 3 0 0 2 0 0 0 0 0 0 0 0 0 0 3 0 1 1 0 1 0 0 0 1 0 0 0 0 0 0 1 7 0 0 0 0 0 1 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 3 0 0 0 1 0 0 0 3 1 0 0 0 0 ]
+[ 0 0 0 2 5 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 2 1 0 0 0 2 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 1 1 0 0 0 1 6 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 1 2 ]
+[ 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1 0 2 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 2 0 0 0 0 0 0 1 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 1 ]
+[ 0 0 0 4 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 2 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 0 1 5 0 0 0 0 0 1 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 1 3 0 0 1 1 0 0 2 0 0 0 0 0 ]
+[ 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 4 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 1 0 0 0 0 1 ]
+[ 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 1 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 3 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 2 0 0 0 0 0 ]
+
+Contributors to cluster #1
+7 foci from Desmurget M, 2001: Overall hand-reaching effect Desmurget M, 2001: Strict hand-reaching effect 
+5 foci from Ehrsson H H, 2000: Foot vs. Rest Ehrsson H H, 2000: Simultaneous vs. Rest Ehrsson H H, 2000: Conjunction Analysis 
+1 foci from Gosain A K, 2001: Finger-tapping vs. Rest 
+15 foci from Indovina I, 2001: Move vs. No-Move Indovina I, 2001: Move-Attend vs. No-Move Indovina I, 2001: Move-Attend vs. Move Indovina I, 2001: Attend vs. No-Move 
+20 foci from van Mier H, 1998: Normal Adults - Right Tracing 
+18 foci from van Mier H, 1998: Normal Subjects - Left Tracing 
+8 foci from Gerardin E, 2000: Motor Execution vs. Rest 
+11 foci from Grosbras M H, 2001: New, Memory vs. Rest Grosbras M H, 2001: Familiar, Memory vs. Rest 
+10 foci from Nobre A C, 2000: Areas Common to Saccades and Attention 
+3 foci from Nobre A C, 2002: Areas Common to Search and Saccades 
+5 foci from Gelnar P A, 1999: Motor vs. Rest 
+4 foci from Gitelman D R, 2002: Saccade - Central 
+7 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average 
+4 foci from Rubia K, 2001: Generic Go/No-Go Activation Rubia K, 2001: Generic Stop Activation 
+7 foci from Paus T, 1993: Group 1 Normals 
+2 foci from Paus T, 1993: Group 2 Normals 
+4 foci from Carey L M, 2000: Initial Scan:  Right Hand Finger Tapping - Rest Carey L M, 2000: Six-Month Scan:  Right Hand Finger Tapping - Rest 
+4 foci from Kawashima R, 2000: Task vs. Control 
+22 foci from Heide W, 2001: Triple-step saccades vs. Fixation without peripheral  stimulation Heide W, 2001: Triple-step saccades vs. Fixation during visual stimulation Heide W, 2001: Visually guided saccades vs. Fixation without peripheral  stimulation 
+14 foci from Umetsu A, 2002: R-FP vs. Control Umetsu A, 2002: R-FEP vs. Control Umetsu A, 2002: L-FEP vs. Control 
+11 foci from Binkofski F, 2000: Somatosensory Guided Movement vs. Rest Binkofski F, 2000: Visually Guided Movement vs. Rest 
+1 foci from Binkofski F, 2002: Conjunction of Active Conditions vs. Baseline Binkofski F, 2002: Motor-directed Attention Binkofski F, 2002: Visually-directed Attention 
+1 foci from Watanabe J, 2002: Specific Activation Areas During NO-GO Phase 
+6 foci from Braver T S, 2001: Conjunction Analysis Braver T S, 2001: Disjunction Analysis 
+17 foci from Kawashima R, 1996: Response Selection - Control Kawashima R, 1996: Go/NoGo Task - Control Task 
+5 foci from Liddle P F, 2001: Go - Baseline Liddle P F, 2001: Correct NoGo - Baseline 
+4 foci from Menon V, 2001: Go/NoGo - Go Menon V, 2001: Go - Rest 
+4 foci from Ehrsson H H, 2001: Precision Grip - Baseline Ehrsson H H, 2001: Small Force - Large Force 
+1 foci from Murtha S, 1999: Semantic Judgment Anticipation - Baseline (Activations) 
+9 foci from Catalan M J, 1998: Sequence-12 vs. Rest Catalan M J, 1998: Sequence-12 vs. Simple 
+2 foci from Honey G D, 2003: Normals 
+1 foci from Hopfinger J B, 2000: Leftward-Directing Cue 
+4 foci from Joliot M, 1998: Finger Tapping - Rest 
+3 foci from Lerner A, 2004: Normals 
+4 foci from Ramsey N F, 1996: Subject 1 
+4 foci from Ramsey N F, 1996: Subject 2 
+4 foci from Ramsey N F, 1996: Subject 3 
+4 foci from Ramsey N F, 1996: Subject 4 
+4 foci from Ramsey N F, 1996: Subject 5 
+4 foci from Ramsey N F, 1996: Subject 6 
+3 foci from Ramsey N F, 1996: Subject 7 
+4 foci from Ramsey N F, 1996: Subject 8 
+4 foci from Ramsey N F, 1996: Subject 9 
+4 foci from Anderson T J, 1994: Reflexive Saccades vs. Fixation, Increases Anderson T J, 1994: Remembered Saccades vs. Fixation, Increases 
+13 foci from Astafiev S V, 2003: Saccade vs. Fixation Astafiev S V, 2003: Pointing vs. Fixation 
+5 foci from Bellgrove M A, 2004: Response Inhibition 
+15 foci from Berman R A, 1999: Visual Pursuit Tracking and Visually Guided Saccades 
+19 foci from Connolly J D, 2000: Pro-Saccade vs. Fixation Connolly J D, 2000: Anti-Saccade vs. Fixation Connolly J D, 2000: Pro-Pointing vs. Fixation Connolly J D, 2000: Anti-Pointing vs. Fixation 
+7 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART Fassbender C, 2004: Activations For Correct Inhibitions Fassbender C, 2004: Activations For Commission Errors 
+2 foci from Garavan H, 1999: Response Inhibition 
+3 foci from Hester R L, 2004: Cued and Uncued Successful Response Inhibition 
+4 foci from Kelly A M, 2004: Fast and Slow Successful Response Inhibitions 
+7 foci from Kimmig H, 2001: Saccade vs. Fixation Kimmig H, 2001: Pro-Saccade and Anti-Saccade 
+8 foci from Konen C S, 2004: Predictable and Unpredictable Saccades vs. Fixation Konen C S, 2004: Oscillatory Saccades vs. Fixation 
+12 foci from Luna B, 1998: Saccades vs. Fixation, Average Individual Subject Data Luna B, 1998: Saccades vs. Fixation, Group Average Data 
+4 foci from Maguire R P, 2003: Go vs. Fixation Maguire R P, 2003: Go/No-Go vs. Fixation Maguire R P, 2003: Go/No-Go vs. Go 
+15 foci from Matsuda T, 2004: Saccades vs. Rest Matsuda T, 2004: Anti-Saccades vs. Rest Matsuda T, 2004: Anti-Saccades > Saccades 
+2 foci from Merriam E P, 2001: Mixed Task vs. Fixation 
+3 foci from Mostofsky S H, 2003: All Normal Subjects 
+5 foci from Petit L, 1999: Normal Subject 1 
+4 foci from Petit L, 1999: Normal Subject 2 
+7 foci from Petit L, 1999: Normal Subject 3 
+6 foci from Petit L, 1999: Normal Subject 4 
+6 foci from Petit L, 1999: Normal Subject 5 
+2 foci from Jordan K, 2001: Control1 > Rest 
+20 foci from Gagnon D, 2002: CPT > Fixation Gagnon D, 2002: DPT > Fixation Gagnon D, 2002: TPT > Fixation Gagnon D, 2002: SCT > Fixation 
+8 foci from Koyama M, 2004: Serial Saccades > Fixation 
+6 foci from Law I, 1997: Saccadic Suppression - Fixation Law I, 1997: Reflexive Saccades - Fixation 
+9 foci from Perry R J, 2000: Target vs. Null Perry R J, 2000: Non-Target vs. Null 
+4 foci from Sweeney J A, 1996: Antisaccades - Visually Guided Saccades, Increases Sweeney J A, 1996: Memory Guided Saccades - Visually Guided Saccades,  Increases 
+2 foci from Sylvester C C, 2003: Normals, Group 2 
+1 foci from Garavan H, 2003: Event-Related STOPS 
+4 foci from De Souza J F, 2003: Selectively Activated for Saccades (Both Pro and Anti) 
+6 foci from Doricchi F, 1997: Antisaccades vs. Fixation Doricchi F, 1997: Antisaccades vs. Fast-Regular 
+1 foci from MacDonald III A W, 2003: Normal Subjects 
+1 foci from Christoff K, 2004: Arrows vs. Rest 
+4 foci from Denslow S, 2005: Volitional Movement 
+5 foci from Rounis E, 2005: Main Effects of Movement 
+4 foci from De Luca M, 2005: Control Subjects 
+2 foci from McDowell J E, 2002: Normals 
+1 foci from Wilson S M, 2004: Producing Speech 
+9 foci from Chikazoe J, 2007: Antisaccade - Control Saccade 
+24 foci from Bohland J W, 2006: Simple Syllable, Go vs. Fixation Bohland J W, 2006: Simple Sequence, Go vs. Fixation Bohland J W, 2006: Complex Syllable, Go vs. Fixation Bohland J W, 2006: Complex Sequence, Go vs. Fixation 
+8 foci from Mallol R, 2007: Normals 
+15 foci from Simon O, 2004: Manual Tasks Only Simon O, 2004: Visuospatial Tasks Only Simon O, 2004: Grasping Only Simon O, 2004: Saccades + Pointing + Attention 
+19 foci from Brown M R G, 2006: Prosaccade Response > Fixation Brown M R G, 2006: Antisaccade Response > Fixation Brown M R G, 2006: Nogo Response > Fixation Brown M R G, 2006: Prosaccade Instruction > Fixation Brown M R G, 2006: Antisaccade Instruction > Fixation Brown M R G, 2006: Antisaccade Instuction > Nogo Instruction 
+4 foci from Simmonds D J, 2007: Go Activations Simmonds D J, 2007: No-Go Activations Simmonds D J, 2007: No-Go Activations Negatively Correlated with  Intraindividual Coefficient of Variability 
+3 foci from Coull J T, 2004: Activations Due to Motor Response 
+2 foci from Spence S A, 1997: Healthy Controls 
+2 foci from Aron A R, 2006: Stop - Go Aron A R, 2006: Stop Inhibit - Stop Respond 
+1 foci from Kaladjian A, 2009: Healthy Controls 
+1 foci from Chikazoe J, 2009: Disjunction Analysis, Stop vs. Uncertain-Go but not  Uncertain-Go vs. Certain-Go 
+3 foci from Chevrier A D, 2007: Cognitive Go-Phase Activities Chevrier A D, 2007: Successful Stop-Phase Activities 
+1 foci from Mazzola-Pomietto P, 2009: Healthy Controls 
+2 foci from Welander-Vatn A S, 2009: Healthy Controls 
+1 foci from Zheng D, 2008: No-Go - Go (Go/No-Go) Zheng D, 2008: Stop - Go (Stop Signal) 
+6 foci from Baglio F, 2009: Healthy Controls 
+3 foci from Bennett D S, 2009: Non-Exposed Subjects 
+2 foci from Elsinger C L, 2003: Healthy Controls 
+4 foci from Durston S, 2002: Go vs. No-Go 
+1 foci from Li C S, 2009: Increased Reaction Time vs. Decreased Reaction Time, Go-Trial 
+1 foci from Mulder M J, 2008: Healthy Controls 
+1 foci from Passarotti A M, 2010: Healthy Controls 
+1 foci from Pompei F, 2011: Healthy Controls 
+3 foci from Pompei F, 2011: Healthy Controls, Relatives of Bipolar Disorder Patients 
+2 foci from Strakowski S M, 2008: Healthy Controls 
+4 foci from Townsend J D, 2012: Healthy Controls 
+20 foci from Zandbelt B B, 2011: Healthy Controls 
+8 foci from Shah C, 2011: Creative writing 
+2 foci from Carrion V G, 2008: Healthy Controls 
+2 foci from Dillo W, 2010: Healthy Controls 
+2 foci from Dionne J K, 2010: Motor Response-Related Activity > Rest 
+8 foci from Misra G, 2015: Force Only > Baseline Misra G, 2015: Conjunction Analysis: Force Only and Pain Only 
+6 foci from Hanakawa T, 2002: Complex finger-tapping > Visual fixation Hanakawa T, 2002: Complex finger-tapping > Simple finger-tapping 
+4 foci from Harrington D L, 2000: Regions activated by transitions Harrington D L, 2000: Regions activated by transitions (excluding repeated  sequences) 
+2 foci from Terry D P, 2012: Control, Athletes 
+11 foci from Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Right Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Right Hand vs.  Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Left Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Left Hand vs. Baseline 
+7 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+
+Contributors to cluster #2
+2 foci from Indovina I, 2001: Move vs. No-Move Indovina I, 2001: Move-Attend vs. No-Move Indovina I, 2001: Move-Attend vs. Move Indovina I, 2001: Attend vs. No-Move 
+11 foci from van Mier H, 1998: Normal Adults - Right Tracing 
+3 foci from van Mier H, 1998: Normal Subjects - Left Tracing 
+1 foci from Grosbras M H, 2001: New, Memory vs. Rest Grosbras M H, 2001: Familiar, Memory vs. Rest 
+1 foci from Nobre A C, 2000: Areas Common to Saccades and Attention 
+1 foci from Nobre A C, 2002: Areas Common to Search and Saccades 
+1 foci from Gitelman D R, 2002: Saccade - Central 
+2 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average 
+3 foci from Rubia K, 2001: Generic Go/No-Go Activation Rubia K, 2001: Generic Stop Activation 
+3 foci from Paus T, 1993: Group 1 Normals 
+1 foci from Paus T, 1993: Group 2 Normals 
+5 foci from Heide W, 2001: Triple-step saccades vs. Fixation without peripheral  stimulation Heide W, 2001: Triple-step saccades vs. Fixation during visual stimulation Heide W, 2001: Visually guided saccades vs. Fixation without peripheral  stimulation 
+1 foci from Binkofski F, 2000: Somatosensory Guided Movement vs. Rest Binkofski F, 2000: Visually Guided Movement vs. Rest 
+2 foci from Binkofski F, 2002: Conjunction of Active Conditions vs. Baseline Binkofski F, 2002: Motor-directed Attention Binkofski F, 2002: Visually-directed Attention 
+4 foci from Braver T S, 2001: Conjunction Analysis Braver T S, 2001: Disjunction Analysis 
+1 foci from Menon V, 2001: Go/NoGo - Go Menon V, 2001: Go - Rest 
+3 foci from Ehrsson H H, 2001: Precision Grip - Baseline Ehrsson H H, 2001: Small Force - Large Force 
+3 foci from Catalan M J, 1998: Sequence-12 vs. Rest Catalan M J, 1998: Sequence-12 vs. Simple 
+2 foci from Asahi S, 2004: Response Inhibition 
+5 foci from Astafiev S V, 2003: Saccade vs. Fixation Astafiev S V, 2003: Pointing vs. Fixation 
+2 foci from Bellgrove M A, 2004: Response Inhibition 
+4 foci from Berman R A, 1999: Visual Pursuit Tracking and Visually Guided Saccades 
+5 foci from Connolly J D, 2000: Pro-Saccade vs. Fixation Connolly J D, 2000: Anti-Saccade vs. Fixation Connolly J D, 2000: Pro-Pointing vs. Fixation Connolly J D, 2000: Anti-Pointing vs. Fixation 
+3 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART Fassbender C, 2004: Activations For Correct Inhibitions Fassbender C, 2004: Activations For Commission Errors 
+4 foci from Garavan H, 1999: Response Inhibition 
+2 foci from Kelly A M, 2004: Fast and Slow Successful Response Inhibitions 
+1 foci from Kimmig H, 2001: Saccade vs. Fixation Kimmig H, 2001: Pro-Saccade and Anti-Saccade 
+3 foci from Konen C S, 2004: Predictable and Unpredictable Saccades vs. Fixation Konen C S, 2004: Oscillatory Saccades vs. Fixation 
+3 foci from Luna B, 1998: Saccades vs. Fixation, Average Individual Subject Data Luna B, 1998: Saccades vs. Fixation, Group Average Data 
+2 foci from Maguire R P, 2003: Go vs. Fixation Maguire R P, 2003: Go/No-Go vs. Fixation Maguire R P, 2003: Go/No-Go vs. Go 
+2 foci from Matsuda T, 2004: Saccades vs. Rest Matsuda T, 2004: Anti-Saccades vs. Rest Matsuda T, 2004: Anti-Saccades > Saccades 
+2 foci from Petit L, 1999: Normal Subject 1 
+1 foci from Petit L, 1999: Normal Subject 2 
+2 foci from Petit L, 1999: Normal Subject 3 
+2 foci from Petit L, 1999: Normal Subject 4 
+2 foci from Petit L, 1999: Normal Subject 5 
+2 foci from De Zubicaray G I, 2000: Increases De Zubicaray G I, 2000: Linear Increases With Number of Trials Equated Per  Block 
+1 foci from Jordan K, 2001: Control1 > Rest 
+4 foci from Gagnon D, 2002: CPT > Fixation Gagnon D, 2002: DPT > Fixation Gagnon D, 2002: TPT > Fixation Gagnon D, 2002: SCT > Fixation 
+2 foci from Koyama M, 2004: Serial Saccades > Fixation 
+1 foci from Law I, 1997: Saccadic Suppression - Fixation Law I, 1997: Reflexive Saccades - Fixation 
+4 foci from Perry R J, 2000: Target vs. Null Perry R J, 2000: Non-Target vs. Null 
+1 foci from Sweeney J A, 1996: Antisaccades - Visually Guided Saccades, Increases Sweeney J A, 1996: Memory Guided Saccades - Visually Guided Saccades,  Increases 
+2 foci from Garavan H, 2003: Event-Related STOPS 
+1 foci from De Souza J F, 2003: Selectively Activated for Saccades (Both Pro and Anti) 
+3 foci from Doricchi F, 1997: Antisaccades vs. Fixation Doricchi F, 1997: Antisaccades vs. Fast-Regular 
+1 foci from McDowell J E, 2002: Normals 
+3 foci from Chikazoe J, 2007: Antisaccade - Control Saccade 
+3 foci from Bohland J W, 2006: Simple Syllable, Go vs. Fixation Bohland J W, 2006: Simple Sequence, Go vs. Fixation Bohland J W, 2006: Complex Syllable, Go vs. Fixation Bohland J W, 2006: Complex Sequence, Go vs. Fixation 
+2 foci from Mallol R, 2007: Normals 
+5 foci from Simon O, 2004: Manual Tasks Only Simon O, 2004: Visuospatial Tasks Only Simon O, 2004: Grasping Only Simon O, 2004: Saccades + Pointing + Attention 
+7 foci from Brown M R G, 2006: Prosaccade Response > Fixation Brown M R G, 2006: Antisaccade Response > Fixation Brown M R G, 2006: Nogo Response > Fixation Brown M R G, 2006: Prosaccade Instruction > Fixation Brown M R G, 2006: Antisaccade Instruction > Fixation Brown M R G, 2006: Antisaccade Instuction > Nogo Instruction 
+1 foci from Falconer E, 2008: Trauma-Exposed Patients 
+1 foci from Falconer E, 2008: Normals 
+1 foci from Spence S A, 1997: Healthy Controls 
+1 foci from Aron A R, 2006: Stop - Go Aron A R, 2006: Stop Inhibit - Stop Respond 
+1 foci from Kaladjian A, 2009: Healthy Controls 
+1 foci from Welander-Vatn A S, 2009: Healthy Controls 
+1 foci from Zheng D, 2008: No-Go - Go (Go/No-Go) Zheng D, 2008: Stop - Go (Stop Signal) 
+1 foci from Passarotti A M, 2010: Healthy Controls 
+2 foci from Pompei F, 2011: Healthy Controls 
+1 foci from Strakowski S M, 2008: Healthy Controls 
+1 foci from Townsend J D, 2012: Healthy Controls 
+3 foci from Zandbelt B B, 2011: Healthy Controls 
+2 foci from Shah C, 2011: Creative writing 
+1 foci from Carrion V G, 2008: Healthy Controls 
+4 foci from Mechelli A, 2009: Go/Nogo > Fixation Mechelli A, 2009: Nogo > Go 
+3 foci from Misra G, 2015: Force Only > Baseline Misra G, 2015: Conjunction Analysis: Force Only and Pain Only 
+1 foci from Harrington D L, 2000: Regions activated by transitions Harrington D L, 2000: Regions activated by transitions (excluding repeated  sequences) 
+2 foci from Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Right Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Right Hand vs.  Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Left Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Left Hand vs. Baseline 
+3 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+
+Contributors to cluster #3
+2 foci from Ehrsson H H, 2000: Foot vs. Rest Ehrsson H H, 2000: Simultaneous vs. Rest Ehrsson H H, 2000: Conjunction Analysis 
+3 foci from Indovina I, 2001: Move vs. No-Move Indovina I, 2001: Move-Attend vs. No-Move Indovina I, 2001: Move-Attend vs. Move Indovina I, 2001: Attend vs. No-Move 
+6 foci from van Mier H, 1998: Normal Adults - Right Tracing 
+5 foci from van Mier H, 1998: Normal Subjects - Left Tracing 
+1 foci from Gerardin E, 2000: Motor Execution vs. Rest 
+1 foci from Grosbras M H, 2001: New, Memory vs. Rest Grosbras M H, 2001: Familiar, Memory vs. Rest 
+4 foci from Nobre A C, 2000: Areas Common to Saccades and Attention 
+3 foci from Nobre A C, 2002: Areas Common to Search and Saccades 
+1 foci from Gitelman D R, 2002: Saccade - Central 
+2 foci from Rubia K, 2001: Generic Go/No-Go Activation Rubia K, 2001: Generic Stop Activation 
+1 foci from Paus T, 1993: Group 1 Normals 
+1 foci from Paus T, 1993: Group 2 Normals 
+9 foci from Heide W, 2001: Triple-step saccades vs. Fixation without peripheral  stimulation Heide W, 2001: Triple-step saccades vs. Fixation during visual stimulation Heide W, 2001: Visually guided saccades vs. Fixation without peripheral  stimulation 
+4 foci from Binkofski F, 2000: Somatosensory Guided Movement vs. Rest Binkofski F, 2000: Visually Guided Movement vs. Rest 
+2 foci from Braver T S, 2001: Conjunction Analysis Braver T S, 2001: Disjunction Analysis 
+2 foci from Menon V, 2001: Go/NoGo - Go Menon V, 2001: Go - Rest 
+2 foci from Ehrsson H H, 2001: Precision Grip - Baseline Ehrsson H H, 2001: Small Force - Large Force 
+2 foci from Catalan M J, 1998: Sequence-12 vs. Rest Catalan M J, 1998: Sequence-12 vs. Simple 
+1 foci from Hopfinger J B, 2000: Leftward-Directing Cue 
+2 foci from Anderson T J, 1994: Reflexive Saccades vs. Fixation, Increases Anderson T J, 1994: Remembered Saccades vs. Fixation, Increases 
+3 foci from Asahi S, 2004: Response Inhibition 
+2 foci from Astafiev S V, 2003: Saccade vs. Fixation Astafiev S V, 2003: Pointing vs. Fixation 
+2 foci from Bellgrove M A, 2004: Response Inhibition 
+4 foci from Berman R A, 1999: Visual Pursuit Tracking and Visually Guided Saccades 
+9 foci from Connolly J D, 2000: Pro-Saccade vs. Fixation Connolly J D, 2000: Anti-Saccade vs. Fixation Connolly J D, 2000: Pro-Pointing vs. Fixation Connolly J D, 2000: Anti-Pointing vs. Fixation 
+1 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART Fassbender C, 2004: Activations For Correct Inhibitions Fassbender C, 2004: Activations For Commission Errors 
+1 foci from Kelly A M, 2004: Fast and Slow Successful Response Inhibitions 
+2 foci from Kimmig H, 2001: Saccade vs. Fixation Kimmig H, 2001: Pro-Saccade and Anti-Saccade 
+4 foci from Konen C S, 2004: Predictable and Unpredictable Saccades vs. Fixation Konen C S, 2004: Oscillatory Saccades vs. Fixation 
+2 foci from Luna B, 1998: Saccades vs. Fixation, Average Individual Subject Data Luna B, 1998: Saccades vs. Fixation, Group Average Data 
+3 foci from Matsuda T, 2004: Saccades vs. Rest Matsuda T, 2004: Anti-Saccades vs. Rest Matsuda T, 2004: Anti-Saccades > Saccades 
+1 foci from Paus T, 1995: Positive Covariations 
+1 foci from Petit L, 1999: Normal Subject 1 
+1 foci from Petit L, 1999: Normal Subject 2 
+2 foci from Petit L, 1999: Normal Subject 3 
+1 foci from Petit L, 1999: Normal Subject 4 
+2 foci from Petit L, 1999: Normal Subject 5 
+11 foci from Gagnon D, 2002: CPT > Fixation Gagnon D, 2002: DPT > Fixation Gagnon D, 2002: TPT > Fixation Gagnon D, 2002: SCT > Fixation 
+4 foci from Koyama M, 2004: Serial Saccades > Fixation 
+2 foci from Law I, 1997: Saccadic Suppression - Fixation Law I, 1997: Reflexive Saccades - Fixation 
+4 foci from Perry R J, 2000: Target vs. Null Perry R J, 2000: Non-Target vs. Null 
+1 foci from Sylvester C C, 2003: Normals, Group 2 
+1 foci from De Souza J F, 2003: Selectively Activated for Saccades (Both Pro and Anti) 
+3 foci from Doricchi F, 1997: Antisaccades vs. Fixation Doricchi F, 1997: Antisaccades vs. Fast-Regular 
+1 foci from MacDonald III A W, 2003: Normal Subjects 
+2 foci from Rounis E, 2005: Main Effects of Movement 
+1 foci from McDowell J E, 2002: Normals 
+3 foci from Chikazoe J, 2007: Antisaccade - Control Saccade 
+8 foci from Bohland J W, 2006: Simple Syllable, Go vs. Fixation Bohland J W, 2006: Simple Sequence, Go vs. Fixation Bohland J W, 2006: Complex Syllable, Go vs. Fixation Bohland J W, 2006: Complex Sequence, Go vs. Fixation 
+1 foci from Mallol R, 2007: Normals 
+4 foci from Brown M R G, 2006: Prosaccade Response > Fixation Brown M R G, 2006: Antisaccade Response > Fixation Brown M R G, 2006: Nogo Response > Fixation Brown M R G, 2006: Prosaccade Instruction > Fixation Brown M R G, 2006: Antisaccade Instruction > Fixation Brown M R G, 2006: Antisaccade Instuction > Nogo Instruction 
+1 foci from Falconer E, 2008: Trauma-Exposed Patients 
+1 foci from Falconer E, 2008: Normals 
+1 foci from Spence S A, 1997: Healthy Controls 
+1 foci from Aron A R, 2006: Stop - Go Aron A R, 2006: Stop Inhibit - Stop Respond 
+1 foci from Kaladjian A, 2009: Healthy Controls 
+1 foci from Chikazoe J, 2009: Disjunction Analysis, Stop vs. Uncertain-Go but not  Uncertain-Go vs. Certain-Go 
+1 foci from Chevrier A D, 2007: Cognitive Go-Phase Activities Chevrier A D, 2007: Successful Stop-Phase Activities 
+1 foci from Welander-Vatn A S, 2009: Healthy Controls 
+2 foci from Zheng D, 2008: No-Go - Go (Go/No-Go) Zheng D, 2008: Stop - Go (Stop Signal) 
+1 foci from Durston S, 2006: Healthy Controls 
+2 foci from Strakowski S M, 2008: Healthy Controls 
+5 foci from Zandbelt B B, 2011: Healthy Controls 
+2 foci from Shah C, 2011: Creative writing 
+2 foci from Mechelli A, 2009: Go/Nogo > Fixation Mechelli A, 2009: Nogo > Go 
+2 foci from Dionne J K, 2010: Motor Response-Related Activity > Rest 
+3 foci from Misra G, 2015: Force Only > Baseline Misra G, 2015: Conjunction Analysis: Force Only and Pain Only 
+1 foci from Hanakawa T, 2002: Complex finger-tapping > Visual fixation Hanakawa T, 2002: Complex finger-tapping > Simple finger-tapping 
+1 foci from Harrington D L, 2000: Regions activated by transitions Harrington D L, 2000: Regions activated by transitions (excluding repeated  sequences) 
+1 foci from Terry D P, 2012: Control, Athletes 
+1 foci from Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Right Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Right Hand vs.  Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Left Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Left Hand vs. Baseline 
+
+Contributors to cluster #4
+2 foci from Desmurget M, 2001: Overall hand-reaching effect Desmurget M, 2001: Strict hand-reaching effect 
+4 foci from Ehrsson H H, 2000: Foot vs. Rest Ehrsson H H, 2000: Simultaneous vs. Rest Ehrsson H H, 2000: Conjunction Analysis 
+1 foci from Indovina I, 2001: Move vs. No-Move Indovina I, 2001: Move-Attend vs. No-Move Indovina I, 2001: Move-Attend vs. Move Indovina I, 2001: Attend vs. No-Move 
+1 foci from van Mier H, 1998: Normal Adults - Right Tracing 
+2 foci from van Mier H, 1998: Normal Subjects - Left Tracing 
+1 foci from Gerardin E, 2000: Motor Execution vs. Rest 
+1 foci from Nobre A C, 2000: Areas Common to Saccades and Attention 
+1 foci from Nobre A C, 2002: Areas Common to Search and Saccades 
+1 foci from Kawashima R, 1996: Response Selection - Control Kawashima R, 1996: Go/NoGo Task - Control Task 
+1 foci from Liddle P F, 2001: Go - Baseline Liddle P F, 2001: Correct NoGo - Baseline 
+1 foci from Menon V, 2001: Go/NoGo - Go Menon V, 2001: Go - Rest 
+1 foci from Ehrsson H H, 2001: Precision Grip - Baseline Ehrsson H H, 2001: Small Force - Large Force 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+1 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART Fassbender C, 2004: Activations For Correct Inhibitions Fassbender C, 2004: Activations For Commission Errors 
+2 foci from Hester R L, 2004: Cued and Uncued Successful Response Inhibition 
+2 foci from Konen C S, 2004: Predictable and Unpredictable Saccades vs. Fixation Konen C S, 2004: Oscillatory Saccades vs. Fixation 
+3 foci from Matsuda T, 2004: Saccades vs. Rest Matsuda T, 2004: Anti-Saccades vs. Rest Matsuda T, 2004: Anti-Saccades > Saccades 
+1 foci from Paus T, 1995: Positive Covariations 
+1 foci from Gagnon D, 2002: CPT > Fixation Gagnon D, 2002: DPT > Fixation Gagnon D, 2002: TPT > Fixation Gagnon D, 2002: SCT > Fixation 
+1 foci from Perry R J, 2000: Target vs. Null Perry R J, 2000: Non-Target vs. Null 
+1 foci from Sweeney J A, 1996: Antisaccades - Visually Guided Saccades, Increases Sweeney J A, 1996: Memory Guided Saccades - Visually Guided Saccades,  Increases 
+10 foci from Bohland J W, 2006: Simple Syllable, Go vs. Fixation Bohland J W, 2006: Simple Sequence, Go vs. Fixation Bohland J W, 2006: Complex Syllable, Go vs. Fixation Bohland J W, 2006: Complex Sequence, Go vs. Fixation 
+1 foci from Mallol R, 2007: Normals 
+1 foci from Roth R M, 2007: Normals 
+1 foci from Brown M R G, 2006: Prosaccade Response > Fixation Brown M R G, 2006: Antisaccade Response > Fixation Brown M R G, 2006: Nogo Response > Fixation Brown M R G, 2006: Prosaccade Instruction > Fixation Brown M R G, 2006: Antisaccade Instruction > Fixation Brown M R G, 2006: Antisaccade Instuction > Nogo Instruction 
+6 foci from Aron A R, 2006: Stop - Go Aron A R, 2006: Stop Inhibit - Stop Respond 
+2 foci from Chikazoe J, 2009: Disjunction Analysis, Stop vs. Uncertain-Go but not  Uncertain-Go vs. Certain-Go 
+1 foci from Passarotti A M, 2010: Healthy Controls 
+1 foci from Strakowski S M, 2008: Healthy Controls 
+3 foci from Townsend J D, 2012: Healthy Controls 
+4 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Carrion V G, 2008: Healthy Controls 
+2 foci from Misra G, 2015: Force Only > Baseline Misra G, 2015: Conjunction Analysis: Force Only and Pain Only 
+1 foci from Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Right Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Right Hand vs.  Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Left Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Left Hand vs. Baseline 
+1 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+
+Contributors to cluster #5
+1 foci from Indovina I, 2001: Move vs. No-Move Indovina I, 2001: Move-Attend vs. No-Move Indovina I, 2001: Move-Attend vs. Move Indovina I, 2001: Attend vs. No-Move 
+1 foci from Gerardin E, 2000: Motor Execution vs. Rest 
+3 foci from Nobre A C, 2000: Areas Common to Saccades and Attention 
+2 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average 
+1 foci from Rubia K, 2001: Generic Go/No-Go Activation Rubia K, 2001: Generic Stop Activation 
+1 foci from Braver T S, 2001: Conjunction Analysis Braver T S, 2001: Disjunction Analysis 
+1 foci from Kawashima R, 1996: Response Selection - Control Kawashima R, 1996: Go/NoGo Task - Control Task 
+1 foci from Ehrsson H H, 2001: Precision Grip - Baseline Ehrsson H H, 2001: Small Force - Large Force 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+2 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART Fassbender C, 2004: Activations For Correct Inhibitions Fassbender C, 2004: Activations For Commission Errors 
+1 foci from Hester R L, 2004: Cued and Uncued Successful Response Inhibition 
+1 foci from Kelly A M, 2004: Fast and Slow Successful Response Inhibitions 
+3 foci from Konen C S, 2004: Predictable and Unpredictable Saccades vs. Fixation Konen C S, 2004: Oscillatory Saccades vs. Fixation 
+2 foci from Matsuda T, 2004: Saccades vs. Rest Matsuda T, 2004: Anti-Saccades vs. Rest Matsuda T, 2004: Anti-Saccades > Saccades 
+3 foci from Gagnon D, 2002: CPT > Fixation Gagnon D, 2002: DPT > Fixation Gagnon D, 2002: TPT > Fixation Gagnon D, 2002: SCT > Fixation 
+1 foci from Law I, 1997: Saccadic Suppression - Fixation Law I, 1997: Reflexive Saccades - Fixation 
+1 foci from Perry R J, 2000: Target vs. Null Perry R J, 2000: Non-Target vs. Null 
+1 foci from Sylvester C C, 2003: Normals, Group 2 
+1 foci from MacDonald III A W, 2003: Normal Subjects 
+1 foci from Chikazoe J, 2007: Antisaccade - Control Saccade 
+7 foci from Bohland J W, 2006: Simple Syllable, Go vs. Fixation Bohland J W, 2006: Simple Sequence, Go vs. Fixation Bohland J W, 2006: Complex Syllable, Go vs. Fixation Bohland J W, 2006: Complex Sequence, Go vs. Fixation 
+1 foci from Simmonds D J, 2007: Go Activations Simmonds D J, 2007: No-Go Activations Simmonds D J, 2007: No-Go Activations Negatively Correlated with  Intraindividual Coefficient of Variability 
+2 foci from Chikazoe J, 2009: Disjunction Analysis, Stop vs. Uncertain-Go but not  Uncertain-Go vs. Certain-Go 
+1 foci from Welander-Vatn A S, 2009: Healthy Controls 
+1 foci from Passarotti A M, 2010: Healthy Controls 
+1 foci from Strakowski S M, 2008: Healthy Controls 
+3 foci from Townsend J D, 2012: Healthy Controls 
+1 foci from Carrion V G, 2008: Healthy Controls 
+3 foci from Misra G, 2015: Force Only > Baseline Misra G, 2015: Conjunction Analysis: Force Only and Pain Only 
+1 foci from Hanakawa T, 2002: Complex finger-tapping > Visual fixation Hanakawa T, 2002: Complex finger-tapping > Simple finger-tapping 
+
+Contributors to cluster #6
+2 foci from Indovina I, 2001: Move vs. No-Move Indovina I, 2001: Move-Attend vs. No-Move Indovina I, 2001: Move-Attend vs. Move Indovina I, 2001: Attend vs. No-Move 
+5 foci from van Mier H, 1998: Normal Adults - Right Tracing 
+1 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average 
+1 foci from Binkofski F, 2002: Conjunction of Active Conditions vs. Baseline Binkofski F, 2002: Motor-directed Attention Binkofski F, 2002: Visually-directed Attention 
+2 foci from Kawashima R, 1996: Response Selection - Control Kawashima R, 1996: Go/NoGo Task - Control Task 
+1 foci from Liddle P F, 2001: Go - Baseline Liddle P F, 2001: Correct NoGo - Baseline 
+2 foci from Catalan M J, 1998: Sequence-12 vs. Rest Catalan M J, 1998: Sequence-12 vs. Simple 
+1 foci from Honey G D, 2003: Normals 
+1 foci from Lerner A, 2004: Normals 
+1 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART Fassbender C, 2004: Activations For Correct Inhibitions Fassbender C, 2004: Activations For Commission Errors 
+1 foci from Mostofsky S H, 2003: All Normal Subjects 
+1 foci from Law I, 1997: Saccadic Suppression - Fixation Law I, 1997: Reflexive Saccades - Fixation 
+1 foci from Garavan H, 2003: Event-Related STOPS 
+1 foci from Denslow S, 2005: Volitional Movement 
+1 foci from Rounis E, 2005: Main Effects of Movement 
+1 foci from Chikazoe J, 2007: Antisaccade - Control Saccade 
+6 foci from Bohland J W, 2006: Simple Syllable, Go vs. Fixation Bohland J W, 2006: Simple Sequence, Go vs. Fixation Bohland J W, 2006: Complex Syllable, Go vs. Fixation Bohland J W, 2006: Complex Sequence, Go vs. Fixation 
+1 foci from Simmonds D J, 2007: Go Activations Simmonds D J, 2007: No-Go Activations Simmonds D J, 2007: No-Go Activations Negatively Correlated with  Intraindividual Coefficient of Variability 
+1 foci from Spence S A, 1997: Healthy Controls 
+1 foci from Langheim F J, 2002: Bilateral Finger Tapping > Rest 
+1 foci from Shah C, 2011: Creative writing 
+1 foci from Misra G, 2015: Force Only > Baseline Misra G, 2015: Conjunction Analysis: Force Only and Pain Only 
+1 foci from Hanakawa T, 2002: Complex finger-tapping > Visual fixation Hanakawa T, 2002: Complex finger-tapping > Simple finger-tapping 
+1 foci from Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Right Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Right Hand vs.  Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Left Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Left Hand vs. Baseline 
+2 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+
+Contributors to cluster #7
+2 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average 
+1 foci from Braver T S, 2001: Conjunction Analysis Braver T S, 2001: Disjunction Analysis 
+1 foci from Kawashima R, 1996: Response Selection - Control Kawashima R, 1996: Go/NoGo Task - Control Task 
+1 foci from Ehrsson H H, 2001: Precision Grip - Baseline Ehrsson H H, 2001: Small Force - Large Force 
+1 foci from Asahi S, 2004: Response Inhibition 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+1 foci from Garavan H, 1999: Response Inhibition 
+2 foci from Kelly A M, 2004: Fast and Slow Successful Response Inhibitions 
+1 foci from Maguire R P, 2003: Go vs. Fixation Maguire R P, 2003: Go/No-Go vs. Fixation Maguire R P, 2003: Go/No-Go vs. Go 
+2 foci from De Zubicaray G I, 2000: Increases De Zubicaray G I, 2000: Linear Increases With Number of Trials Equated Per  Block 
+1 foci from Sweeney J A, 1996: Antisaccades - Visually Guided Saccades, Increases Sweeney J A, 1996: Memory Guided Saccades - Visually Guided Saccades,  Increases 
+2 foci from Garavan H, 2003: Event-Related STOPS 
+1 foci from De Souza J F, 2003: Selectively Activated for Saccades (Both Pro and Anti) 
+1 foci from Rounis E, 2005: Main Effects of Movement 
+1 foci from Chikazoe J, 2007: Antisaccade - Control Saccade 
+2 foci from Brown M R G, 2006: Prosaccade Response > Fixation Brown M R G, 2006: Antisaccade Response > Fixation Brown M R G, 2006: Nogo Response > Fixation Brown M R G, 2006: Prosaccade Instruction > Fixation Brown M R G, 2006: Antisaccade Instruction > Fixation Brown M R G, 2006: Antisaccade Instuction > Nogo Instruction 
+1 foci from Aron A R, 2006: Stop - Go Aron A R, 2006: Stop Inhibit - Stop Respond 
+1 foci from Chikazoe J, 2009: Disjunction Analysis, Stop vs. Uncertain-Go but not  Uncertain-Go vs. Certain-Go 
+1 foci from Chevrier A D, 2007: Cognitive Go-Phase Activities Chevrier A D, 2007: Successful Stop-Phase Activities 
+1 foci from Welander-Vatn A S, 2009: Healthy Controls 
+1 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Mechelli A, 2009: Go/Nogo > Fixation Mechelli A, 2009: Nogo > Go 
+1 foci from Dionne J K, 2010: Motor Response-Related Activity > Rest 
+1 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+
+Contributors to cluster #8
+4 foci from Indovina I, 2001: Move vs. No-Move Indovina I, 2001: Move-Attend vs. No-Move Indovina I, 2001: Move-Attend vs. Move Indovina I, 2001: Attend vs. No-Move 
+1 foci from Nobre A C, 2000: Areas Common to Saccades and Attention 
+1 foci from Rubia K, 2001: Generic Go/No-Go Activation Rubia K, 2001: Generic Stop Activation 
+2 foci from Braver T S, 2001: Conjunction Analysis Braver T S, 2001: Disjunction Analysis 
+1 foci from Menon V, 2001: Go/NoGo - Go Menon V, 2001: Go - Rest 
+1 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART Fassbender C, 2004: Activations For Correct Inhibitions Fassbender C, 2004: Activations For Commission Errors 
+1 foci from Garavan H, 1999: Response Inhibition 
+2 foci from Kelly A M, 2004: Fast and Slow Successful Response Inhibitions 
+1 foci from Paus T, 1995: Positive Covariations 
+1 foci from Perry R J, 2000: Target vs. Null Perry R J, 2000: Non-Target vs. Null 
+1 foci from MacDonald III A W, 2003: Normal Subjects 
+1 foci from Denslow S, 2005: Volitional Movement 
+1 foci from Chikazoe J, 2007: Antisaccade - Control Saccade 
+5 foci from Bohland J W, 2006: Simple Syllable, Go vs. Fixation Bohland J W, 2006: Simple Sequence, Go vs. Fixation Bohland J W, 2006: Complex Syllable, Go vs. Fixation Bohland J W, 2006: Complex Sequence, Go vs. Fixation 
+1 foci from Simmonds D J, 2007: Go Activations Simmonds D J, 2007: No-Go Activations Simmonds D J, 2007: No-Go Activations Negatively Correlated with  Intraindividual Coefficient of Variability 
+5 foci from Aron A R, 2006: Stop - Go Aron A R, 2006: Stop Inhibit - Stop Respond 
+1 foci from Mulder M J, 2008: Healthy Controls 
+1 foci from Pompei F, 2011: Healthy Controls 
+1 foci from Strakowski S M, 2008: Healthy Controls 
+1 foci from Townsend J D, 2012: Healthy Controls 
+3 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Carrion V G, 2008: Healthy Controls 
+1 foci from Mechelli A, 2009: Go/Nogo > Fixation Mechelli A, 2009: Nogo > Go 
+2 foci from Misra G, 2015: Force Only > Baseline Misra G, 2015: Conjunction Analysis: Force Only and Pain Only 
+
+Contributors to cluster #9
+1 foci from Desmurget M, 2001: Overall hand-reaching effect Desmurget M, 2001: Strict hand-reaching effect 
+1 foci from van Mier H, 1998: Normal Adults - Right Tracing 
+1 foci from Gerardin E, 2000: Motor Execution vs. Rest 
+1 foci from Ehrsson H H, 2001: Precision Grip - Baseline Ehrsson H H, 2001: Small Force - Large Force 
+1 foci from Lerner A, 2004: Normals 
+2 foci from Matsuda T, 2004: Saccades vs. Rest Matsuda T, 2004: Anti-Saccades vs. Rest Matsuda T, 2004: Anti-Saccades > Saccades 
+1 foci from Koyama M, 2004: Serial Saccades > Fixation 
+1 foci from Law I, 1997: Saccadic Suppression - Fixation Law I, 1997: Reflexive Saccades - Fixation 
+1 foci from Denslow S, 2005: Volitional Movement 
+4 foci from Bohland J W, 2006: Simple Syllable, Go vs. Fixation Bohland J W, 2006: Simple Sequence, Go vs. Fixation Bohland J W, 2006: Complex Syllable, Go vs. Fixation Bohland J W, 2006: Complex Sequence, Go vs. Fixation 
+1 foci from Coull J T, 2004: Activations Due to Motor Response 
+1 foci from Aron A R, 2006: Stop - Go Aron A R, 2006: Stop Inhibit - Stop Respond 
+1 foci from Baglio F, 2009: Healthy Controls 
+1 foci from Passarotti A M, 2010: Healthy Controls 
+1 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Shah C, 2011: Creative writing 
+1 foci from Misra G, 2015: Force Only > Baseline Misra G, 2015: Conjunction Analysis: Force Only and Pain Only 
+1 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+
+Contributors to cluster #10
+1 foci from Indovina I, 2001: Move vs. No-Move Indovina I, 2001: Move-Attend vs. No-Move Indovina I, 2001: Move-Attend vs. Move Indovina I, 2001: Attend vs. No-Move 
+1 foci from Nobre A C, 2000: Areas Common to Saccades and Attention 
+1 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average 
+1 foci from Liddle P F, 2001: Go - Baseline Liddle P F, 2001: Correct NoGo - Baseline 
+1 foci from Fassbender C, 2004: Tonic Activations for Fixed and Random SART Fassbender C, 2004: Activations For Correct Inhibitions Fassbender C, 2004: Activations For Commission Errors 
+1 foci from Garavan H, 1999: Response Inhibition 
+1 foci from Konen C S, 2004: Predictable and Unpredictable Saccades vs. Fixation Konen C S, 2004: Oscillatory Saccades vs. Fixation 
+1 foci from Maguire R P, 2003: Go vs. Fixation Maguire R P, 2003: Go/No-Go vs. Fixation Maguire R P, 2003: Go/No-Go vs. Go 
+1 foci from Mostofsky S H, 2003: All Normal Subjects 
+1 foci from Petit L, 1999: Normal Subject 3 
+1 foci from Petit L, 1999: Normal Subject 4 
+1 foci from Rounis E, 2005: Main Effects of Movement 
+1 foci from Chikazoe J, 2007: Antisaccade - Control Saccade 
+3 foci from Bohland J W, 2006: Simple Syllable, Go vs. Fixation Bohland J W, 2006: Simple Sequence, Go vs. Fixation Bohland J W, 2006: Complex Syllable, Go vs. Fixation Bohland J W, 2006: Complex Sequence, Go vs. Fixation 
+1 foci from Kaladjian A, 2009: Healthy Controls 
+1 foci from Kaladjian A, 2009: Healthy Controls 
+2 foci from Shah C, 2011: Creative writing 
+1 foci from Mechelli A, 2009: Go/Nogo > Fixation Mechelli A, 2009: Nogo > Go 
+2 foci from Misra G, 2015: Force Only > Baseline Misra G, 2015: Conjunction Analysis: Force Only and Pain Only 

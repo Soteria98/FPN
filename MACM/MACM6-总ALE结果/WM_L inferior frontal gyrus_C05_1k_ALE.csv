@@ -1,0 +1,40 @@
+Viewer,Image,Description,Mean,Sum,SD,Size (mm),Voxels
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,cc1,0.00613715,18.84718767,0.008385157,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,cc2,0.013737807,42.18880674,0.011951907,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,cc3,0.002423041,7.441159826,0.006395241,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,cc4,0,0,0,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,cc5,0.005947547,18.26491534,0.009526911,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,cc6,0,0,0,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,cc7,0.004942111,15.17722405,0.008269238,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,cc8,0.008044699,24.70527074,0.010887168,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,wm1,0.022056664,67.73601394,0.010500724,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,wm2,0.052518202,161.2833991,0.015429635,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,wm3,0.013539276,41.57911702,0.01174882,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,wm4,0.011066032,33.98378523,0.010315033,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,wm5,0.009079531,27.88323928,0.010498183,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,wm6,8.13E-04,2.496000261,0.003310016,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,wm7,0,0,0,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,wm8,0,0,0,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,cc9,0,0,0,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,cc10,0,0,0,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,at1,0.04659692,143.0991428,0.019298049,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,at2,0.01263849,38.81280204,0.010407022,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,at3,0.027036662,83.02958907,0.008240012,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,at4,0.009421945,28.93479318,0.010408915,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,at5,0.001518328,4.662786233,0.004705244,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,at6,0.007813367,23.99484908,0.010881186,3071,3071
+Colin27_T1_seg_MNI,L inferior frontal gyrus_C05_1k_ALE,at7,0.015965941,49.03140548,0.012427156,3071,3071
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

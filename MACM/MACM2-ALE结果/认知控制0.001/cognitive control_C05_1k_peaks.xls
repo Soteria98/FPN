@@ -1,0 +1,52 @@
+Cluster #	x	y	z	ALE	P	Z	Label (Nearest Gray Matter within 5mm)
+1	0	4	54	0.12964147	5.8195066E-34	12.094365	Left Cerebrum.Frontal Lobe.Medial Frontal Gyrus.Gray Matter.Brodmann area 6
+1	-32	-4	52	0.09439661	1.8367085E-21	9.442453	Left Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 6
+1	-40	-16	56	0.09130133	1.8719926E-20	9.195988	Left Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 4
+1	-26	-58	56	0.086068116	8.680483E-19	8.773897	Left Cerebrum.Parietal Lobe.Precuneus.Gray Matter.Brodmann area 7
+1	-38	-24	54	0.0860341	8.934845E-19	8.770645	Left Cerebrum.Parietal Lobe.Postcentral Gyrus.Gray Matter.Brodmann area 3
+1	-46	-40	52	0.051741134	4.7680766E-9	5.7388434	Left Cerebrum.Parietal Lobe.Inferior Parietal Lobule.Gray Matter.Brodmann area 40
+1	-40	-42	50	0.051611558	5.137828E-9	5.7261786	Left Cerebrum.Parietal Lobe.Inferior Parietal Lobule.Gray Matter.Brodmann area 40
+1	-46	-38	46	0.05062468	9.054582E-9	5.6292143	Left Cerebrum.Parietal Lobe.Inferior Parietal Lobule.Gray Matter.Brodmann area 40
+1	-52	2	38	0.04424088	3.0813814E-7	4.986068	Left Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 6
+1	-56	-44	30	0.042437345	8.002699E-7	4.798271	Left Cerebrum.Parietal Lobe.Inferior Parietal Lobule.Gray Matter.Brodmann area 40
+1	-64	-38	30	0.042053446	9.814111E-7	4.75723	Left Cerebrum.Parietal Lobe.Inferior Parietal Lobule.Gray Matter.Brodmann area 40
+1	-6	-64	56	0.041263998	1.4804142E-6	4.6735315	Left Cerebrum.Parietal Lobe.Precuneus.Gray Matter.Brodmann area 7
+1	-48	4	30	0.039151102	4.3549076E-6	4.4469576	Left Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 6
+1	-44	-60	38	0.03677196	1.4227095E-5	4.1855016	Left Cerebrum.Parietal Lobe.Angular Gyrus.Gray Matter.Brodmann area 39
+1	8	-14	70	0.034364857	4.5423505E-5	3.9138227	Right Cerebrum.Frontal Lobe.Medial Frontal Gyrus.Gray Matter.Brodmann area 6
+1	-30	-42	68	0.031069499	2.0747838E-4	3.5303843	Left Cerebrum.Parietal Lobe.Superior Parietal Lobule.Gray Matter.Brodmann area 7
+1	-46	-36	34	0.030573139	2.5956804E-4	3.4706833	Left Cerebrum.Parietal Lobe.Supramarginal Gyrus.Gray Matter.Brodmann area 40
+2	42	-44	48	0.07967307	8.235796E-17	8.245823	Right Cerebrum.Parietal Lobe.Inferior Parietal Lobule.Gray Matter.Brodmann area 40
+2	52	-40	38	0.06007194	3.323118E-11	6.528577	Right Cerebrum.Parietal Lobe.Supramarginal Gyrus.Gray Matter.Brodmann area 40
+2	30	-62	48	0.059857644	3.7822655E-11	6.5091586	Right Cerebrum.Parietal Lobe.Superior Parietal Lobule.Gray Matter.Brodmann area 7
+2	22	-60	58	0.05844219	9.015681E-11	6.3773623	Right Cerebrum.Parietal Lobe.Superior Parietal Lobule.Gray Matter.Brodmann area 7
+2	18	-66	54	0.054271057	1.0933515E-9	5.9833784	Right Cerebrum.Parietal Lobe.Precuneus.Gray Matter.Brodmann area 7
+2	34	-74	34	0.030672422	2.4821263E-4	3.4826782	Right Cerebrum.Parietal Lobe.Precuneus.Gray Matter.Brodmann area 19
+3	40	-2	50	0.08410448	3.582685E-18	8.612841	Right Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 6
+3	52	6	30	0.06729183	3.4616266E-13	7.1811924	Right Cerebrum.Frontal Lobe.Inferior Frontal Gyrus.Gray Matter.Brodmann area 6
+3	26	-2	54	0.06506743	1.443611E-12	6.983322	Right Cerebrum.Frontal Lobe.Sub-Gyral.Gray Matter.Brodmann area 6
+3	50	16	20	0.045029525	2.0154768E-7	5.067516	Right Cerebrum.Frontal Lobe.Inferior Frontal Gyrus.Gray Matter.Brodmann area 9
+3	48	-2	42	0.044661395	2.4600635E-7	5.0294256	Right Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 6
+3	44	14	34	0.04057872	2.102131E-6	4.6010313	Right Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 9
+3	50	24	28	0.037612285	9.407143E-6	4.278522	Right Cerebrum.Frontal Lobe.Middle Frontal Gyrus.Gray Matter.Brodmann area 9
+4	12	-14	8	0.056348868	3.182613E-10	6.1812153	Right Cerebrum.Sub-lobar.Thalamus.Gray Matter.Medial Dorsal Nucleus
+4	24	2	6	0.053775925	1.4578604E-9	5.936355	Right Cerebrum.Sub-lobar.Lentiform Nucleus.Gray Matter.Putamen
+4	6	-22	-2	0.03774565	8.776446E-6	4.2939467	Right Cerebrum.Sub-lobar.Thalamus.Gray Matter.*
+4	10	-16	-8	0.032454498	1.10751906E-4	3.6931386	Right Brainstem.Midbrain.*.Gray Matter.Subthalamic Nucleus
+5	-34	18	0	0.05108353	6.9627752E-9	5.674361	Left Cerebrum.Sub-lobar.Claustrum.Gray Matter.*
+5	-22	12	4	0.043767463	3.95996E-7	4.937351	Left Cerebrum.Sub-lobar.Lentiform Nucleus.Gray Matter.Putamen
+5	-24	-4	6	0.043646745	4.2218477E-7	4.924843	Left Cerebrum.Sub-lobar.Lentiform Nucleus.Gray Matter.Putamen
+6	22	-54	-22	0.050598804	9.159923E-9	5.6272182	Right Cerebellum.Anterior Lobe.Culmen.Gray Matter.*
+6	6	-64	-16	0.037446838	1.0181123E-5	4.260886	Right Cerebellum.Posterior Lobe.Declive.Gray Matter.*
+7	40	34	26	0.050066832	1.2379715E-8	5.5750074	Right Cerebrum.Frontal Lobe.Middle Frontal Gyrus.Gray Matter.Brodmann area 9
+7	36	46	26	0.041455593	1.3343227E-6	4.6948156	Right Cerebrum.Frontal Lobe.Middle Frontal Gyrus.Gray Matter.Brodmann area 9
+7	24	48	30	0.029000178	5.178269E-4	3.2806575	Right Cerebrum.Frontal Lobe.Superior Frontal Gyrus.Gray Matter.Brodmann area 9
+8	38	20	2	0.056987062	2.1678573E-10	6.2415476	Right Cerebrum.Sub-lobar.Insula.Gray Matter.Brodmann area 13
+8	52	18	-6	0.03917466	4.311185E-6	4.449126	Right Cerebrum.Frontal Lobe.Inferior Frontal Gyrus.Gray Matter.*
+8	42	12	6	0.032425392	1.11774694E-4	3.6908011	Right Cerebrum.Sub-lobar.Insula.Gray Matter.Brodmann area 13
+8	56	10	2	0.030030549	3.298728E-4	3.4057832	Right Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 44
+8	42	24	-18	0.02880401	5.646153E-4	3.2561777	Right Cerebrum.Frontal Lobe.Inferior Frontal Gyrus.Gray Matter.Brodmann area 47
+8	38	26	-16	0.028773084	5.719872E-4	3.252493	Right Cerebrum.Frontal Lobe.Inferior Frontal Gyrus.Gray Matter.Brodmann area 47
+9	-14	-20	8	0.060268164	2.9373646E-11	6.5470395	Left Cerebrum.Sub-lobar.Thalamus.Gray Matter.Ventral Posterior Medial Nucleus
+10	-42	-70	0	0.041587006	1.2471785E-6	4.708604	Left Cerebrum.Occipital Lobe.Inferior Temporal Gyrus.Gray Matter.Brodmann area 37
+10	-32	-60	-24	0.037196506	1.1518453E-5	4.2332244	Left Cerebellum.Anterior Lobe.Culmen.Gray Matter.*

@@ -1,0 +1,13 @@
+Cluster #	x	y	z	ALE	P	Z	Label (Nearest Gray Matter within 5mm)
+1	-30	4	54	0.0096030645	1.2702292E-5	4.2111793	Left Cerebrum.Frontal Lobe.Middle Frontal Gyrus.Gray Matter.Brodmann area 6
+1	-48	26	40	0.007331918	1.4041038E-4	3.632379	Left Cerebrum.Frontal Lobe.Middle Frontal Gyrus.Gray Matter.Brodmann area 8
+1	-58	0	18	0.006376485	4.8948894E-4	3.2964995	Left Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 4
+1	-42	-2	38	0.006298289	5.544311E-4	3.261342	Left Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 6
+1	-48	22	22	0.0062732166	5.633497E-4	3.2568147	Left Cerebrum.Frontal Lobe.Inferior Frontal Gyrus.Gray Matter.Brodmann area 9
+1	-54	-2	26	0.0061835335	5.905765E-4	3.2433927	Left Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 6
+1	-42	6	28	0.0058445996	8.7205484E-4	3.130665	Left Cerebrum.Frontal Lobe.Precentral Gyrus.Gray Matter.Brodmann area 6
+2	16	18	32	0.012430496	2.1122355E-7	5.0585794	Right Cerebrum.Limbic Lobe.Cingulate Gyrus.Gray Matter.Brodmann area 24
+2	-8	12	50	0.0074194823	1.01203215E-4	3.7159948	Left Cerebrum.Frontal Lobe.Medial Frontal Gyrus.Gray Matter.Brodmann area 6
+2	6	22	42	0.0060621286	6.242518E-4	3.227561	Right Cerebrum.Frontal Lobe.Medial Frontal Gyrus.Gray Matter.Brodmann area 6
+2	-8	16	30	0.0058772103	8.3274144E-4	3.1441882	Left Cerebrum.Limbic Lobe.Cingulate Gyrus.Gray Matter.Brodmann area 24
+2	-2	20	42	0.00579328	9.4439136E-4	3.107185	Left Cerebrum.Limbic Lobe.Cingulate Gyrus.Gray Matter.Brodmann area 32

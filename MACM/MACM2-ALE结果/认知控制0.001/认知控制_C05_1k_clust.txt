@@ -1,0 +1,488 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = 认知控制.txt
+Number of foci                = 4723
+Number of experiments         = 190
+Total number of subjects      = 1978
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = 认知控制_ALE.nii
+FWHM minimum value            = 8.727885998662787
+FWHM median value             = 10.002568195473065
+FWHM maximum value            = 19.072644189655946
+Minimum ALE score             = 1.768662E-16
+Maximum ALE score             = 0.20808293
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = 认知控制_P.nii
+Minimum P value               = 1.4E-45
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 212160 mm^3
+Chosen min. cluster size      = 2232 mm^3
+Thresholded ALE image         = 认知控制_C05_1k_ALE.nii
+
+Cluster Analysis:
+ #1: 120704 mm^3 from (-66,-66,-10) to (18,22,74) centered at (-29.9,-12.3,40.9) with 16 peaks
+     with a max value of .2081 ALE, 0.0 P, 16.5 Z at (-38,-20,56) 
+   Labels: (Gray Matter only)
+     Hemisphere: 91.2% Left Cerebrum, 8.5% Right Cerebrum
+     Lobe: 38.8% Frontal Lobe, 26.6% Parietal Lobe, 26% Sub-lobar, 6.3% Limbic Lobe, 2% Temporal Lobe
+     Gyrus: 18.1% Precentral Gyrus, 14.2% Postcentral Gyrus, 11.3% Lentiform Nucleus, 11.1% Medial Frontal Gyrus, 10.4% Thalamus, 8.8% Inferior Parietal Lobule, 6.3% Cingulate Gyrus, 3.6% Insula, 2.9% Middle Frontal Gyrus, 2.8% Superior Frontal Gyrus, 2.3% Inferior Frontal Gyrus, 2.3% Superior Parietal Lobule, 1.3% Superior Temporal Gyrus, 1.2% Paracentral Lobule
+     Cell Type: 26.4% Brodmann area 6, 11.1% Brodmann area 40, 8.2% Putamen, 7.3% Brodmann area 4, 6% Brodmann area 3, 5% Brodmann area 24, 4.5% Brodmann area 2, 3.5% Brodmann area 13, 3.1% Brodmann area 7, 2.5% Lateral Globus Pallidus, 2% Pulvinar, 2% Brodmann area 32, 1.6% Brodmann area 41, 1.5% Ventral Lateral Nucleus, 1.4% Brodmann area 9, 1.3% Medial Dorsal Nucleus, 1.2% Brodmann area 31, 1.2% Brodmann area 44, 1% Brodmann area 43
+
+ #2: 71920 mm^3 from (6,-68,-12) to (70,18,70) centered at (43.3,-13.8,32.7) with 18 peaks
+     with a max value of .1317 ALE, 3.0990579E-30 P, 11.37 Z at (14,-16,6) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 35.3% Frontal Lobe, 33.3% Sub-lobar, 30.6% Parietal Lobe
+     Gyrus: 24.5% Precentral Gyrus, 15.7% Lentiform Nucleus, 14% Postcentral Gyrus, 12.7% Thalamus, 11.5% Inferior Parietal Lobule, 5.4% Middle Frontal Gyrus, 4.4% Inferior Frontal Gyrus, 4.1% Insula, 2.6% Precuneus, 2.4% Superior Parietal Lobule
+     Cell Type: 18.8% Brodmann area 6, 14% Brodmann area 40, 11.5% Putamen, 9.6% Brodmann area 4, 7.1% Brodmann area 3, 4.9% Brodmann area 7, 3.9% Brodmann area 2, 3.9% Brodmann area 13, 3.6% Lateral Globus Pallidus, 3.3% Brodmann area 44, 3% Brodmann area 9, 2.6% Ventral Lateral Nucleus, 2.6% Medial Dorsal Nucleus, 1.1% Pulvinar
+
+ #3: 19536 mm^3 from (-36,-70,-34) to (34,-42,-4) centered at (5.2,-57.8,-20.5) with 4 peaks
+     with a max value of .1491 ALE, 1.343268E-36 P, 12.58 Z at (20,-54,-22) 
+   Labels: (Gray Matter only)
+     Hemisphere: 59.1% Right Cerebellum, 40.9% Left Cerebellum
+     Lobe: 78.3% Anterior Lobe, 21.7% Posterior Lobe
+     Gyrus: 52% Culmen, 20.6% Declive, 2.6% Fastigium, 2% Nodule
+     Cell Type: 12.7% Dentate
+
+
+Experiment Table:
+[ 5 15 2 8 1 9 3 19 15 21 22 7 11 21 0 8 21 0 5 9 2 4 5 4 5 4 1 18 9 2 2 4 2 2 2 5 9 4 0 3 2 3 8 2 7 6 4 4 4 4 4 4 4 4 4 5 10 12 8 1 0 33 1 7 7 4 1 5 4 3 6 8 7 8 7 6 2 2 2 3 77 5 0 15 11 2 4 7 59 4 4 4 4 4 4 34 3 9 2 2 26 0 3 20 28 2 5 2 3 10 10 3 23 6 3 10 8 5 27 6 3 0 25 7 4 5 26 19 24 7 2 46 40 15 0 17 7 42 13 32 8 11 5 6 4 2 2 11 2 8 1 2 9 3 2 25 21 2 14 3 0 16 18 18 9 6 39 13 5 5 14 48 1 5 11 9 13 9 7 4 23 12 25 8 15 5 9 14 3 3 ]
+[ 0 19 2 3 0 3 5 13 13 9 11 0 13 1 0 0 13 0 6 1 0 2 4 0 0 0 2 7 5 1 2 1 0 2 0 3 8 1 2 0 4 1 3 1 0 1 0 0 0 0 0 0 0 0 0 1 7 6 1 2 1 20 0 1 5 0 0 2 4 7 8 1 0 6 1 1 1 0 5 0 61 3 1 3 7 2 6 3 0 3 4 4 3 3 4 12 2 6 2 1 15 0 3 10 14 2 1 0 3 4 4 1 16 1 1 6 11 2 7 14 1 3 1 3 0 1 8 12 18 1 13 35 24 14 0 0 6 0 2 17 0 5 16 3 1 0 2 9 3 8 2 2 1 2 0 8 7 4 1 3 1 5 5 16 5 3 16 1 2 0 10 12 2 0 10 9 6 3 6 4 7 4 8 4 9 3 1 4 0 2 ]
+[ 1 3 0 2 0 3 1 12 12 2 0 0 0 0 0 4 5 2 0 1 1 1 2 0 0 0 0 2 0 1 0 0 0 0 1 0 0 1 0 0 0 1 2 1 1 1 0 0 0 0 0 0 0 0 0 2 0 0 4 0 0 6 0 1 2 0 0 0 0 2 3 0 3 0 2 0 0 0 2 0 0 2 0 0 1 0 1 0 18 0 0 0 0 0 0 0 1 3 1 0 0 0 0 4 4 1 1 0 2 1 0 2 8 2 0 1 0 0 0 0 1 2 5 4 2 0 5 0 0 0 0 8 9 10 0 0 0 0 0 8 2 0 1 0 0 0 0 1 1 1 0 0 1 3 0 5 1 0 11 0 0 1 5 5 0 1 0 0 1 0 5 0 1 0 4 6 0 3 4 3 0 4 5 0 6 1 4 0 0 0 ]
+
+Contributors to cluster #1
+5 foci from Desmurget M, 2001: Strict hand-reaching effect 
+15 foci from Ehrsson H H, 2000: Foot vs. Rest Ehrsson H H, 2000: Hand vs. Rest Ehrsson H H, 2000: Simultaneous vs. Rest Ehrsson H H, 2000: Hand vs. Foot Ehrsson H H, 2000: Conjunction Analysis Ehrsson H H, 2000: {(Hand - Rest) + (Foot - Rest)} - (Simultaneous - Rest) 
+2 foci from Gosain A K, 2001: Smile vs. Rest Gosain A K, 2001: Finger-tapping vs. Rest 
+8 foci from Indovina I, 2001: Move vs. No-Move 
+1 foci from Mayer A R, 2001: Right Hand > Foot 
+9 foci from Rao S M, 1997: Continuation-300 vs. Rest Rao S M, 1997: Synchronization-600 vs. Rest Rao S M, 1997: Continuation-600 vs. Rest 
+3 foci from Stephan K M, 2002: 3% Modulation vs. Isochronous Stephan K M, 2002: 7% Modulation vs. Isochronous Stephan K M, 2002: 20% Modulation vs. Isochronous 
+19 foci from van Mier H, 1998: Normal Adults - Right Tracing 
+15 foci from van Mier H, 1998: Normal Subjects - Left Tracing 
+21 foci from Gerardin E, 2000: Motor Execution vs. Rest Gerardin E, 2000: Motor Execution vs. Motor Imagination 
+22 foci from Simon O, 2002: Grasping vs. Grasping Control Simon O, 2002: Pointing vs. Pointing Control Simon O, 2002: Grasping Only Simon O, 2002: Manual Tasks Only (Grasping and Pointing) 
+7 foci from Gelnar P A, 1999: Motor vs. Rest 
+11 foci from Buccino G, 2001: Mouth with Object Film - Static Mouth Buccino G, 2001: Mouth Film - Static Mouth Buccino G, 2001: Hand with Object Film - Static Hand Buccino G, 2001: Hand Film - Static Hand Buccino G, 2001: Foot with Object Film - Static Foot Buccino G, 2001: Foot Film - Static Foot 
+21 foci from Colebatch J G, 1991: Index - Rest Colebatch J G, 1991: Shoulder - Rest Colebatch J G, 1991: Opposition - Rest Colebatch J G, 1991: Fist - Rest 
+8 foci from Grafton S T, 1993: Shoulder - Rest Grafton S T, 1993: Elbow - Rest Grafton S T, 1993: Wrist - Rest Grafton S T, 1993: Finger - Rest 
+21 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+5 foci from Lotze M, 2000: Lip Pursing vs. Rest Lotze M, 2000: /pa/ vs. Rest Lotze M, 2000: Tip of Tongue vs. Rest Lotze M, 2000: /ta/ vs. Rest Lotze M, 2000: /ka/ vs. Rest Lotze M, 2000: /pataka/ vs. Rest 
+9 foci from Winstein C J, 1997: Movement-Related Brain Areas During Reciprocal Aiming 
+2 foci from Muley S A, 2001: Normals SF2 
+4 foci from Muley S A, 2001: Normals SF3 
+5 foci from Corfield D R, 1999: Tongue Contraction - Rest 
+4 foci from Paus T, 1993: Group 1 Normals 
+5 foci from Carey L M, 2000: Initial Scan:  Right Hand Finger Tapping - Rest Carey L M, 2000: Six-Month Scan:  Right Hand Finger Tapping - Rest 
+4 foci from Kawashima R, 2000: Task vs. Control 
+1 foci from Seitz R J, 2000: Group 3 Normals 
+18 foci from Umetsu A, 2002: R-FP vs. Control Umetsu A, 2002: L-FP vs. Control Umetsu A, 2002: R-FEP vs. Control Umetsu A, 2002: L-FEP vs. Control 
+9 foci from Binkofski F, 2000: Somatosensory Guided Movement vs. Rest Binkofski F, 2000: Visually Guided Movement vs. Rest 
+2 foci from Inoue K, 2001: R Grasp - Hold Inoue K, 2001: L Grasp - Hold Inoue K, 2001: R Tool - Hold Inoue K, 2001: L Tool - Hold Inoue K, 2001: (R Tool - R Grasp) masked with (R Tool - Hold) Inoue K, 2001: (L Grasp - L Tool) masked with (L Grasp - Hold) 
+2 foci from Menon V, 2001: Go - Rest 
+4 foci from Casey B J, 1998: Pooled Subjects 
+2 foci from Casey B J, 1998: Boston Site 
+2 foci from Casey B J, 1998: Madison Site 
+2 foci from Casey B J, 1998: Minnesota Site 
+5 foci from Casey B J, 1998: Pittsburgh Site 
+9 foci from Ehrsson H H, 2001: Precision Grip - Baseline Ehrsson H H, 2001: Small Force - Large Force Ehrsson H H, 2001: Large Force - Small Force 
+4 foci from Grafton S T, 1992: Pursuit vs. Control 
+3 foci from Murtha S, 1999: Semantic Judgment Anticipation - Baseline (Activations) Murtha S, 1999: Semantic Judgment Anticipation - Baseline (Deactivations) 
+2 foci from Wheaton K J, 2004: Face Moving vs. Still Wheaton K J, 2004: Hand Moving vs. Still Wheaton K J, 2004: Leg Moving vs. Still 
+3 foci from Blinkenberg M, 1996: Fingertapping vs. Rest 
+8 foci from Catalan M J, 1998: Sequence-12 vs. Rest Catalan M J, 1998: Sequence-12 vs. Simple 
+2 foci from Honey G D, 2003: Normals 
+7 foci from Joliot M, 1998: Finger Tapping - Rest 
+6 foci from Lerner A, 2004: Normals 
+4 foci from Ramsey N F, 1996: Subject 1 
+4 foci from Ramsey N F, 1996: Subject 2 
+4 foci from Ramsey N F, 1996: Subject 3 
+4 foci from Ramsey N F, 1996: Subject 4 
+4 foci from Ramsey N F, 1996: Subject 5 
+4 foci from Ramsey N F, 1996: Subject 6 
+4 foci from Ramsey N F, 1996: Subject 7 
+4 foci from Ramsey N F, 1996: Subject 8 
+4 foci from Ramsey N F, 1996: Subject 9 
+5 foci from Sadato N, 1996: Various Lengths Sadato N, 1996: Increased Complexity:  rCBF Increases Sadato N, 1996: Increased Complexity:  rCBF Decreases 
+10 foci from Astafiev S V, 2003: Pointing vs. Fixation Astafiev S V, 2003: Pointing > Saccade 
+12 foci from Connolly J D, 2000: Pro-Pointing vs. Fixation Connolly J D, 2000: Anti-Pointing vs. Fixation 
+8 foci from Katanoda K, 2001: Writing - Naming 
+1 foci from Seurinck R, 2005: Self-Paced, Button Press Hand, Right > Left Seurinck R, 2005: Self-Paced, Button Press Hand, Left > Right 
+33 foci from Watanabe J, 2004: LEFT > REST Watanabe J, 2004: RIGHT > REST Watanabe J, 2004: RETR > REST Watanabe J, 2004: LEFT > RETR Watanabe J, 2004: RIGHT > RETR Watanabe J, 2004: (LEFT + RIGHT) > (2*RETR) 
+1 foci from Fox P T, 2004: Finger Movement vs. Sham TMS 
+7 foci from Denslow S, 2005: Volitional Movement 
+7 foci from Rounis E, 2005: Main Effects of Movement 
+4 foci from De Luca M, 2005: Control Subjects 
+1 foci from Hamzei F, 2003: Active vs. Passive 
+5 foci from Pierno A C, 2006: Action vs. No Action Pierno A C, 2006: Interaction Between Type of Observed Behaviour and  Distractor 
+4 foci from Wilson S M, 2004: Producing Speech Wilson S M, 2004: Moving Fingers 
+3 foci from Nowak M, 2005: Normals 
+6 foci from Wong S W, 2007: 35% Maximum Contraction - 5% Maximum Contraction,  Deactivations Wong S W, 2007: Right and Left Hand, 35% Trials, Activations Wong S W, 2007: Right and Left Hand, 35% Trials, Deactivations 
+8 foci from Rektor I, 2006: Dots vs. Fixation 
+7 foci from Begliomini C, 2007: Grasping Small > Reaching Small Begliomini C, 2007: Grasping Large > Reaching Large Begliomini C, 2007: Grasping Small > Grasping Large 
+8 foci from Mallol R, 2007: Normals 
+7 foci from Milner T E, 2007: Simple Grip vs. Rest Milner T E, 2007: Complex Grip vs. Rest Milner T E, 2007: Complex Grip vs. Simple Grip 
+6 foci from Ghatan P H, 1995: Motor Control vs. Rest, Increase in rCBF Ghatan P H, 1995: Motor Control vs. Rest, Decrease in rCBF 
+2 foci from Blok B F M, 1997: Sustained Abdominal Straining - Rest 
+2 foci from Gavazzi C, 2007: Normals 
+2 foci from Marchand W R, 2007: Normals 
+3 foci from Diedrichsen J, 2006: Congruency Effect for Spatial Cues Diedrichsen J, 2006: Congruency Effect for Symbolic Cues Diedrichsen J, 2006: Symbolic > Spatial 
+77 foci from Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Non-Dominant Hand Lissek S, 2007: Simple > Rest, Dominant Hand Lissek S, 2007: Simple > Rest, Non-Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Non-Dominant Hand 
+5 foci from Creem-Regehr S H, 2005: Finger Clenching > Rest 
+15 foci from Simon O, 2004: Manual Tasks Only Simon O, 2004: Grasping Only 
+11 foci from Leslie K R, 2004: Face Imitation Leslie K R, 2004: Face Viewing 
+2 foci from Grafton S T, 1996: Observed Grasping > Object Viewing 
+4 foci from Kroliczak G, 2007: Grasp - Reach 
+7 foci from Filimon F, 2007: Actual Reaching > Passive Viewing Filimon F, 2007: Observed Reaching > Passive Viewing 
+59 foci from Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 1, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 1, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 4, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 4, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 5, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 5, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 7T  Scanner 
+4 foci from Hesselmann V, 2004: Subject AM 
+4 foci from Hesselmann V, 2004: Subject BS 
+4 foci from Hesselmann V, 2004: Subject JK 
+4 foci from Hesselmann V, 2004: Subject JS 
+4 foci from Hesselmann V, 2004: Subject TK 
+4 foci from Hesselmann V, 2004: Subject TV 
+34 foci from Martin R E, 2004: Voluntary Saliva Swallow Martin R E, 2004: Voluntary Tongue Elevation Martin R E, 2004: Voluntary Finger Opposition Martin R E, 2004: Voluntary Saliva Swallow + Voluntary Tongue Elevation Martin R E, 2004: Voluntary Saliva Swallow + Voluntary Finger Opposition Martin R E, 2004: Voluntary Tongue Elevation + Voluntary Finger Opposition 
+3 foci from Mostofsky S H, 2006: Normal Children 
+9 foci from Onozuka M, 2002: Increases in During Chewing Moderately Hard Gum Onozuka M, 2002: Increases in During Chewing Hard Gum 
+2 foci from Onozuka M, 2003: Young Adults 
+2 foci from Onozuka M, 2003: Middle-Aged Adults 
+26 foci from Stephan K M, 1995: Executed Movement vs. Motor Preparation Stephan K M, 1995: Executed vs. Imagined Movements 
+3 foci from Takahashi T, 2007: Brain Activations in Changing Gum Hardness Takahashi T, 2007: Brain Activations in Consistent Gum Hardness Takahashi T, 2007: Changing Gum Hardness - Consistent Gum Hardness 
+20 foci from Brown S, 2008: Glottal Stops > Fixation Brown S, 2008: Phonation > Fixation Brown S, 2008: Lips > Fixation Brown S, 2008: Tongue Movement > Fixation 
+28 foci from Gerardin E, 2003: Group Analysis for Right Hand Movement Gerardin E, 2003: Group Analysis for Left Hand Movement Gerardin E, 2003: Group Analysis for Right Foot Movement Gerardin E, 2003: Group Analysis for Lip Movement Gerardin E, 2003: Group Analysis for Saccadic Eye Movement 
+2 foci from Hamdy S, 1999: Increased rCBF During Volitional Swallowing Hamdy S, 1999: Decreased rCBF During Volitional Swallowing 
+5 foci from Harris M L, 2005: Activations During Volitional Swallowing Harris M L, 2005: Deactivations During Volitional Swallowing 
+2 foci from Wild B, 2003: Movement - No Movement 
+3 foci from Dresel C, 2006: Nomals 
+10 foci from Dresel C, 2005: Whistling vs. Voluntary Breathing 
+10 foci from Brown M R G, 2006: Nogo Response > Fixation Brown M R G, 2006: Prosaccade Instruction > Fixation Brown M R G, 2006: Antisaccade Instruction > Fixation Brown M R G, 2006: Nogo Instruction > Fixation Brown M R G, 2006: Fixation > Nogo Instruction Brown M R G, 2006: Antisaccade Instuction > Nogo Instruction Brown M R G, 2006: Prosaccade Instruction > Nogo Instruction 
+3 foci from Fesl G, 2003: Tongue Movement vs. Rest 
+23 foci from Rotte M, 2002: Fingers Rotte M, 2002: Toes Rotte M, 2002: Tongue Rotte M, 2002: Eyes Rotte M, 2002: Lips Rotte M, 2002: Knee 
+6 foci from Hanakawa T, 2008: Finger Tapping, Movement 
+3 foci from Meister I, 2007: Video, Perception > Rest 
+10 foci from Lowell S Y, 2008: Overt Swallowing vs. Rest 
+8 foci from Martin R E, 2001: Activations During Naive Saliva Swallowing Martin R E, 2001: Activations During Voluntary Saliva Swallowing Martin R E, 2001: Activations During Water Bolus Swallowing 
+5 foci from Furlong P L, 2004: Hold Water vs. Rest Furlong P L, 2004: Tongue Press vs. Rest Furlong P L, 2004: Swallow vs. Rest 
+27 foci from Martin R, 2007: Saliva Swallow vs. Rest Martin R, 2007: Water Swallow vs. Rest Martin R, 2007: Shifted Water Swallow vs. Rest 
+6 foci from Paine P A, 2008: Saline Infusion - Rest Paine P A, 2008: Hydrochloric Acid Infusion - Rest 
+3 foci from Spence S A, 1997: Healthy Controls 
+25 foci from Thaut M H, 2008: Polyrhythmic vs. No Movement Thaut M H, 2008: Isorhythmic vs. No Movement 
+7 foci from Mostofsky S H, 2009: Healthy Controls 
+4 foci from Elsinger C L, 2003: Healthy Controls 
+5 foci from Eckert T, 2006: Healthy Controls 
+26 foci from Yu H, 2007: Healthy Controls 
+19 foci from Ehrsson H H, 2000: Precision Grip - Matching Rest Ehrsson H H, 2000: Power Grip - Matching Rest Ehrsson H H, 2000: Power Grip - Precision Grip Ehrsson H H, 2000: Precision Grip - Power Grip 
+24 foci from Kertzman C, 1997: Left Hand Reach > Fixation Kertzman C, 1997: Right Hand Reach > Fixation Kertzman C, 1997: Left Visual Field Reach > Fixation Kertzman C, 1997: Right Visual Field Reach > Fixation 
+7 foci from Lotze M, 2000: Right Foot vs. Rest (n=5) Lotze M, 2000: Right Elbow vs. Rest (n=5) Lotze M, 2000: Right Fist vs. Rest (n=10) Lotze M, 2000: Left Fist vs. Rest (n=10) Lotze M, 2000: Right Thumb vs. Rest (n=5) Lotze M, 2000: Right Finger Opposition with Complexity vs. Rest (n=9) Lotze M, 2000: Lips vs. Rest (n=10) Lotze M, 2000: Right Finger Opposition with Simple Complexity vs. Rest  (n=5) Lotze M, 2000: Right Finger Opposition with Complex Complexity vs. Rest  (n=5) Lotze M, 2000: Right Finger Opposition with Highly Complex Complexity vs.  Rest (n=5) 
+2 foci from Taniwaki T, 2003: Self Initiated Movement vs. Rest, Categorical on-off  Responses Taniwaki T, 2003: Self Initiated Movement vs. Rest, First Order Term Linear  Effect Taniwaki T, 2003: Externally Triggered Movement vs. Rest, Categorical  on-off Responses Taniwaki T, 2003: Externally Triggered Movement vs. Rest, First Order Term  Linear Effect 
+46 foci from van Duinen H, 2008: Right Index Finger Abduction > Rest van Duinen H, 2008: Left Index Finger Abduction > Rest van Duinen H, 2008: Activity Correlating with "Activation Per Se", Right  Contractions van Duinen H, 2008: Activity Correlating with "Activation Per Se", Left  Contractions 
+40 foci from Grabski K, 2011: Tongue - Rest Grabski K, 2011: Vowel Vocalization - Rest Grabski K, 2011: Jaw - Rest Grabski K, 2011: Lips - Rest 
+15 foci from Ogura E, 2012: Lip-Pursing/Lip-Stretching - Rest Ogura E, 2012: Tongue Protrusion - Rest Ogura E, 2012: Lateral Tongue - Rest Ogura E, 2012: Oral Ball-Rolling - Rest 
+17 foci from Kawashima R, 1996: Arm minus Rest Kawashima R, 1996: Finger minus Rest 
+7 foci from Aziz-Zadeh L, 2006: Observation > Rest Aziz-Zadeh L, 2006: Observe Foot > Rest Aziz-Zadeh L, 2006: Observe Hand > Rest Aziz-Zadeh L, 2006: Observe Mouth > Rest 
+42 foci from Strother L, 2012: Finger vs. Rest Strother L, 2012: Wrist vs. Rest Strother L, 2012: Elbow vs. Rest 
+13 foci from Luft A R, 2002: Extension/flexion of right knee vs rest Luft A R, 2002: Extension/flexion of left knee vs rest Luft A R, 2002: Flexion/extension of right elbow vs rest Luft A R, 2002: Flexion/extension of left elbow vs rest Luft A R, 2002: Sequential thumb-finger opposition of right hand vs rest Luft A R, 2002: Sequential thumb-finger opposition of left hand vs rest Luft A R, 2002: Passive extension/flexion of right knee vs rest Luft A R, 2002: Passive extension/flexion of left knee vs rest 
+32 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+8 foci from Kasahara M, 2010: Healthy Controls 
+11 foci from Wiese H, 2006: Healthy Controls 
+5 foci from Bodegard A, 2003: Difference In Pressure > Rest Bodegard A, 2003: Differences In Spring Strength > Rest Bodegard A, 2003: Differences In Kinesthesia > Rest 
+6 foci from van Beilen M, 2011: Feigners > Healthy Controls, Affected Execution van Beilen M, 2011: Feigners < Healthy Controls, Affected Execution van Beilen M, 2011: Feigners > Healthy Controls, Affected Execution van Beilen M, 2011: Feigners < Healthy Controls, Unaffected Execution van Beilen M, 2011: Feigners > Healthy Controls, Unaffected Execution 
+4 foci from Dionne J K, 2010: Motor Response-Related Activity > Rest 
+2 foci from Shafritz K M, 2015: Healthy Controls 
+2 foci from Zarate J M, 2008: Ignore > Simple Singing, Conjunction Zarate J M, 2008: Compensate > Simple Singing, Conjunction 
+11 foci from Lotze M, 2006: Main effect of isolated hand movement Lotze M, 2006: Main effect of body referred movement Lotze M, 2006: Main effect of expressive gestures 
+2 foci from Njiboer M, 2014: Tracking > Baseline 
+8 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Lindberg P G, 2007: Healthy controls 
+2 foci from Szaflarski J P, 2006: Healthy controls 
+9 foci from Hanakawa T, 2002: Complex finger-tapping > Visual fixation Hanakawa T, 2002: Complex finger-tapping > Simple finger-tapping 
+3 foci from Harrington D L, 2000: Condition 1 > Rest Harrington D L, 2000: Regions activated by fingers Harrington D L, 2000: Regions activated by transitions Harrington D L, 2000: Regions activated by fingers (excluding repeated  sequences) Harrington D L, 2000: Regions activated by transitions (excluding repeated  sequences) 
+2 foci from Jack A, 2011: Conjunction Analysis: IMI & OBS & EXE 
+25 foci from Kapreli E, 2007: Fingers > Rest Kapreli E, 2007: Knee > Rest Kapreli E, 2007: Ankle > Rest Kapreli E, 2007: Toes > Rest 
+21 foci from Walz A D, 2015: Conjunction over task and time: Fist clenching Walz A D, 2015: Conjunction over task and time: Finger sequence Walz A D, 2015: Conjunction over task and time: Writing 
+2 foci from Terry D P, 2012: Control, Athletes 
+14 foci from Post M, 2009: All Conditions > Rest 
+3 foci from Alkadhi H, 2002: Tongue Movements > Rest, Both Sessions Alkadhi H, 2002: Tongue Movements > Rest, Baseline Alkadhi H, 2002: Tongue Movements > Rest, Follow Up 
+16 foci from Valera E M, 2010: Healthy Controls 
+18 foci from Aoki T, 2005: Index Finger - Rest Aoki T, 2005: Ring Finger - Rest Aoki T, 2005: Ring Finger - Index Finger Aoki T, 2005: Double Finger Tapping - Rest Aoki T, 2005: Right and Little Fingers - Index and Middle Fingers Aoki T, 2005: Double Finger Tapping - Single Finger Tapping 
+18 foci from Aramaki Y, 2006: Parallel Aramaki Y, 2006: Mirror Aramaki Y, 2006: Phase Transition Aramaki Y, 2006: Asymmetric Activation, Phase Transition Aramaki Y, 2006: Asymmetric Activation, Parallel Aramaki Y, 2006: Asymmetric Activation, Mirror 
+9 foci from Boecker H, 1998: Weighted Mean Performance of All Motor Sequences vs. Rest,  Activations Boecker H, 1998: Weighted Mean Performance of All Motor Sequences vs. Rest,  Deactivations Boecker H, 1998: rCBF Correlated Inversely with Increasing Levels of  Complexity of Motor Sequences 
+6 foci from Catalan M J, 1999: Control Subjects 
+39 foci from Goerres G W, 1998: Unimanual Right Finger Press vs. Rest Goerres G W, 1998: Bimanual Symmetric Finger Press vs. Rest Goerres G W, 1998: Bimanual Asymmetric Finger Press vs. Rest Goerres G W, 1998: Bimanual Symmetric Finger Press vs. Unimanual Right  Finger Press Goerres G W, 1998: Bimanual Asymmetric Finger Press vs. Unimanual Right  Finger Press Goerres G W, 1998: Bimanual Asymmetric Finger Press vs. Bimanual Symmetric  Finger Press 
+13 foci from Hanakawa T, 2003: Movement AND Imagery Hanakawa T, 2003: Activations In Relation To Response Movement Hanakawa T, 2003: Activations Associated With Task Performance 
+5 foci from Kawashima R, 2000: Memory Timed Finger Movement - Rest 
+5 foci from Kawashima R, 1999: Increased Blood Flow, All Movements Compared to Rest Kawashima R, 1999: Increased Blood Flow Correlated With Increased Movement  Frequency 
+14 foci from Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Right Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Right Hand vs.  Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Left Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Left Hand vs. Baseline 
+48 foci from Lehericy S, 2006: Simple - Rest Lehericy S, 2006: Scale - Rest Lehericy S, 2006: Complex - Rest Lehericy S, 2006: Complex - Simple Lehericy S, 2006: Complex - Scale Lehericy S, 2006: Scale - Simple 
+1 foci from Muller J L, 2002: Healthy Subjects 
+5 foci from Riecker A, 2003: Main Effect All Frequencies 
+11 foci from Sadato N, 1997: Normals, Group 1 
+9 foci from Sadato N, 1997: Normals, Group 2 
+13 foci from Samuel M, 1997: Control Subjects 
+9 foci from Yoo S S, 2005: Group-Level Finger Tapping Activation 
+7 foci from Calautti C, 2001: Young Subjects 
+4 foci from Calautti C, 2001: Older Subjects 
+23 foci from Dettmers C, 1995: Comparison Between Movement and Rest 
+12 foci from Haslinger B, 2002: Activation During Performance of Finger Movements  Regardless of Complexity Haslinger B, 2002: Regions Showing Positive Correlation of BOLD-Contrast  Increases With Sequence Complexity 
+25 foci from Jancke L, 2000: Auditory Synchronization > Rest Jancke L, 2000: Auditory Continuation > Rest Jancke L, 2000: Visual Synchronization > Rest Jancke L, 2000: Visual Continuation > Rest 
+8 foci from Jancke L, 2000: Right Fast, Left Slow Jancke L, 2000: Right Slow, Left Fast Jancke L, 2000: Right Fast Jancke L, 2000: Right Slow Jancke L, 2000: Left Fast Jancke L, 2000: Left Slow 
+15 foci from Lacourse M G, 2005: Novel, Move vs. Rest Lacourse M G, 2005: Skilled, Move vs. Rest 
+5 foci from Larsson J, 1996: Self Paced Movement - Reference Larsson J, 1996: Visually Triggered Movement - Reference 
+9 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 
+14 foci from Mattay V S, 1998: Non-Dominant Hand Simple Motor Mattay V S, 1998: Dominant Hand Simple Motor Mattay V S, 1998: Dominant Hand Random Motor 
+3 foci from Riecker A, 2006: Younger Subjects 
+3 foci from Riecker A, 2006: Older Subjects 
+
+Contributors to cluster #2
+19 foci from Ehrsson H H, 2000: Foot vs. Rest Ehrsson H H, 2000: Hand vs. Rest Ehrsson H H, 2000: Simultaneous vs. Rest Ehrsson H H, 2000: Hand vs. Foot Ehrsson H H, 2000: Conjunction Analysis Ehrsson H H, 2000: {(Hand - Rest) + (Foot - Rest)} - (Simultaneous - Rest) 
+2 foci from Gosain A K, 2001: Smile vs. Rest Gosain A K, 2001: Finger-tapping vs. Rest 
+3 foci from Indovina I, 2001: Move vs. No-Move 
+3 foci from Rao S M, 1997: Continuation-300 vs. Rest Rao S M, 1997: Synchronization-600 vs. Rest Rao S M, 1997: Continuation-600 vs. Rest 
+5 foci from Stephan K M, 2002: 3% Modulation vs. Isochronous Stephan K M, 2002: 7% Modulation vs. Isochronous Stephan K M, 2002: 20% Modulation vs. Isochronous 
+13 foci from van Mier H, 1998: Normal Adults - Right Tracing 
+13 foci from van Mier H, 1998: Normal Subjects - Left Tracing 
+9 foci from Gerardin E, 2000: Motor Execution vs. Rest Gerardin E, 2000: Motor Execution vs. Motor Imagination 
+11 foci from Simon O, 2002: Grasping vs. Grasping Control Simon O, 2002: Pointing vs. Pointing Control Simon O, 2002: Grasping Only Simon O, 2002: Manual Tasks Only (Grasping and Pointing) 
+13 foci from Buccino G, 2001: Mouth with Object Film - Static Mouth Buccino G, 2001: Mouth Film - Static Mouth Buccino G, 2001: Hand with Object Film - Static Hand Buccino G, 2001: Hand Film - Static Hand Buccino G, 2001: Foot with Object Film - Static Foot Buccino G, 2001: Foot Film - Static Foot 
+1 foci from Colebatch J G, 1991: Index - Rest Colebatch J G, 1991: Shoulder - Rest Colebatch J G, 1991: Opposition - Rest Colebatch J G, 1991: Fist - Rest 
+13 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+6 foci from Lotze M, 2000: Lip Pursing vs. Rest Lotze M, 2000: /pa/ vs. Rest Lotze M, 2000: Tip of Tongue vs. Rest Lotze M, 2000: /ta/ vs. Rest Lotze M, 2000: /ka/ vs. Rest Lotze M, 2000: /pataka/ vs. Rest 
+1 foci from Winstein C J, 1997: Movement-Related Brain Areas During Reciprocal Aiming 
+2 foci from Muley S A, 2001: Normals SF3 
+4 foci from Corfield D R, 1999: Tongue Contraction - Rest 
+2 foci from Seitz R J, 2000: Group 3 Normals 
+7 foci from Umetsu A, 2002: R-FP vs. Control Umetsu A, 2002: L-FP vs. Control Umetsu A, 2002: R-FEP vs. Control Umetsu A, 2002: L-FEP vs. Control 
+5 foci from Binkofski F, 2000: Somatosensory Guided Movement vs. Rest Binkofski F, 2000: Visually Guided Movement vs. Rest 
+1 foci from Inoue K, 2001: R Grasp - Hold Inoue K, 2001: L Grasp - Hold Inoue K, 2001: R Tool - Hold Inoue K, 2001: L Tool - Hold Inoue K, 2001: (R Tool - R Grasp) masked with (R Tool - Hold) Inoue K, 2001: (L Grasp - L Tool) masked with (L Grasp - Hold) 
+2 foci from Menon V, 2001: Go - Rest 
+1 foci from Casey B J, 1998: Pooled Subjects 
+2 foci from Casey B J, 1998: Madison Site 
+3 foci from Casey B J, 1998: Pittsburgh Site 
+8 foci from Ehrsson H H, 2001: Precision Grip - Baseline Ehrsson H H, 2001: Small Force - Large Force Ehrsson H H, 2001: Large Force - Small Force 
+1 foci from Grafton S T, 1992: Pursuit vs. Control 
+2 foci from Maldjian J A, 1999: Motor Ball Squeezing vs. Rest 
+4 foci from Wheaton K J, 2004: Face Moving vs. Still Wheaton K J, 2004: Hand Moving vs. Still Wheaton K J, 2004: Leg Moving vs. Still 
+1 foci from Blinkenberg M, 1996: Fingertapping vs. Rest 
+3 foci from Catalan M J, 1998: Sequence-12 vs. Rest Catalan M J, 1998: Sequence-12 vs. Simple 
+1 foci from Honey G D, 2003: Normals 
+1 foci from Lerner A, 2004: Normals 
+1 foci from Sadato N, 1996: Various Lengths Sadato N, 1996: Increased Complexity:  rCBF Increases Sadato N, 1996: Increased Complexity:  rCBF Decreases 
+7 foci from Astafiev S V, 2003: Pointing vs. Fixation Astafiev S V, 2003: Pointing > Saccade 
+6 foci from Connolly J D, 2000: Pro-Pointing vs. Fixation Connolly J D, 2000: Anti-Pointing vs. Fixation 
+1 foci from Katanoda K, 2001: Writing - Naming 
+2 foci from Seurinck R, 2005: Self-Paced, Button Press Hand, Right > Left Seurinck R, 2005: Self-Paced, Button Press Hand, Left > Right 
+1 foci from Sylvester C C, 2003: Normals, Group 2 
+20 foci from Watanabe J, 2004: LEFT > REST Watanabe J, 2004: RIGHT > REST Watanabe J, 2004: RETR > REST Watanabe J, 2004: LEFT > RETR Watanabe J, 2004: RIGHT > RETR Watanabe J, 2004: (LEFT + RIGHT) > (2*RETR) 
+1 foci from Denslow S, 2005: Volitional Movement 
+5 foci from Rounis E, 2005: Main Effects of Movement 
+2 foci from Pierno A C, 2006: Action vs. No Action Pierno A C, 2006: Interaction Between Type of Observed Behaviour and  Distractor 
+4 foci from Wilson S M, 2004: Producing Speech Wilson S M, 2004: Moving Fingers 
+7 foci from Nowak M, 2005: Normals 
+8 foci from Wong S W, 2007: 35% Maximum Contraction - 5% Maximum Contraction,  Deactivations Wong S W, 2007: Right and Left Hand, 35% Trials, Activations Wong S W, 2007: Right and Left Hand, 35% Trials, Deactivations 
+1 foci from Rektor I, 2006: Dots vs. Fixation 
+6 foci from Mallol R, 2007: Normals 
+1 foci from Milner T E, 2007: Simple Grip vs. Rest Milner T E, 2007: Complex Grip vs. Rest Milner T E, 2007: Complex Grip vs. Simple Grip 
+1 foci from Ghatan P H, 1995: Motor Control vs. Rest, Increase in rCBF Ghatan P H, 1995: Motor Control vs. Rest, Decrease in rCBF 
+1 foci from Blok B F M, 1997: Sustained Abdominal Straining - Rest 
+5 foci from Marchand W R, 2007: Normals 
+61 foci from Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Non-Dominant Hand Lissek S, 2007: Simple > Rest, Dominant Hand Lissek S, 2007: Simple > Rest, Non-Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Non-Dominant Hand 
+3 foci from Creem-Regehr S H, 2005: Finger Clenching > Rest 
+1 foci from Grezes J, 2004: Observation of Faked Actions 
+3 foci from Simon O, 2004: Manual Tasks Only Simon O, 2004: Grasping Only 
+7 foci from Leslie K R, 2004: Face Imitation Leslie K R, 2004: Face Viewing 
+2 foci from Grafton S T, 1996: Observed Grasping > Object Viewing 
+6 foci from Kroliczak G, 2007: Grasp - Reach 
+3 foci from Filimon F, 2007: Actual Reaching > Passive Viewing Filimon F, 2007: Observed Reaching > Passive Viewing 
+3 foci from Hesselmann V, 2004: Subject AM 
+4 foci from Hesselmann V, 2004: Subject BS 
+4 foci from Hesselmann V, 2004: Subject JK 
+3 foci from Hesselmann V, 2004: Subject JS 
+3 foci from Hesselmann V, 2004: Subject TK 
+4 foci from Hesselmann V, 2004: Subject TV 
+12 foci from Martin R E, 2004: Voluntary Saliva Swallow Martin R E, 2004: Voluntary Tongue Elevation Martin R E, 2004: Voluntary Finger Opposition Martin R E, 2004: Voluntary Saliva Swallow + Voluntary Tongue Elevation Martin R E, 2004: Voluntary Saliva Swallow + Voluntary Finger Opposition Martin R E, 2004: Voluntary Tongue Elevation + Voluntary Finger Opposition 
+2 foci from Mostofsky S H, 2006: Normal Children 
+6 foci from Onozuka M, 2002: Increases in During Chewing Moderately Hard Gum Onozuka M, 2002: Increases in During Chewing Hard Gum 
+2 foci from Onozuka M, 2003: Young Adults 
+1 foci from Onozuka M, 2003: Middle-Aged Adults 
+15 foci from Stephan K M, 1995: Executed Movement vs. Motor Preparation Stephan K M, 1995: Executed vs. Imagined Movements 
+3 foci from Takahashi T, 2007: Brain Activations in Changing Gum Hardness Takahashi T, 2007: Brain Activations in Consistent Gum Hardness Takahashi T, 2007: Changing Gum Hardness - Consistent Gum Hardness 
+10 foci from Brown S, 2008: Glottal Stops > Fixation Brown S, 2008: Phonation > Fixation Brown S, 2008: Lips > Fixation Brown S, 2008: Tongue Movement > Fixation 
+14 foci from Gerardin E, 2003: Group Analysis for Right Hand Movement Gerardin E, 2003: Group Analysis for Left Hand Movement Gerardin E, 2003: Group Analysis for Right Foot Movement Gerardin E, 2003: Group Analysis for Lip Movement Gerardin E, 2003: Group Analysis for Saccadic Eye Movement 
+2 foci from Hamdy S, 1999: Increased rCBF During Volitional Swallowing Hamdy S, 1999: Decreased rCBF During Volitional Swallowing 
+1 foci from Harris M L, 2005: Activations During Volitional Swallowing Harris M L, 2005: Deactivations During Volitional Swallowing 
+3 foci from Dresel C, 2006: Nomals 
+4 foci from Dresel C, 2005: Whistling vs. Voluntary Breathing 
+4 foci from Brown M R G, 2006: Nogo Response > Fixation Brown M R G, 2006: Prosaccade Instruction > Fixation Brown M R G, 2006: Antisaccade Instruction > Fixation Brown M R G, 2006: Nogo Instruction > Fixation Brown M R G, 2006: Fixation > Nogo Instruction Brown M R G, 2006: Antisaccade Instuction > Nogo Instruction Brown M R G, 2006: Prosaccade Instruction > Nogo Instruction 
+1 foci from Fesl G, 2003: Tongue Movement vs. Rest 
+16 foci from Rotte M, 2002: Fingers Rotte M, 2002: Toes Rotte M, 2002: Tongue Rotte M, 2002: Eyes Rotte M, 2002: Lips Rotte M, 2002: Knee 
+1 foci from Hanakawa T, 2008: Finger Tapping, Movement 
+1 foci from Meister I, 2007: Video, Perception > Rest 
+6 foci from Lowell S Y, 2008: Overt Swallowing vs. Rest 
+11 foci from Martin R E, 2001: Activations During Naive Saliva Swallowing Martin R E, 2001: Activations During Voluntary Saliva Swallowing Martin R E, 2001: Activations During Water Bolus Swallowing 
+2 foci from Furlong P L, 2004: Hold Water vs. Rest Furlong P L, 2004: Tongue Press vs. Rest Furlong P L, 2004: Swallow vs. Rest 
+7 foci from Martin R, 2007: Saliva Swallow vs. Rest Martin R, 2007: Water Swallow vs. Rest Martin R, 2007: Shifted Water Swallow vs. Rest 
+14 foci from Paine P A, 2008: Saline Infusion - Rest Paine P A, 2008: Hydrochloric Acid Infusion - Rest 
+1 foci from Spence S A, 1997: Healthy Controls 
+3 foci from Langheim F J, 2002: Bilateral Finger Tapping > Rest 
+1 foci from Thaut M H, 2008: Polyrhythmic vs. No Movement Thaut M H, 2008: Isorhythmic vs. No Movement 
+3 foci from Mostofsky S H, 2009: Healthy Controls 
+1 foci from Eckert T, 2006: Healthy Controls 
+8 foci from Yu H, 2007: Healthy Controls 
+12 foci from Ehrsson H H, 2000: Precision Grip - Matching Rest Ehrsson H H, 2000: Power Grip - Matching Rest Ehrsson H H, 2000: Power Grip - Precision Grip Ehrsson H H, 2000: Precision Grip - Power Grip 
+18 foci from Kertzman C, 1997: Left Hand Reach > Fixation Kertzman C, 1997: Right Hand Reach > Fixation Kertzman C, 1997: Left Visual Field Reach > Fixation Kertzman C, 1997: Right Visual Field Reach > Fixation 
+1 foci from Lotze M, 2000: Right Foot vs. Rest (n=5) Lotze M, 2000: Right Elbow vs. Rest (n=5) Lotze M, 2000: Right Fist vs. Rest (n=10) Lotze M, 2000: Left Fist vs. Rest (n=10) Lotze M, 2000: Right Thumb vs. Rest (n=5) Lotze M, 2000: Right Finger Opposition with Complexity vs. Rest (n=9) Lotze M, 2000: Lips vs. Rest (n=10) Lotze M, 2000: Right Finger Opposition with Simple Complexity vs. Rest  (n=5) Lotze M, 2000: Right Finger Opposition with Complex Complexity vs. Rest  (n=5) Lotze M, 2000: Right Finger Opposition with Highly Complex Complexity vs.  Rest (n=5) 
+13 foci from Taniwaki T, 2003: Self Initiated Movement vs. Rest, Categorical on-off  Responses Taniwaki T, 2003: Self Initiated Movement vs. Rest, First Order Term Linear  Effect Taniwaki T, 2003: Externally Triggered Movement vs. Rest, Categorical  on-off Responses Taniwaki T, 2003: Externally Triggered Movement vs. Rest, First Order Term  Linear Effect 
+35 foci from van Duinen H, 2008: Right Index Finger Abduction > Rest van Duinen H, 2008: Left Index Finger Abduction > Rest van Duinen H, 2008: Activity Correlating with "Activation Per Se", Right  Contractions van Duinen H, 2008: Activity Correlating with "Activation Per Se", Left  Contractions 
+24 foci from Grabski K, 2011: Tongue - Rest Grabski K, 2011: Vowel Vocalization - Rest Grabski K, 2011: Jaw - Rest Grabski K, 2011: Lips - Rest 
+14 foci from Ogura E, 2012: Lip-Pursing/Lip-Stretching - Rest Ogura E, 2012: Tongue Protrusion - Rest Ogura E, 2012: Lateral Tongue - Rest Ogura E, 2012: Oral Ball-Rolling - Rest 
+6 foci from Aziz-Zadeh L, 2006: Observation > Rest Aziz-Zadeh L, 2006: Observe Foot > Rest Aziz-Zadeh L, 2006: Observe Hand > Rest Aziz-Zadeh L, 2006: Observe Mouth > Rest 
+2 foci from Luft A R, 2002: Extension/flexion of right knee vs rest Luft A R, 2002: Extension/flexion of left knee vs rest Luft A R, 2002: Flexion/extension of right elbow vs rest Luft A R, 2002: Flexion/extension of left elbow vs rest Luft A R, 2002: Sequential thumb-finger opposition of right hand vs rest Luft A R, 2002: Sequential thumb-finger opposition of left hand vs rest Luft A R, 2002: Passive extension/flexion of right knee vs rest Luft A R, 2002: Passive extension/flexion of left knee vs rest 
+17 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+5 foci from Wiese H, 2006: Healthy Controls 
+16 foci from Bodegard A, 2003: Difference In Pressure > Rest Bodegard A, 2003: Differences In Spring Strength > Rest Bodegard A, 2003: Differences In Kinesthesia > Rest 
+3 foci from van Beilen M, 2011: Feigners > Healthy Controls, Affected Execution van Beilen M, 2011: Feigners < Healthy Controls, Affected Execution van Beilen M, 2011: Feigners > Healthy Controls, Affected Execution van Beilen M, 2011: Feigners < Healthy Controls, Unaffected Execution van Beilen M, 2011: Feigners > Healthy Controls, Unaffected Execution 
+1 foci from Dionne J K, 2010: Motor Response-Related Activity > Rest 
+2 foci from Zarate J M, 2008: Ignore > Simple Singing, Conjunction Zarate J M, 2008: Compensate > Simple Singing, Conjunction 
+9 foci from Lotze M, 2006: Main effect of isolated hand movement Lotze M, 2006: Main effect of body referred movement Lotze M, 2006: Main effect of expressive gestures 
+3 foci from Njiboer M, 2014: Tracking > Baseline 
+8 foci from Misra G, 2015: Force Only > Baseline 
+2 foci from Lindberg P G, 2007: Healthy controls 
+2 foci from Szaflarski J P, 2006: Healthy controls 
+1 foci from Hanakawa T, 2002: Complex finger-tapping > Visual fixation Hanakawa T, 2002: Complex finger-tapping > Simple finger-tapping 
+2 foci from Harrington D L, 2000: Condition 1 > Rest Harrington D L, 2000: Regions activated by fingers Harrington D L, 2000: Regions activated by transitions Harrington D L, 2000: Regions activated by fingers (excluding repeated  sequences) Harrington D L, 2000: Regions activated by transitions (excluding repeated  sequences) 
+8 foci from Kapreli E, 2007: Fingers > Rest Kapreli E, 2007: Knee > Rest Kapreli E, 2007: Ankle > Rest Kapreli E, 2007: Toes > Rest 
+7 foci from Walz A D, 2015: Conjunction over task and time: Fist clenching Walz A D, 2015: Conjunction over task and time: Finger sequence Walz A D, 2015: Conjunction over task and time: Writing 
+4 foci from Terry D P, 2012: Control, Athletes 
+1 foci from Post M, 2009: All Conditions > Rest 
+3 foci from Alkadhi H, 2002: Tongue Movements > Rest, Both Sessions Alkadhi H, 2002: Tongue Movements > Rest, Baseline Alkadhi H, 2002: Tongue Movements > Rest, Follow Up 
+1 foci from Alkadhi H, 2002: Tongue Movements > Rest 
+5 foci from Valera E M, 2010: Healthy Controls 
+5 foci from Aoki T, 2005: Index Finger - Rest Aoki T, 2005: Ring Finger - Rest Aoki T, 2005: Ring Finger - Index Finger Aoki T, 2005: Double Finger Tapping - Rest Aoki T, 2005: Right and Little Fingers - Index and Middle Fingers Aoki T, 2005: Double Finger Tapping - Single Finger Tapping 
+16 foci from Aramaki Y, 2006: Parallel Aramaki Y, 2006: Mirror Aramaki Y, 2006: Phase Transition Aramaki Y, 2006: Asymmetric Activation, Phase Transition Aramaki Y, 2006: Asymmetric Activation, Parallel Aramaki Y, 2006: Asymmetric Activation, Mirror 
+5 foci from Boecker H, 1998: Weighted Mean Performance of All Motor Sequences vs. Rest,  Activations Boecker H, 1998: Weighted Mean Performance of All Motor Sequences vs. Rest,  Deactivations Boecker H, 1998: rCBF Correlated Inversely with Increasing Levels of  Complexity of Motor Sequences 
+3 foci from Catalan M J, 1999: Control Subjects 
+16 foci from Goerres G W, 1998: Unimanual Right Finger Press vs. Rest Goerres G W, 1998: Bimanual Symmetric Finger Press vs. Rest Goerres G W, 1998: Bimanual Asymmetric Finger Press vs. Rest Goerres G W, 1998: Bimanual Symmetric Finger Press vs. Unimanual Right  Finger Press Goerres G W, 1998: Bimanual Asymmetric Finger Press vs. Unimanual Right  Finger Press Goerres G W, 1998: Bimanual Asymmetric Finger Press vs. Bimanual Symmetric  Finger Press 
+1 foci from Hanakawa T, 2003: Movement AND Imagery Hanakawa T, 2003: Activations In Relation To Response Movement Hanakawa T, 2003: Activations Associated With Task Performance 
+2 foci from Kawashima R, 2000: Memory Timed Finger Movement - Rest 
+10 foci from Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Right Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Right Hand vs.  Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Left Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Left Hand vs. Baseline 
+12 foci from Lehericy S, 2006: Simple - Rest Lehericy S, 2006: Scale - Rest Lehericy S, 2006: Complex - Rest Lehericy S, 2006: Complex - Simple Lehericy S, 2006: Complex - Scale Lehericy S, 2006: Scale - Simple 
+2 foci from Muller J L, 2002: Healthy Subjects 
+10 foci from Sadato N, 1997: Normals, Group 1 
+9 foci from Sadato N, 1997: Normals, Group 2 
+6 foci from Samuel M, 1997: Control Subjects 
+3 foci from Yoo S S, 2005: Group-Level Finger Tapping Activation 
+6 foci from Calautti C, 2001: Young Subjects 
+4 foci from Calautti C, 2001: Older Subjects 
+7 foci from Dettmers C, 1995: Comparison Between Movement and Rest 
+4 foci from Haslinger B, 2002: Activation During Performance of Finger Movements  Regardless of Complexity Haslinger B, 2002: Regions Showing Positive Correlation of BOLD-Contrast  Increases With Sequence Complexity 
+8 foci from Jancke L, 2000: Auditory Synchronization > Rest Jancke L, 2000: Auditory Continuation > Rest Jancke L, 2000: Visual Synchronization > Rest Jancke L, 2000: Visual Continuation > Rest 
+4 foci from Jancke L, 2000: Right Fast, Left Slow Jancke L, 2000: Right Slow, Left Fast Jancke L, 2000: Right Fast Jancke L, 2000: Right Slow Jancke L, 2000: Left Fast Jancke L, 2000: Left Slow 
+9 foci from Lacourse M G, 2005: Novel, Move vs. Rest Lacourse M G, 2005: Skilled, Move vs. Rest 
+3 foci from Larsson J, 1996: Self Paced Movement - Reference Larsson J, 1996: Visually Triggered Movement - Reference 
+1 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 
+4 foci from Mattay V S, 1998: Non-Dominant Hand Simple Motor Mattay V S, 1998: Dominant Hand Simple Motor Mattay V S, 1998: Dominant Hand Random Motor 
+2 foci from Riecker A, 2006: Older Subjects 
+
+Contributors to cluster #3
+1 foci from Desmurget M, 2001: Strict hand-reaching effect 
+3 foci from Ehrsson H H, 2000: Foot vs. Rest Ehrsson H H, 2000: Hand vs. Rest Ehrsson H H, 2000: Simultaneous vs. Rest Ehrsson H H, 2000: Hand vs. Foot Ehrsson H H, 2000: Conjunction Analysis Ehrsson H H, 2000: {(Hand - Rest) + (Foot - Rest)} - (Simultaneous - Rest) 
+2 foci from Indovina I, 2001: Move vs. No-Move 
+3 foci from Rao S M, 1997: Continuation-300 vs. Rest Rao S M, 1997: Synchronization-600 vs. Rest Rao S M, 1997: Continuation-600 vs. Rest 
+1 foci from Stephan K M, 2002: 3% Modulation vs. Isochronous Stephan K M, 2002: 7% Modulation vs. Isochronous Stephan K M, 2002: 20% Modulation vs. Isochronous 
+12 foci from van Mier H, 1998: Normal Adults - Right Tracing 
+12 foci from van Mier H, 1998: Normal Subjects - Left Tracing 
+2 foci from Gerardin E, 2000: Motor Execution vs. Rest Gerardin E, 2000: Motor Execution vs. Motor Imagination 
+4 foci from Grafton S T, 1993: Shoulder - Rest Grafton S T, 1993: Elbow - Rest Grafton S T, 1993: Wrist - Rest Grafton S T, 1993: Finger - Rest 
+5 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+2 foci from Jueptner M, 1997: Active vs. Rest Jueptner M, 1997: Passive vs. Rest Jueptner M, 1997: Active vs. Passive Jueptner M, 1997: Execute vs. Rest 
+1 foci from Winstein C J, 1997: Movement-Related Brain Areas During Reciprocal Aiming 
+1 foci from Muley S A, 2001: Normals SF2 
+1 foci from Muley S A, 2001: Normals SF3 
+2 foci from Corfield D R, 1999: Tongue Contraction - Rest 
+2 foci from Umetsu A, 2002: R-FP vs. Control Umetsu A, 2002: L-FP vs. Control Umetsu A, 2002: R-FEP vs. Control Umetsu A, 2002: L-FEP vs. Control 
+1 foci from Inoue K, 2001: R Grasp - Hold Inoue K, 2001: L Grasp - Hold Inoue K, 2001: R Tool - Hold Inoue K, 2001: L Tool - Hold Inoue K, 2001: (R Tool - R Grasp) masked with (R Tool - Hold) Inoue K, 2001: (L Grasp - L Tool) masked with (L Grasp - Hold) 
+1 foci from Casey B J, 1998: Minnesota Site 
+1 foci from Grafton S T, 1992: Pursuit vs. Control 
+1 foci from Blinkenberg M, 1996: Fingertapping vs. Rest 
+2 foci from Catalan M J, 1998: Sequence-12 vs. Rest Catalan M J, 1998: Sequence-12 vs. Simple 
+1 foci from Honey G D, 2003: Normals 
+1 foci from Joliot M, 1998: Finger Tapping - Rest 
+1 foci from Lerner A, 2004: Normals 
+2 foci from Sadato N, 1996: Various Lengths Sadato N, 1996: Increased Complexity:  rCBF Increases Sadato N, 1996: Increased Complexity:  rCBF Decreases 
+4 foci from Katanoda K, 2001: Writing - Naming 
+6 foci from Watanabe J, 2004: LEFT > REST Watanabe J, 2004: RIGHT > REST Watanabe J, 2004: RETR > REST Watanabe J, 2004: LEFT > RETR Watanabe J, 2004: RIGHT > RETR Watanabe J, 2004: (LEFT + RIGHT) > (2*RETR) 
+1 foci from Denslow S, 2005: Volitional Movement 
+2 foci from Rounis E, 2005: Main Effects of Movement 
+2 foci from Nowak M, 2005: Normals 
+3 foci from Wong S W, 2007: 35% Maximum Contraction - 5% Maximum Contraction,  Deactivations Wong S W, 2007: Right and Left Hand, 35% Trials, Activations Wong S W, 2007: Right and Left Hand, 35% Trials, Deactivations 
+3 foci from Begliomini C, 2007: Grasping Small > Reaching Small Begliomini C, 2007: Grasping Large > Reaching Large Begliomini C, 2007: Grasping Small > Grasping Large 
+2 foci from Milner T E, 2007: Simple Grip vs. Rest Milner T E, 2007: Complex Grip vs. Rest Milner T E, 2007: Complex Grip vs. Simple Grip 
+2 foci from Marchand W R, 2007: Normals 
+2 foci from Creem-Regehr S H, 2005: Finger Clenching > Rest 
+1 foci from Leslie K R, 2004: Face Imitation Leslie K R, 2004: Face Viewing 
+1 foci from Kroliczak G, 2007: Grasp - Reach 
+18 foci from Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 1, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 1, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 4, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 4, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 5, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 5, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 7T  Scanner 
+1 foci from Mostofsky S H, 2006: Normal Children 
+3 foci from Onozuka M, 2002: Increases in During Chewing Moderately Hard Gum Onozuka M, 2002: Increases in During Chewing Hard Gum 
+1 foci from Onozuka M, 2003: Young Adults 
+4 foci from Brown S, 2008: Glottal Stops > Fixation Brown S, 2008: Phonation > Fixation Brown S, 2008: Lips > Fixation Brown S, 2008: Tongue Movement > Fixation 
+4 foci from Gerardin E, 2003: Group Analysis for Right Hand Movement Gerardin E, 2003: Group Analysis for Left Hand Movement Gerardin E, 2003: Group Analysis for Right Foot Movement Gerardin E, 2003: Group Analysis for Lip Movement Gerardin E, 2003: Group Analysis for Saccadic Eye Movement 
+1 foci from Hamdy S, 1999: Increased rCBF During Volitional Swallowing Hamdy S, 1999: Decreased rCBF During Volitional Swallowing 
+1 foci from Harris M L, 2005: Activations During Volitional Swallowing Harris M L, 2005: Deactivations During Volitional Swallowing 
+2 foci from Dresel C, 2006: Nomals 
+1 foci from Dresel C, 2005: Whistling vs. Voluntary Breathing 
+2 foci from Fesl G, 2003: Tongue Movement vs. Rest 
+8 foci from Rotte M, 2002: Fingers Rotte M, 2002: Toes Rotte M, 2002: Tongue Rotte M, 2002: Eyes Rotte M, 2002: Lips Rotte M, 2002: Knee 
+2 foci from Hanakawa T, 2008: Finger Tapping, Movement 
+1 foci from Lowell S Y, 2008: Overt Swallowing vs. Rest 
+1 foci from Spence S A, 1997: Healthy Controls 
+2 foci from Langheim F J, 2002: Bilateral Finger Tapping > Rest 
+5 foci from Thaut M H, 2008: Polyrhythmic vs. No Movement Thaut M H, 2008: Isorhythmic vs. No Movement 
+4 foci from Mostofsky S H, 2009: Healthy Controls 
+2 foci from Elsinger C L, 2003: Healthy Controls 
+5 foci from Yu H, 2007: Healthy Controls 
+8 foci from van Duinen H, 2008: Right Index Finger Abduction > Rest van Duinen H, 2008: Left Index Finger Abduction > Rest van Duinen H, 2008: Activity Correlating with "Activation Per Se", Right  Contractions van Duinen H, 2008: Activity Correlating with "Activation Per Se", Left  Contractions 
+9 foci from Grabski K, 2011: Tongue - Rest Grabski K, 2011: Vowel Vocalization - Rest Grabski K, 2011: Jaw - Rest Grabski K, 2011: Lips - Rest 
+10 foci from Ogura E, 2012: Lip-Pursing/Lip-Stretching - Rest Ogura E, 2012: Tongue Protrusion - Rest Ogura E, 2012: Lateral Tongue - Rest Ogura E, 2012: Oral Ball-Rolling - Rest 
+8 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+2 foci from Kasahara M, 2010: Healthy Controls 
+1 foci from Bodegard A, 2003: Difference In Pressure > Rest Bodegard A, 2003: Differences In Spring Strength > Rest Bodegard A, 2003: Differences In Kinesthesia > Rest 
+1 foci from Lotze M, 2006: Main effect of isolated hand movement Lotze M, 2006: Main effect of body referred movement Lotze M, 2006: Main effect of expressive gestures 
+1 foci from Njiboer M, 2014: Tracking > Baseline 
+1 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Hanakawa T, 2002: Complex finger-tapping > Visual fixation Hanakawa T, 2002: Complex finger-tapping > Simple finger-tapping 
+3 foci from Harrington D L, 2000: Condition 1 > Rest Harrington D L, 2000: Regions activated by fingers Harrington D L, 2000: Regions activated by transitions Harrington D L, 2000: Regions activated by fingers (excluding repeated  sequences) Harrington D L, 2000: Regions activated by transitions (excluding repeated  sequences) 
+5 foci from Kapreli E, 2007: Fingers > Rest Kapreli E, 2007: Knee > Rest Kapreli E, 2007: Ankle > Rest Kapreli E, 2007: Toes > Rest 
+1 foci from Walz A D, 2015: Conjunction over task and time: Fist clenching Walz A D, 2015: Conjunction over task and time: Finger sequence Walz A D, 2015: Conjunction over task and time: Writing 
+11 foci from Post M, 2009: All Conditions > Rest 
+1 foci from Valera E M, 2010: Healthy Controls 
+5 foci from Aoki T, 2005: Index Finger - Rest Aoki T, 2005: Ring Finger - Rest Aoki T, 2005: Ring Finger - Index Finger Aoki T, 2005: Double Finger Tapping - Rest Aoki T, 2005: Right and Little Fingers - Index and Middle Fingers Aoki T, 2005: Double Finger Tapping - Single Finger Tapping 
+5 foci from Aramaki Y, 2006: Parallel Aramaki Y, 2006: Mirror Aramaki Y, 2006: Phase Transition Aramaki Y, 2006: Asymmetric Activation, Phase Transition Aramaki Y, 2006: Asymmetric Activation, Parallel Aramaki Y, 2006: Asymmetric Activation, Mirror 
+1 foci from Catalan M J, 1999: Control Subjects 
+1 foci from Kawashima R, 2000: Memory Timed Finger Movement - Rest 
+5 foci from Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Right Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Right Hand vs.  Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Simple, Left Hand vs. Baseline Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Left Hand vs. Baseline 
+1 foci from Muller J L, 2002: Healthy Subjects 
+4 foci from Sadato N, 1997: Normals, Group 1 
+6 foci from Sadato N, 1997: Normals, Group 2 
+3 foci from Yoo S S, 2005: Group-Level Finger Tapping Activation 
+4 foci from Calautti C, 2001: Young Subjects 
+3 foci from Calautti C, 2001: Older Subjects 
+4 foci from Haslinger B, 2002: Activation During Performance of Finger Movements  Regardless of Complexity Haslinger B, 2002: Regions Showing Positive Correlation of BOLD-Contrast  Increases With Sequence Complexity 
+5 foci from Jancke L, 2000: Auditory Synchronization > Rest Jancke L, 2000: Auditory Continuation > Rest Jancke L, 2000: Visual Synchronization > Rest Jancke L, 2000: Visual Continuation > Rest 
+6 foci from Lacourse M G, 2005: Novel, Move vs. Rest Lacourse M G, 2005: Skilled, Move vs. Rest 
+1 foci from Larsson J, 1996: Self Paced Movement - Reference Larsson J, 1996: Visually Triggered Movement - Reference 
+4 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 

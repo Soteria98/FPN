@@ -1,0 +1,66 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = cluster 2.txt
+Number of foci                = 58
+Number of experiments         = 3
+Total number of subjects      = 31
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = cluster 2_ALE.nii
+FWHM minimum value            = 9.574940482272122
+FWHM median value             = 10.164010215663069
+FWHM maximum value            = 10.362276299774612
+Minimum ALE score             = 1.4E-45
+Maximum ALE score             = 0.012430496
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = cluster 2_P.nii
+Minimum P value               = 2.1122355E-7
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.05
+Volume > Threshold            = 28024 mm^3
+Chosen min. cluster size      = 10216 mm^3
+Thresholded ALE image         = cluster 2_C05_1k_ALE.nii
+
+Cluster Analysis:
+ #1: 15744 mm^3 from (-66,-8,10) to (-22,32,62) centered at (-44,6.3,34.8) with 7 peaks
+     with a max value of 0.0096 ALE, 1.2702292E-5 P, 4.21 Z at (-30,4,54) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 96.2% Frontal Lobe, 3.8% Parietal Lobe
+     Gyrus: 45.5% Precentral Gyrus, 38.2% Middle Frontal Gyrus, 8.8% Inferior Frontal Gyrus, 3.8% Postcentral Gyrus, 3.8% Sub-Gyral
+     Cell Type: 62.3% Brodmann area 6, 15.5% Brodmann area 9, 9.2% Brodmann area 8, 4.7% Brodmann area 4, 4.4% Brodmann area 43, 2.4% Brodmann area 46, 1.4% Brodmann area 44
+
+ #2: 12280 mm^3 from (-16,4,20) to (24,28,56) centered at (5.6,17.1,36.8) with 5 peaks
+     with a max value of 0.0124 ALE, 2.1122355E-7 P, 5.06 Z at (16,18,32) 
+   Labels: (Gray Matter only)
+     Hemisphere: 56.8% Left Cerebrum, 43.2% Right Cerebrum
+     Lobe: 56.8% Limbic Lobe, 43.2% Frontal Lobe
+     Gyrus: 67.5% Cingulate Gyrus, 22.9% Medial Frontal Gyrus, 9.6% Superior Frontal Gyrus
+     Cell Type: 46.8% Brodmann area 32, 27.5% Brodmann area 24, 19.8% Brodmann area 6, 5.8% Brodmann area 8
+
+
+Experiment Table:
+[ 3 2 3 ]
+[ 1 2 4 ]
+
+Contributors to cluster #1
+3 foci from Bush G, 1998: Interference - Neutral 
+2 foci from Sylvester C C, 2003: Normals, Group 1 
+3 foci from Haist F, 2005: Healthy Controls 
+
+Contributors to cluster #2
+1 foci from Bush G, 1998: Interference - Neutral 
+2 foci from Sylvester C C, 2003: Normals, Group 1 
+4 foci from Haist F, 2005: Healthy Controls 

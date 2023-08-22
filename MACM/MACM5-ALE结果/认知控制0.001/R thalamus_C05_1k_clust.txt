@@ -1,0 +1,358 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = R thalamus.txt
+Number of foci                = 911
+Number of experiments         = 26
+Total number of subjects      = 392
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = R thalamus_ALE.nii
+FWHM minimum value            = 8.816254484132923
+FWHM median value             = 9.6586470675157
+FWHM maximum value            = 11.37334466796002
+Minimum ALE score             = 5.4566518E-33
+Maximum ALE score             = 0.08097422
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = R thalamus_P.nii
+Minimum P value               = 1.9858375E-27
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 53304 mm^3
+Chosen min. cluster size      = 808 mm^3
+Thresholded ALE image         = R thalamus_C05_1k_ALE.nii
+
+Cluster Analysis:
+  #1: 11952 mm^3 from (-12,-12,28) to (14,30,72) centered at (2.2,6.7,51.2) with 4 peaks
+      with a max value of 0.0462 ALE, 7.1324777E-13 P, 7.08 Z at (0,0,58) 
+    Labels: (Gray Matter only)
+      Hemisphere: 53.8% Right Cerebrum, 46.2% Left Cerebrum
+      Lobe: 68.6% Frontal Lobe, 31.4% Limbic Lobe
+      Gyrus: 55.9% Medial Frontal Gyrus, 35.2% Cingulate Gyrus, 8.9% Superior Frontal Gyrus
+      Cell Type: 58.3% Brodmann area 6, 22.7% Brodmann area 32, 19.1% Brodmann area 24
+
+  #2: 10880 mm^3 from (4,-24,-4) to (32,12,20) centered at (16.8,-8.8,6) with 4 peaks
+      with a max value of 0.081 ALE, 1.9858375E-27 P, 10.79 Z at (14,-16,8) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Sub-lobar
+      Gyrus: 62.1% Thalamus, 35.3% Lentiform Nucleus, 2.7% Caudate
+      Cell Type: 23.5% Putamen, 12.8% Medial Dorsal Nucleus, 12% Ventral Lateral Nucleus, 8.7% Lateral Globus Pallidus, 3.5% Ventral Anterior Nucleus, 3.4% Ventral Posterior Lateral Nucleus, 3.1% Pulvinar, 2.9% Mammillary Body, 2.7% Caudate Body, 2.4% Anterior Nucleus, 2% Medial Globus Pallidus, 1.7% Lateral Posterior Nucleus, 1.6% Ventral Posterior Medial Nucleus, 1.3% Lateral Dorsal Nucleus
+
+  #3: 6080 mm^3 from (32,-52,8) to (66,-24,52) centered at (53.5,-38.9,35.3) with 8 peaks
+      with a max value of 0.0322 ALE, 3.680724E-8 P, 5.38 Z at (62,-32,24) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 85.1% Parietal Lobe, 8.4% Temporal Lobe, 6.5% Sub-lobar
+      Gyrus: 69.8% Inferior Parietal Lobule, 11.2% Supramarginal Gyrus, 6.5% Insula, 5.6% Postcentral Gyrus, 3.7% Superior Temporal Gyrus, 2.8% Middle Temporal Gyrus
+      Cell Type: 86.5% Brodmann area 40, 7% Brodmann area 13, 2.8% Brodmann area 21, 1.9% Brodmann area 22, 1.4% Brodmann area 42
+
+  #4: 3872 mm^3 from (-34,-24,-4) to (-10,0,20) centered at (-19.9,-11.3,6.5) with 2 peaks
+      with a max value of 0.038 ALE, 4.9481597E-10 P, 6.11 Z at (-16,-16,8) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Sub-lobar
+      Gyrus: 54% Thalamus, 45% Lentiform Nucleus, 1% Claustrum
+      Cell Type: 33.2% Putamen, 18.8% Ventral Lateral Nucleus, 9.8% Lateral Globus Pallidus, 7.8% Ventral Posterior Lateral Nucleus, 6.3% Lateral Posterior Nucleus, 4.3% Ventral Posterior Medial Nucleus, 3.3% Medial Dorsal Nucleus, 2% Pulvinar, 1.8% Mammillary Body, 1.3% Medial Globus Pallidus
+
+  #5: 3520 mm^3 from (30,8,-6) to (54,26,10) centered at (38.9,17.5,1.6) with 2 peaks
+      with a max value of 0.0413 ALE, 4.0554907E-11 P, 6.5 Z at (36,20,2) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 97.6% Sub-lobar, 2.4% Frontal Lobe
+      Gyrus: 78.9% Insula, 18.7% Claustrum, 2.4% Precentral Gyrus
+      Cell Type: 74.7% Brodmann area 13, 2.4% Brodmann area 44
+
+  #6: 3088 mm^3 from (40,4,10) to (60,22,38) centered at (52.7,10.7,22.7) with 4 peaks
+      with a max value of 0.0258 ALE, 3.0344856E-6 P, 4.52 Z at (54,10,26) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 63.2% Inferior Frontal Gyrus, 32.2% Precentral Gyrus, 4.6% Middle Frontal Gyrus
+      Cell Type: 62.1% Brodmann area 9, 36.8% Brodmann area 6, 1.1% Brodmann area 44
+
+  #7: 2728 mm^3 from (24,-18,48) to (42,0,68) centered at (34.4,-6.7,59.3) with 2 peaks
+      with a max value of 0.0349 ALE, 5.1463105E-9 P, 5.73 Z at (32,-6,62) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 59.2% Precentral Gyrus, 40.8% Middle Frontal Gyrus
+      Cell Type: 94.1% Brodmann area 6, 5.9% Brodmann area 4
+
+  #8: 2280 mm^3 from (28,32,16) to (46,48,34) centered at (36.3,39.5,26.7) with 2 peaks
+      with a max value of 0.0274 ALE, 1.0372477E-6 P, 4.75 Z at (34,40,28) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 79.3% Middle Frontal Gyrus, 20.7% Superior Frontal Gyrus
+      Cell Type: 98.8% Brodmann area 9, 1.2% Brodmann area 8
+
+  #9: 1912 mm^3 from (-60,-50,14) to (-44,-32,32) centered at (-53.6,-40,21.6) with 2 peaks
+      with a max value of 0.0329 ALE, 2.2609605E-8 P, 5.47 Z at (-54,-42,20) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 46.1% Sub-lobar, 36.8% Temporal Lobe, 17.1% Parietal Lobe
+      Gyrus: 46.1% Insula, 28.9% Superior Temporal Gyrus, 13.2% Inferior Parietal Lobule, 11.8% Supramarginal Gyrus
+      Cell Type: 68.4% Brodmann area 13, 25% Brodmann area 40, 6.6% Brodmann area 41
+
+ #10: 1864 mm^3 from (-46,-30,52) to (-28,-4,66) centered at (-37.5,-17,59.2) with 2 peaks
+      with a max value of 0.0249 ALE, 5.48468E-6 P, 4.4 Z at (-34,-10,62) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 53% Frontal Lobe, 47% Parietal Lobe
+      Gyrus: 54% Precentral Gyrus, 46% Postcentral Gyrus
+      Cell Type: 44% Brodmann area 3, 31% Brodmann area 4, 22% Brodmann area 6, 3% Brodmann area 40
+
+ #11: 1848 mm^3 from (-48,12,-10) to (-30,24,8) centered at (-37.3,17.6,0.1) with 2 peaks
+      with a max value of 0.0344 ALE, 7.546076E-9 P, 5.66 Z at (-34,20,2) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 92.9% Sub-lobar, 7.1% Frontal Lobe
+      Gyrus: 77.6% Insula, 15.3% Claustrum, 5.9% Inferior Frontal Gyrus, 1.2% Precentral Gyrus
+      Cell Type: 69.4% Brodmann area 13, 4.7% Brodmann area 47, 1.2% Brodmann area 44
+
+ #12: 1472 mm^3 from (-60,-4,28) to (-36,6,40) centered at (-48.9,0.6,34.7) with 2 peaks
+      with a max value of 0.0308 ALE, 1.0053277E-7 P, 5.2 Z at (-40,0,32) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 100% Precentral Gyrus
+      Cell Type: 100% Brodmann area 6
+
+ #13: 936 mm^3 from (22,-66,36) to (34,-52,48) centered at (28.5,-60.9,41.9) with 3 peaks
+      with a max value of 0.0233 ALE, 1.5311209E-5 P, 4.17 Z at (30,-62,42) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Parietal Lobe
+      Gyrus: 100% Precuneus
+      Cell Type: 100% Brodmann area 7
+
+ #14: 872 mm^3 from (-58,-44,38) to (-40,-38,52) centered at (-47.9,-40.9,45.9) with 2 peaks
+      with a max value of 0.0241 ALE, 8.8134875E-6 P, 4.29 Z at (-46,-42,48) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Parietal Lobe
+      Gyrus: 84.6% Inferior Parietal Lobule, 15.4% Supramarginal Gyrus
+      Cell Type: 100% Brodmann area 40
+
+
+Experiment Table:
+[ 8 0 4 1 1 2 0 11 1 2 5 1 3 2 0 1 1 7 8 3 0 4 2 7 1 0 ]
+[ 3 1 1 2 2 2 2 14 1 2 5 1 2 2 1 1 2 2 9 2 1 3 2 4 2 1 ]
+[ 0 2 0 1 0 2 1 3 0 0 6 0 0 1 0 0 2 4 9 2 1 3 0 2 0 0 ]
+[ 4 1 0 0 0 1 0 4 0 0 0 0 3 0 0 0 1 0 1 2 0 1 2 4 2 0 ]
+[ 0 0 0 1 0 1 0 1 0 3 2 0 0 2 0 1 1 2 5 1 0 1 1 0 0 0 ]
+[ 0 0 0 1 0 1 0 3 0 0 3 0 1 0 0 1 0 2 6 1 0 2 1 0 0 0 ]
+[ 1 0 0 1 0 1 0 3 0 0 1 0 0 0 1 0 0 3 2 1 0 1 0 1 1 0 ]
+[ 0 1 1 1 0 1 1 2 0 1 0 0 0 2 0 0 0 2 1 0 0 0 0 0 0 0 ]
+[ 0 0 1 1 0 0 0 2 1 0 1 0 0 0 0 0 2 2 2 0 0 1 0 0 0 0 ]
+[ 0 1 1 0 0 0 0 3 0 0 0 0 1 0 0 0 0 0 0 1 0 1 1 1 0 3 ]
+[ 0 0 0 0 0 0 0 1 0 1 3 0 0 2 0 1 2 1 2 0 0 1 0 0 0 0 ]
+[ 0 1 1 1 1 1 0 3 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 1 1 3 1 0 0 0 0 0 0 0 ]
+[ 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 ]
+
+Contributors to cluster #1
+8 foci from Gerardin E, 2000: Motor Execution vs. Rest Gerardin E, 2000: Motor Execution vs. Motor Imagination 
+4 foci from Kawashima R, 1996: Go/NoGo Task - Control Task 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+1 foci from Hester R L, 2004: Cued and Uncued Successful Response Inhibition 
+2 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+11 foci from Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Non-Dominant Hand Lissek S, 2007: Simple > Rest, Non-Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Non-Dominant Hand 
+1 foci from Bengtsson S L, 2005: Conjunction Analysis of Rhythmic Sequence - Rest 
+2 foci from Aron A R, 2006: Stop - Go 
+5 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go Chikazoe J, 2009: Conjunction Analysis, Stop vs. Uncertain-Go +  Uncertain-Go vs. Certain-Go 
+1 foci from Mostofsky S H, 2009: Healthy Controls 
+3 foci from Yu H, 2007: Healthy Controls 
+2 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+1 foci from Strakowski S M, 2008: Healthy Controls 
+1 foci from Townsend J D, 2012: Healthy Controls 
+7 foci from Zandbelt B B, 2011: Healthy Control Siblings of Schizophrenia Patients 
+8 foci from Zandbelt B B, 2011: Healthy Controls 
+3 foci from Misra G, 2015: Force Only > Baseline 
+4 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+2 foci from Aramaki Y, 2006: Parallel 
+7 foci from Goerres G W, 1998: Unimanual Right Finger Press vs. Rest Goerres G W, 1998: Bimanual Asymmetric Finger Press vs. Rest 
+1 foci from Sadato N, 1997: Normals, Group 1 
+
+Contributors to cluster #2
+3 foci from Gerardin E, 2000: Motor Execution vs. Rest Gerardin E, 2000: Motor Execution vs. Motor Imagination 
+1 foci from Joliot M, 1999: fMRI-Correlation 
+1 foci from Kawashima R, 1996: Go/NoGo Task - Control Task 
+2 foci from Bellgrove M A, 2004: Response Inhibition 
+2 foci from Hester R L, 2004: Cued and Uncued Successful Response Inhibition 
+2 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+2 foci from Marchand W R, 2007: Normals 
+14 foci from Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Non-Dominant Hand Lissek S, 2007: Simple > Rest, Non-Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Non-Dominant Hand 
+1 foci from Bengtsson S L, 2005: Conjunction Analysis of Rhythmic Sequence - Rest 
+2 foci from Aron A R, 2006: Stop - Go 
+5 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go Chikazoe J, 2009: Conjunction Analysis, Stop vs. Uncertain-Go +  Uncertain-Go vs. Certain-Go 
+1 foci from Mostofsky S H, 2009: Healthy Controls 
+2 foci from Yu H, 2007: Healthy Controls 
+2 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+1 foci from Taniwaki T, 2003: Self Initiated Movement vs. Rest, First Order Term Linear  Effect 
+1 foci from Strakowski S M, 2008: Healthy Controls 
+2 foci from Townsend J D, 2012: Healthy Controls 
+2 foci from Zandbelt B B, 2011: Healthy Control Siblings of Schizophrenia Patients 
+9 foci from Zandbelt B B, 2011: Healthy Controls 
+2 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Lindberg P G, 2007: Healthy controls 
+3 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+2 foci from Aramaki Y, 2006: Parallel 
+4 foci from Goerres G W, 1998: Unimanual Right Finger Press vs. Rest Goerres G W, 1998: Bimanual Asymmetric Finger Press vs. Rest 
+2 foci from Sadato N, 1997: Normals, Group 1 
+1 foci from Dettmers C, 1995: Correlation Between rCBF and Force 
+
+Contributors to cluster #3
+2 foci from Joliot M, 1999: fMRI-Correlation 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+2 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+1 foci from Marchand W R, 2007: Normals 
+3 foci from Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Non-Dominant Hand Lissek S, 2007: Simple > Rest, Non-Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Non-Dominant Hand 
+6 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go Chikazoe J, 2009: Conjunction Analysis, Stop vs. Uncertain-Go +  Uncertain-Go vs. Certain-Go 
+1 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+2 foci from Townsend J D, 2012: Healthy Controls 
+4 foci from Zandbelt B B, 2011: Healthy Control Siblings of Schizophrenia Patients 
+9 foci from Zandbelt B B, 2011: Healthy Controls 
+2 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Lindberg P G, 2007: Healthy controls 
+3 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+2 foci from Goerres G W, 1998: Unimanual Right Finger Press vs. Rest Goerres G W, 1998: Bimanual Asymmetric Finger Press vs. Rest 
+
+Contributors to cluster #4
+4 foci from Gerardin E, 2000: Motor Execution vs. Rest Gerardin E, 2000: Motor Execution vs. Motor Imagination 
+1 foci from Joliot M, 1999: fMRI-Correlation 
+1 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+4 foci from Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Non-Dominant Hand Lissek S, 2007: Simple > Rest, Non-Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Non-Dominant Hand 
+3 foci from Yu H, 2007: Healthy Controls 
+1 foci from Townsend J D, 2012: Healthy Controls 
+1 foci from Zandbelt B B, 2011: Healthy Controls 
+2 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+2 foci from Aramaki Y, 2006: Parallel 
+4 foci from Goerres G W, 1998: Unimanual Right Finger Press vs. Rest Goerres G W, 1998: Bimanual Asymmetric Finger Press vs. Rest 
+2 foci from Sadato N, 1997: Normals, Group 1 
+
+Contributors to cluster #5
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+1 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+1 foci from Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Non-Dominant Hand Lissek S, 2007: Simple > Rest, Non-Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Non-Dominant Hand 
+3 foci from Aron A R, 2006: Stop - Go 
+2 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go Chikazoe J, 2009: Conjunction Analysis, Stop vs. Uncertain-Go +  Uncertain-Go vs. Certain-Go 
+2 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+1 foci from Strakowski S M, 2008: Healthy Controls 
+1 foci from Townsend J D, 2012: Healthy Controls 
+2 foci from Zandbelt B B, 2011: Healthy Control Siblings of Schizophrenia Patients 
+5 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+1 foci from Aramaki Y, 2006: Parallel 
+
+Contributors to cluster #6
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+1 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+3 foci from Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Non-Dominant Hand Lissek S, 2007: Simple > Rest, Non-Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Non-Dominant Hand 
+3 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go Chikazoe J, 2009: Conjunction Analysis, Stop vs. Uncertain-Go +  Uncertain-Go vs. Certain-Go 
+1 foci from Yu H, 2007: Healthy Controls 
+1 foci from Strakowski S M, 2008: Healthy Controls 
+2 foci from Zandbelt B B, 2011: Healthy Control Siblings of Schizophrenia Patients 
+6 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Misra G, 2015: Force Only > Baseline 
+2 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+1 foci from Aramaki Y, 2006: Parallel 
+
+Contributors to cluster #7
+1 foci from Gerardin E, 2000: Motor Execution vs. Rest Gerardin E, 2000: Motor Execution vs. Motor Imagination 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+1 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+3 foci from Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Non-Dominant Hand Lissek S, 2007: Simple > Rest, Non-Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Non-Dominant Hand 
+1 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go Chikazoe J, 2009: Conjunction Analysis, Stop vs. Uncertain-Go +  Uncertain-Go vs. Certain-Go 
+1 foci from Taniwaki T, 2003: Self Initiated Movement vs. Rest, First Order Term Linear  Effect 
+3 foci from Zandbelt B B, 2011: Healthy Control Siblings of Schizophrenia Patients 
+2 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+1 foci from Goerres G W, 1998: Unimanual Right Finger Press vs. Rest Goerres G W, 1998: Bimanual Asymmetric Finger Press vs. Rest 
+1 foci from Sadato N, 1997: Normals, Group 1 
+
+Contributors to cluster #8
+1 foci from Joliot M, 1999: fMRI-Correlation 
+1 foci from Kawashima R, 1996: Go/NoGo Task - Control Task 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+1 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+1 foci from Marchand W R, 2007: Normals 
+2 foci from Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Non-Dominant Hand Lissek S, 2007: Simple > Rest, Non-Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Non-Dominant Hand 
+1 foci from Aron A R, 2006: Stop - Go 
+2 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+2 foci from Zandbelt B B, 2011: Healthy Control Siblings of Schizophrenia Patients 
+1 foci from Zandbelt B B, 2011: Healthy Controls 
+
+Contributors to cluster #9
+1 foci from Kawashima R, 1996: Go/NoGo Task - Control Task 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+2 foci from Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Non-Dominant Hand Lissek S, 2007: Simple > Rest, Non-Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Non-Dominant Hand 
+1 foci from Bengtsson S L, 2005: Conjunction Analysis of Rhythmic Sequence - Rest 
+1 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go Chikazoe J, 2009: Conjunction Analysis, Stop vs. Uncertain-Go +  Uncertain-Go vs. Certain-Go 
+2 foci from Townsend J D, 2012: Healthy Controls 
+2 foci from Zandbelt B B, 2011: Healthy Control Siblings of Schizophrenia Patients 
+2 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+
+Contributors to cluster #10
+1 foci from Joliot M, 1999: fMRI-Correlation 
+1 foci from Kawashima R, 1996: Go/NoGo Task - Control Task 
+3 foci from Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Non-Dominant Hand Lissek S, 2007: Simple > Rest, Non-Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Non-Dominant Hand 
+1 foci from Yu H, 2007: Healthy Controls 
+1 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+1 foci from Aramaki Y, 2006: Parallel 
+1 foci from Goerres G W, 1998: Unimanual Right Finger Press vs. Rest Goerres G W, 1998: Bimanual Asymmetric Finger Press vs. Rest 
+3 foci from Dettmers C, 1995: Correlation Between rCBF and Force 
+
+Contributors to cluster #11
+1 foci from Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Non-Dominant Hand Lissek S, 2007: Simple > Rest, Non-Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Non-Dominant Hand 
+1 foci from Aron A R, 2006: Stop - Go 
+3 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go Chikazoe J, 2009: Conjunction Analysis, Stop vs. Uncertain-Go +  Uncertain-Go vs. Certain-Go 
+2 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+1 foci from Strakowski S M, 2008: Healthy Controls 
+2 foci from Townsend J D, 2012: Healthy Controls 
+1 foci from Zandbelt B B, 2011: Healthy Control Siblings of Schizophrenia Patients 
+2 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+
+Contributors to cluster #12
+1 foci from Joliot M, 1999: fMRI-Correlation 
+1 foci from Kawashima R, 1996: Go/NoGo Task - Control Task 
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+1 foci from Hester R L, 2004: Cued and Uncued Successful Response Inhibition 
+1 foci from Wong S W, 2007: Right and Left Hand, 35% Trials, Activations 
+3 foci from Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Dominant Hand Lissek S, 2007: Simple + Complex 1 + Complex 2 > Rest, Non-Dominant Hand Lissek S, 2007: Simple > Rest, Non-Dominant Hand Lissek S, 2007: Complex 1 + Complex 2 > Rest, Non-Dominant Hand 
+1 foci from Zandbelt B B, 2011: Healthy Control Siblings of Schizophrenia Patients 
+1 foci from Zandbelt B B, 2011: Healthy Controls 
+1 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 
+1 foci from Aramaki Y, 2006: Parallel 
+
+Contributors to cluster #13
+2 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go Chikazoe J, 2009: Conjunction Analysis, Stop vs. Uncertain-Go +  Uncertain-Go vs. Certain-Go 
+1 foci from Strakowski S M, 2008: Healthy Controls 
+1 foci from Townsend J D, 2012: Healthy Controls 
+3 foci from Zandbelt B B, 2011: Healthy Control Siblings of Schizophrenia Patients 
+1 foci from Zandbelt B B, 2011: Healthy Controls 
+
+Contributors to cluster #14
+1 foci from Bellgrove M A, 2004: Response Inhibition 
+1 foci from Chikazoe J, 2009: Stop vs. Uncertain-Go Chikazoe J, 2009: Conjunction Analysis, Stop vs. Uncertain-Go +  Uncertain-Go vs. Certain-Go 
+1 foci from Townsend J D, 2012: Healthy Controls 
+1 foci from Zandbelt B B, 2011: Healthy Control Siblings of Schizophrenia Patients 
+1 foci from Langner R, 2014: Conjunction: Encoding and Recall Epochs for both  hands/delays 

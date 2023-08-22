@@ -1,0 +1,420 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = attention 1.txt
+Number of foci                = 1734
+Number of experiments         = 90
+Total number of subjects      = 1266
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = attention 1_ALE.nii
+FWHM minimum value            = 8.881953893794925
+FWHM median value             = 9.755397007122182
+FWHM maximum value            = 10.935527854620133
+Minimum ALE score             = 3.3805132E-19
+Maximum ALE score             = 0.079380855
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = attention 1_P.nii
+Minimum P value               = 1.25153E-19
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 80808 mm^3
+Chosen min. cluster size      = 1136 mm^3
+Thresholded ALE image         = attention 1_C05_1k_ALE.nii
+
+Cluster Analysis:
+ #1: 20168 mm^3 from (-56,-8,-8) to (-22,44,62) centered at (-40.3,15.9,26) with 9 peaks
+     with a max value of 0.0732 ALE, 1.4419072E-17 P, 8.45 Z at (-46,8,32) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 83.6% Frontal Lobe, 16.4% Sub-lobar
+     Gyrus: 38.6% Middle Frontal Gyrus, 30.5% Precentral Gyrus, 12.8% Inferior Frontal Gyrus, 12.6% Insula, 3.7% Claustrum, 1.8% Sub-Gyral
+     Cell Type: 45.4% Brodmann area 6, 32.3% Brodmann area 9, 13.2% Brodmann area 13, 1.9% Brodmann area 46, 1.5% Brodmann area 45
+
+ #2: 18272 mm^3 from (-52,-74,34) to (0,-26,66) centered at (-29.5,-53.6,49.8) with 6 peaks
+     with a max value of 0.0718 ALE, 4.1351202E-17 P, 8.33 Z at (-28,-62,52) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Parietal Lobe
+     Gyrus: 37% Precuneus, 36.7% Inferior Parietal Lobule, 22.6% Superior Parietal Lobule, 2.5% Supramarginal Gyrus
+     Cell Type: 59.3% Brodmann area 7, 37.9% Brodmann area 40, 1.4% Brodmann area 39, 1.2% Brodmann area 19
+
+ #3: 15176 mm^3 from (-12,0,22) to (14,38,62) centered at (0.6,17.5,44) with 2 peaks
+     with a max value of 0.0794 ALE, 1.25153E-19 P, 8.99 Z at (0,16,48) 
+   Labels: (Gray Matter only)
+     Hemisphere: 59.3% Left Cerebrum, 40.7% Right Cerebrum
+     Lobe: 63.9% Frontal Lobe, 36.1% Limbic Lobe
+     Gyrus: 44.1% Cingulate Gyrus, 38.6% Medial Frontal Gyrus, 16.8% Superior Frontal Gyrus
+     Cell Type: 39.1% Brodmann area 32, 38.6% Brodmann area 6, 12.6% Brodmann area 24, 9.7% Brodmann area 8
+
+ #4: 11040 mm^3 from (6,-76,36) to (50,-34,66) centered at (31.5,-56.7,50.7) with 4 peaks
+     with a max value of 0.0589 ALE, 4.5405184E-13 P, 7.14 Z at (34,-56,50) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Parietal Lobe
+     Gyrus: 39.2% Superior Parietal Lobule, 34.1% Precuneus, 25.3% Inferior Parietal Lobule
+     Cell Type: 71.4% Brodmann area 7, 23.3% Brodmann area 40, 3.5% Brodmann area 39, 1.8% Brodmann area 19
+
+ #5: 10432 mm^3 from (32,-8,12) to (58,44,42) centered at (46.8,16.3,28.8) with 6 peaks
+     with a max value of 0.0503 ALE, 1.4845528E-10 P, 6.3 Z at (48,14,34) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 41.6% Precentral Gyrus, 38.7% Middle Frontal Gyrus, 17.3% Inferior Frontal Gyrus, 2.3% Superior Frontal Gyrus
+     Cell Type: 59% Brodmann area 9, 35.3% Brodmann area 6, 4.3% Brodmann area 8, 1.2% Brodmann area 46
+
+ #6: 4432 mm^3 from (28,10,-14) to (54,32,8) centered at (37.1,20.6,-1.5) with 2 peaks
+     with a max value of 0.0477 ALE, 7.826136E-10 P, 6.04 Z at (36,18,2) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 89.7% Sub-lobar, 10.3% Frontal Lobe
+     Gyrus: 62.6% Insula, 24.1% Claustrum, 8% Inferior Frontal Gyrus, 2.9% Precentral Gyrus, 2.3% Extra-Nuclear
+     Cell Type: 51.7% Brodmann area 13, 10.9% Brodmann area 47, 2.9% Brodmann area 44, 1.1% Brodmann area 45
+
+ #7: 1288 mm^3 from (22,-8,48) to (38,2,64) centered at (29,-3.1,55.5) with 2 peaks
+     with a max value of 0.032 ALE, 7.950564E-6 P, 4.32 Z at (28,-2,54) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 66.2% Middle Frontal Gyrus, 26% Precentral Gyrus, 7.8% Sub-Gyral
+     Cell Type: 100% Brodmann area 6
+
+
+Experiment Table:
+[ 2 0 0 0 0 0 0 1 3 0 0 5 4 0 0 5 3 2 2 4 0 4 2 1 4 0 0 4 1 0 1 2 3 2 0 2 5 2 0 0 0 1 2 2 8 4 1 3 2 1 2 0 2 8 1 3 0 1 0 1 1 0 1 0 1 0 1 0 0 1 2 1 1 1 0 2 0 0 1 0 1 8 3 3 2 3 1 0 8 1 ]
+[ 1 1 8 0 1 1 1 3 1 1 0 2 0 1 1 5 1 0 2 3 0 2 0 3 1 2 0 3 2 0 4 1 1 1 1 0 2 1 0 1 0 0 2 1 0 3 3 0 0 0 0 1 1 5 3 3 0 0 1 1 1 0 0 1 1 2 1 1 0 1 10 0 1 1 0 2 0 0 2 1 0 6 1 2 2 0 0 1 3 3 ]
+[ 0 6 0 1 1 1 0 1 4 1 2 3 0 0 2 1 0 4 2 0 0 3 2 1 2 2 0 6 0 1 0 0 2 1 0 2 0 2 1 1 0 0 0 0 7 2 2 1 1 1 0 0 1 4 3 3 1 6 2 1 0 0 0 0 2 1 1 1 4 5 2 0 0 1 0 1 0 0 0 1 0 3 0 0 0 0 0 0 4 2 ]
+[ 0 1 1 0 2 1 0 1 0 1 0 0 0 1 2 5 0 0 0 0 0 2 0 0 3 1 0 1 1 0 3 1 2 0 1 0 1 2 1 0 0 1 0 1 0 2 0 1 0 0 1 1 0 2 0 2 0 0 0 0 0 1 0 0 1 2 1 1 0 0 2 1 0 1 2 0 0 0 2 0 0 4 0 2 1 1 1 1 3 2 ]
+[ 0 2 0 1 1 1 0 0 2 0 0 1 0 0 1 4 1 0 2 1 1 2 0 1 1 1 0 2 0 0 0 1 1 1 0 2 3 2 2 1 0 0 0 1 1 1 0 2 1 1 1 0 1 0 0 3 1 2 0 1 0 0 0 0 1 0 0 1 1 0 1 0 0 1 0 0 0 0 1 0 0 2 1 0 1 0 0 0 2 1 ]
+[ 0 0 0 0 0 0 0 0 2 0 0 0 0 2 0 0 0 0 0 2 0 1 1 0 1 1 0 2 0 0 0 0 0 1 1 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0 2 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0 0 0 3 0 0 0 0 0 2 0 0 0 1 1 0 1 1 ]
+[ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 ]
+
+Contributors to cluster #1
+2 foci from Bush G, 1998: Interference - Neutral 
+1 foci from Dassonville P, 2001: Symbolic/Direct - Spatial/Direct 
+3 foci from Steel C, 2001: Stroop Interference vs. Control Steel C, 2001: Stroop Facilitation vs. Control Steel C, 2001: Stroop Negative Priming vs. Stroop Interference 
+5 foci from Ruff C C, 2001: Repeated Color Naming, Incongruent vs. Neutral Ruff C C, 2001: Switching Color Naming, Incongruent vs. Neutral Ruff C C, 2001: Repeated Word Reading, Incongruent vs. Neutral Ruff C C, 2001: Switching Word Reading, Incongruent vs. Neutral 
+4 foci from Peterson B S, 2002: Simon Incongruent vs. Congruent Peterson B S, 2002: Stroop Incongruent vs. Congruent 
+5 foci from Shaywitz B A, 2001: Select - Simple, Activations Shaywitz B A, 2001: Divide - Select, Activations Shaywitz B A, 2001: Complex Divide - Select, Activations 
+3 foci from Abel K M, 2003: Neutral Faces vs. Fixation, Placebo 
+2 foci from Brown G G, 1999: Incongruent - Non-lexical Brown G G, 1999: Incongruent - Neutral 
+2 foci from Fan J, 2003: Flanker Incongruent - Congruent Fan J, 2003: Stroop Incongruent - Congruent Fan J, 2003: Spatial Incongruent - Congruent Fan J, 2003: Conjunction Analysis Incongruent - Congruent 
+4 foci from Taylor S F, 1997: Normals, Group 1 
+4 foci from Peterson B S, 1999: Incongruent vs. Congruent (Increases) 
+2 foci from Milham M P, 2002: Young Subjects 
+1 foci from Milham M P, 2001: Incongruent > Neutral 
+4 foci from Corbetta M, 1998: Attention vs. Fixation Corbetta M, 1998: Attention vs. Eye Movement 
+4 foci from Milham M P, 2005: Congruent and Incongruent vs. Neutral Milham M P, 2005: Incongruent vs. Congruent 
+1 foci from Thiel C M, 2004: Invalid - Valid Spatial Cues 
+1 foci from Astafiev S V, 2003: Attention vs. Fixation 
+2 foci from Beauchamp M S, 2001: Shifts of Attention vs. Fixation 
+3 foci from DiGirolamo G J, 2001: Young Normals 
+2 foci from Dove A, 2000: Task Switch - Task Repetition 
+2 foci from Kringelbach M L, 2003: Main Reversal Task Kringelbach M L, 2003: Conjunction of Main Reversal Task and Control  Reversal Task 
+5 foci from Milham M P, 2003: Oddball Milham M P, 2003: Incongruent, Eligible > Incongruent, Ineligible 
+2 foci from Norris D G, 2002: Incongruent vs. Neutral, GE-EPI, Activations Norris D G, 2002: Incongruent vs. Neutral, SE-EPI, Activations 
+1 foci from Brass M, 2004: Meaning Switch vs. Cue Switch 
+2 foci from Braver T S, 2003: Switch x Time Braver T S, 2003: Block x Time 
+2 foci from Dreher J C, 2002: Switching vs. Baseline 
+8 foci from Luks T L, 2002: Informative Switch Cue > Baseline Luks T L, 2002: Informative Repeat Cue > Baseline Luks T L, 2002: Neutrally Cued Switch > Baseline Luks T L, 2002: Neutrally Cued Repeat > Baseline Luks T L, 2002: Neutrally Cued Switch > Repeat Luks T L, 2002: Switch > Repeat 
+4 foci from Sylvester C C, 2003: Normals, Group 1 
+1 foci from Sylvester C C, 2003: Normals, Group 2 
+3 foci from Zysset S, 2001: Incongruent vs. Neutral Zysset S, 2001: Congruent vs. Neutral Zysset S, 2001: Incongruent vs. Congruent 
+2 foci from Kerns J G, 2005: Normal Subjects 
+1 foci from Heckers S, 2004: Normals 
+2 foci from Weiss E M, 2003: Controls 
+2 foci from Weiss E M, 2007: Controls 
+8 foci from Bohland J W, 2006: Complex Sequence > Simple Sequence 
+1 foci from Gur R C, 2007: Target Green Circles > Standard Red Circles 
+3 foci from Nakao T, 2005: Normals 
+1 foci from Yucel M, 2007: Normals 
+1 foci from Kerns J G, 2006: Incongruent, Activations 
+1 foci from Liu X, 2004: Simon Incongruent > Simon Congruent Liu X, 2004: Stroop Incongruent > Stroop Congruent 
+1 foci from Rubia K, 2006: Adult Normals 
+1 foci from Rogers R D, 2000: Discrimination - Performance 
+1 foci from Carlsson K, 2000: Anticipation vs. Rest 
+1 foci from Coderre E L, 2008: Kana Incongruent > Kana Congruent Coderre E L, 2008: Kanji Incongruent > Kanji Congruent 
+2 foci from Matsumoto E, 2004: Uncrossed Incompatible > Uncrossed Compatible Matsumoto E, 2004: Crossed Incompatible > Crossed Compatible Matsumoto E, 2004: Incompatible > Compatible Matsumoto E, 2004: Crossed > Uncrossed Matsumoto E, 2004: (Incompatible vs. Compatible, Uncrossed) + (Incompatible  vs. Compatible, Crossed) 
+1 foci from Pierno A C, 2008: Main Effect of Type of Observed Behavior [(GT + GTD) -  (GAT + GATD)] 
+1 foci from Adleman N E, 2002: Normal Adults 
+1 foci from Chikazoe J, 2009: Infrequent-Go vs. Frequent-Go 
+2 foci from Ye Z, 2009: Effects of Congruency in Stroop Task Ye Z, 2009: Effects of Congruency in Flanker Task 
+1 foci from Belger A, 1998: Shape Task > Fixation Belger A, 1998: Location Task > Fixation 
+1 foci from Guleria A, 2013: Meditation > Control 
+8 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+3 foci from Olivers C N, 2005: Search-related Activity: Full-set vs. Single-set Olivers C N, 2005: Preview-related Activity: Preview vs. Single-set 
+3 foci from Scherf K S, 2010: Typically-developing (TD) Controls 
+2 foci from Barros-Loscertales A, 2011: Healthy Controls 
+3 foci from Aron A R, 2007: Critical Stop > Critical Go 
+1 foci from Alonso-Lana S, 2016: Healthy Controls 
+8 foci from Haist F, 2005: Healthy Controls 
+1 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #2
+1 foci from Bush G, 1998: Interference - Neutral 
+1 foci from Rosen A C, 1999: Endogenous > Rest Rosen A C, 1999: Exogenous > Rest Rosen A C, 1999: Control > Rest 
+8 foci from Rushworth M F, 2001: Response Switch Right vs. Left 
+1 foci from Simon O, 2002: Attention vs. Attention Control Simon O, 2002: Attention Only 
+1 foci from Bunge S A, 2002: Incongruent vs. Neutral 
+1 foci from Sohn M H, 2000: Foreknowlege Effects Sohn M H, 2000: Transition Effects 
+3 foci from Dassonville P, 2001: Symbolic/Direct - Spatial/Direct 
+1 foci from Steel C, 2001: Stroop Interference vs. Control Steel C, 2001: Stroop Facilitation vs. Control Steel C, 2001: Stroop Negative Priming vs. Stroop Interference 
+1 foci from Carter C S, 1995: Incongruent - Neutral Carter C S, 1995: Incongruent - Congruent 
+2 foci from Ruff C C, 2001: Repeated Color Naming, Incongruent vs. Neutral Ruff C C, 2001: Switching Color Naming, Incongruent vs. Neutral Ruff C C, 2001: Repeated Word Reading, Incongruent vs. Neutral Ruff C C, 2001: Switching Word Reading, Incongruent vs. Neutral 
+1 foci from Bench C J, 1993: Normals Group 1 
+1 foci from Marois R, 2000: High Interference vs. Low Interference 
+5 foci from Shaywitz B A, 2001: Select - Simple, Activations Shaywitz B A, 2001: Divide - Select, Activations Shaywitz B A, 2001: Complex Divide - Select, Activations 
+1 foci from Abel K M, 2003: Neutral Faces vs. Fixation, Placebo 
+2 foci from Fan J, 2003: Flanker Incongruent - Congruent Fan J, 2003: Stroop Incongruent - Congruent Fan J, 2003: Spatial Incongruent - Congruent Fan J, 2003: Conjunction Analysis Incongruent - Congruent 
+3 foci from Taylor S F, 1997: Normals, Group 1 
+2 foci from Peterson B S, 1999: Incongruent vs. Congruent (Increases) 
+3 foci from Milham M P, 2001: Incongruent > Neutral 
+1 foci from Corbetta M, 1998: Attention vs. Fixation Corbetta M, 1998: Attention vs. Eye Movement 
+2 foci from Gitelman D R, 1999: Posner Task vs. Baseline 
+3 foci from Milham M P, 2005: Congruent and Incongruent vs. Neutral Milham M P, 2005: Incongruent vs. Congruent 
+2 foci from Thiel C M, 2004: Invalid - Valid Spatial Cues 
+4 foci from Astafiev S V, 2003: Attention vs. Fixation 
+1 foci from Beauchamp M S, 2001: Shifts of Attention vs. Fixation 
+1 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Dove A, 2000: Task Switch - Task Repetition 
+1 foci from Kimberg D Y, 2000: Switch - Repeat 
+2 foci from Milham M P, 2003: Oddball Milham M P, 2003: Incongruent, Eligible > Incongruent, Ineligible 
+1 foci from Norris D G, 2002: Incongruent vs. Neutral, GE-EPI, Activations Norris D G, 2002: Incongruent vs. Neutral, SE-EPI, Activations 
+1 foci from Potenza M N, 2003: Normals Subjects 
+2 foci from Braver T S, 2003: Switch x Time Braver T S, 2003: Block x Time 
+1 foci from Dreher J C, 2002: Switching vs. Baseline 
+3 foci from Sylvester C C, 2003: Normals, Group 1 
+3 foci from Sylvester C C, 2003: Normals, Group 2 
+1 foci from Gurd J M, 2002: Switching > Non-Switching 
+1 foci from Weiss E M, 2007: Controls 
+5 foci from Bohland J W, 2006: Complex Sequence > Simple Sequence 
+3 foci from Gur R C, 2007: Target Green Circles > Standard Red Circles 
+3 foci from Nakao T, 2005: Normals 
+1 foci from Georgiou-Karistianis N, 2007: Normals 
+1 foci from Kerns J G, 2006: Incongruent, Activations 
+1 foci from Liu X, 2004: Simon Incongruent > Simon Congruent Liu X, 2004: Stroop Incongruent > Stroop Congruent 
+1 foci from Rubia K, 2006: Adolescent Normals 
+1 foci from Rogers R D, 2000: Discrimination - Performance 
+2 foci from Stern E R, 2007: Position - Neutral Stern E R, 2007: Position - Neutral, Positive Correlation with Behavioral  Cueing Effect Stern E R, 2007: Position - Neutral, Negative Correlation with Behavioral  Cueing Effect 
+1 foci from Carlsson K, 2000: Anticipation vs. Rest 
+1 foci from Sommer M, 2008: Incompatible > Compatible 
+1 foci from Coderre E L, 2008: Kana Incongruent > Kana Congruent Coderre E L, 2008: Kanji Incongruent > Kanji Congruent 
+10 foci from Matsumoto E, 2004: Uncrossed Incompatible > Uncrossed Compatible Matsumoto E, 2004: Crossed Incompatible > Crossed Compatible Matsumoto E, 2004: Incompatible > Compatible Matsumoto E, 2004: Crossed > Uncrossed Matsumoto E, 2004: (Incompatible vs. Compatible, Uncrossed) + (Incompatible  vs. Compatible, Crossed) 
+1 foci from Adleman N E, 2002: Normal Adults 
+1 foci from Chikazoe J, 2009: Infrequent-Go vs. Frequent-Go 
+2 foci from Ye Z, 2009: Effects of Congruency in Stroop Task Ye Z, 2009: Effects of Congruency in Flanker Task 
+2 foci from Belger A, 1998: Shape Task > Fixation Belger A, 1998: Location Task > Fixation 
+1 foci from Baerentsen K B, 2010: On-Off Meditators 
+6 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Olivers C N, 2005: Search-related Activity: Full-set vs. Single-set Olivers C N, 2005: Preview-related Activity: Preview vs. Single-set 
+2 foci from Scherf K S, 2010: Typically-developing (TD) Controls 
+2 foci from Barros-Loscertales A, 2011: Healthy Controls 
+1 foci from Rodriguez-Cano E, 2017: Healthy Controls 
+3 foci from Haist F, 2005: Healthy Controls 
+3 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #3
+6 foci from Rosen A C, 1999: Endogenous > Rest Rosen A C, 1999: Exogenous > Rest Rosen A C, 1999: Control > Rest 
+1 foci from Sturm W, 1999: Alertness - Control 
+1 foci from Simon O, 2002: Attention vs. Attention Control Simon O, 2002: Attention Only 
+1 foci from Bunge S A, 2002: Incongruent vs. Neutral 
+1 foci from Dassonville P, 2001: Symbolic/Direct - Spatial/Direct 
+4 foci from Steel C, 2001: Stroop Interference vs. Control Steel C, 2001: Stroop Facilitation vs. Control Steel C, 2001: Stroop Negative Priming vs. Stroop Interference 
+1 foci from Carter C S, 1995: Incongruent - Neutral Carter C S, 1995: Incongruent - Congruent 
+2 foci from Derbyshire S W G, 1998: Stroop vs. Stroop Control 
+3 foci from Ruff C C, 2001: Repeated Color Naming, Incongruent vs. Neutral Ruff C C, 2001: Switching Color Naming, Incongruent vs. Neutral Ruff C C, 2001: Repeated Word Reading, Incongruent vs. Neutral Ruff C C, 2001: Switching Word Reading, Incongruent vs. Neutral 
+2 foci from Marois R, 2000: High Interference vs. Low Interference 
+1 foci from Shaywitz B A, 2001: Select - Simple, Activations Shaywitz B A, 2001: Divide - Select, Activations Shaywitz B A, 2001: Complex Divide - Select, Activations 
+4 foci from Brown G G, 1999: Incongruent - Non-lexical Brown G G, 1999: Incongruent - Neutral 
+2 foci from Fan J, 2003: Flanker Incongruent - Congruent Fan J, 2003: Stroop Incongruent - Congruent Fan J, 2003: Spatial Incongruent - Congruent Fan J, 2003: Conjunction Analysis Incongruent - Congruent 
+3 foci from Peterson B S, 1999: Incongruent vs. Congruent (Increases) 
+2 foci from Milham M P, 2002: Young Subjects 
+1 foci from Milham M P, 2001: Incongruent > Neutral 
+2 foci from Corbetta M, 1998: Attention vs. Fixation Corbetta M, 1998: Attention vs. Eye Movement 
+2 foci from Gitelman D R, 1999: Posner Task vs. Baseline 
+6 foci from Milham M P, 2005: Congruent and Incongruent vs. Neutral Milham M P, 2005: Incongruent vs. Congruent 
+1 foci from Winterer G, 2002: Target Identification vs. Fixation 
+2 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Dove A, 2000: Task Switch - Task Repetition 
+2 foci from Kringelbach M L, 2003: Main Reversal Task Kringelbach M L, 2003: Conjunction of Main Reversal Task and Control  Reversal Task 
+2 foci from Norris D G, 2002: Incongruent vs. Neutral, GE-EPI, Activations Norris D G, 2002: Incongruent vs. Neutral, SE-EPI, Activations 
+1 foci from Pollmann S, 2000: Task Switch - Task Repetition 
+1 foci from Potenza M N, 2003: Normals Subjects 
+7 foci from Luks T L, 2002: Informative Switch Cue > Baseline Luks T L, 2002: Informative Repeat Cue > Baseline Luks T L, 2002: Neutrally Cued Switch > Baseline Luks T L, 2002: Neutrally Cued Repeat > Baseline Luks T L, 2002: Neutrally Cued Switch > Repeat Luks T L, 2002: Switch > Repeat 
+2 foci from Sylvester C C, 2003: Normals, Group 1 
+2 foci from Sylvester C C, 2003: Normals, Group 2 
+1 foci from Zysset S, 2001: Incongruent vs. Neutral Zysset S, 2001: Congruent vs. Neutral Zysset S, 2001: Incongruent vs. Congruent 
+1 foci from Kerns J G, 2005: Normal Subjects 
+1 foci from Heckers S, 2004: Normals 
+1 foci from Weiss E M, 2007: Controls 
+4 foci from Bohland J W, 2006: Complex Sequence > Simple Sequence 
+3 foci from Gur R C, 2007: Target Green Circles > Standard Red Circles 
+3 foci from Nakao T, 2005: Normals 
+1 foci from Wagner G, 2006: Control Subjects 
+6 foci from Yucel M, 2007: Normals 
+2 foci from Georgiou-Karistianis N, 2007: Normals 
+1 foci from Kerns J G, 2006: Incongruent, Activations 
+2 foci from Rogers R D, 2000: Discrimination - Performance 
+1 foci from Stern E R, 2007: Position - Neutral Stern E R, 2007: Position - Neutral, Positive Correlation with Behavioral  Cueing Effect Stern E R, 2007: Position - Neutral, Negative Correlation with Behavioral  Cueing Effect 
+1 foci from Carlsson K, 2000: Anticipation vs. Rest 
+1 foci from Sommer M, 2008: Incompatible > Compatible 
+4 foci from Wittfoth M, 2008: Incompatible > Compatible Wittfoth M, 2008: Error, Compatible > Compatible Wittfoth M, 2008: Error, Incompatible > Incompatible Wittfoth M, 2008: (Error, Compatible > Compatible) + (Incompatible >  Compatible) 
+5 foci from Coderre E L, 2008: Kana Incongruent > Kana Congruent Coderre E L, 2008: Kanji Incongruent > Kanji Congruent 
+2 foci from Matsumoto E, 2004: Uncrossed Incompatible > Uncrossed Compatible Matsumoto E, 2004: Crossed Incompatible > Crossed Compatible Matsumoto E, 2004: Incompatible > Compatible Matsumoto E, 2004: Crossed > Uncrossed Matsumoto E, 2004: (Incompatible vs. Compatible, Uncrossed) + (Incompatible  vs. Compatible, Crossed) 
+1 foci from Chikazoe J, 2009: Infrequent-Go vs. Frequent-Go 
+1 foci from Ye Z, 2009: Effects of Congruency in Stroop Task Ye Z, 2009: Effects of Congruency in Flanker Task 
+1 foci from Baerentsen K B, 2010: On-Off Meditators 
+3 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+4 foci from Haist F, 2005: Healthy Controls 
+2 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #4
+1 foci from Rosen A C, 1999: Endogenous > Rest Rosen A C, 1999: Exogenous > Rest Rosen A C, 1999: Control > Rest 
+1 foci from Rushworth M F, 2001: Response Switch Right vs. Left 
+2 foci from Simon O, 2002: Attention vs. Attention Control Simon O, 2002: Attention Only 
+1 foci from Bunge S A, 2002: Incongruent vs. Neutral 
+1 foci from Dassonville P, 2001: Symbolic/Direct - Spatial/Direct 
+1 foci from Carter C S, 1995: Incongruent - Neutral Carter C S, 1995: Incongruent - Congruent 
+1 foci from Bench C J, 1993: Normals Group 1 
+2 foci from Marois R, 2000: High Interference vs. Low Interference 
+5 foci from Shaywitz B A, 2001: Select - Simple, Activations Shaywitz B A, 2001: Divide - Select, Activations Shaywitz B A, 2001: Complex Divide - Select, Activations 
+2 foci from Peterson B S, 1999: Incongruent vs. Congruent (Increases) 
+3 foci from Corbetta M, 1998: Attention vs. Fixation Corbetta M, 1998: Attention vs. Eye Movement 
+1 foci from Gitelman D R, 1999: Posner Task vs. Baseline 
+1 foci from Milham M P, 2005: Congruent and Incongruent vs. Neutral Milham M P, 2005: Incongruent vs. Congruent 
+1 foci from Thiel C M, 2004: Invalid - Valid Spatial Cues 
+3 foci from Astafiev S V, 2003: Attention vs. Fixation 
+1 foci from Beauchamp M S, 2001: Shifts of Attention vs. Fixation 
+2 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Kimberg D Y, 2000: Switch - Repeat 
+1 foci from Milham M P, 2003: Oddball Milham M P, 2003: Incongruent, Eligible > Incongruent, Ineligible 
+2 foci from Norris D G, 2002: Incongruent vs. Neutral, GE-EPI, Activations Norris D G, 2002: Incongruent vs. Neutral, SE-EPI, Activations 
+1 foci from Pollmann S, 2000: Task Switch - Task Repetition 
+1 foci from Brass M, 2004: Meaning Switch vs. Cue Switch 
+1 foci from Dreher J C, 2002: Switching vs. Baseline 
+2 foci from Sylvester C C, 2003: Normals, Group 1 
+1 foci from Zysset S, 2001: Incongruent vs. Neutral Zysset S, 2001: Congruent vs. Neutral Zysset S, 2001: Incongruent vs. Congruent 
+1 foci from Weiss E M, 2003: Controls 
+1 foci from Gurd J M, 2002: Switching > Non-Switching 
+2 foci from Bohland J W, 2006: Complex Sequence > Simple Sequence 
+2 foci from Nakao T, 2005: Normals 
+1 foci from Maclin E L, 2001: Incongruent > Congruent 
+1 foci from Rogers R D, 2000: Discrimination - Performance 
+2 foci from Stern E R, 2007: Position - Neutral Stern E R, 2007: Position - Neutral, Positive Correlation with Behavioral  Cueing Effect Stern E R, 2007: Position - Neutral, Negative Correlation with Behavioral  Cueing Effect 
+1 foci from Carlsson K, 2000: Anticipation vs. Rest 
+1 foci from Sommer M, 2008: Incompatible > Compatible 
+2 foci from Matsumoto E, 2004: Uncrossed Incompatible > Uncrossed Compatible Matsumoto E, 2004: Crossed Incompatible > Crossed Compatible Matsumoto E, 2004: Incompatible > Compatible Matsumoto E, 2004: Crossed > Uncrossed Matsumoto E, 2004: (Incompatible vs. Compatible, Uncrossed) + (Incompatible  vs. Compatible, Crossed) 
+1 foci from Pierno A C, 2008: Main Effect of Type of Observed Behavior [(GT + GTD) -  (GAT + GATD)] 
+1 foci from Chikazoe J, 2009: Infrequent-Go vs. Frequent-Go 
+2 foci from McNab F, 2008: Flanker Task, Incongruent > Congruent 
+2 foci from Belger A, 1998: Shape Task > Fixation Belger A, 1998: Location Task > Fixation 
+4 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+2 foci from Scherf K S, 2010: Typically-developing (TD) Controls 
+1 foci from Barros-Loscertales A, 2011: Healthy Controls 
+1 foci from Aron A R, 2007: Critical Stop > Critical Go 
+1 foci from Alonso-Lana S, 2016: Healthy Controls 
+1 foci from Rodriguez-Cano E, 2017: Healthy Controls 
+3 foci from Haist F, 2005: Healthy Controls 
+2 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #5
+2 foci from Rosen A C, 1999: Endogenous > Rest Rosen A C, 1999: Exogenous > Rest Rosen A C, 1999: Control > Rest 
+1 foci from Sturm W, 1999: Alertness - Control 
+1 foci from Simon O, 2002: Attention vs. Attention Control Simon O, 2002: Attention Only 
+1 foci from Bunge S A, 2002: Incongruent vs. Neutral 
+2 foci from Steel C, 2001: Stroop Interference vs. Control Steel C, 2001: Stroop Facilitation vs. Control Steel C, 2001: Stroop Negative Priming vs. Stroop Interference 
+1 foci from Ruff C C, 2001: Repeated Color Naming, Incongruent vs. Neutral Ruff C C, 2001: Switching Color Naming, Incongruent vs. Neutral Ruff C C, 2001: Repeated Word Reading, Incongruent vs. Neutral Ruff C C, 2001: Switching Word Reading, Incongruent vs. Neutral 
+1 foci from Marois R, 2000: High Interference vs. Low Interference 
+4 foci from Shaywitz B A, 2001: Select - Simple, Activations Shaywitz B A, 2001: Divide - Select, Activations Shaywitz B A, 2001: Complex Divide - Select, Activations 
+1 foci from Abel K M, 2003: Neutral Faces vs. Fixation, Placebo 
+2 foci from Fan J, 2003: Flanker Incongruent - Congruent Fan J, 2003: Stroop Incongruent - Congruent Fan J, 2003: Spatial Incongruent - Congruent Fan J, 2003: Conjunction Analysis Incongruent - Congruent 
+1 foci from Taylor S F, 1997: Normals, Group 1 
+1 foci from Brass M, 2001: Congruent vs. Incongruent 
+2 foci from Peterson B S, 1999: Incongruent vs. Congruent (Increases) 
+1 foci from Milham M P, 2001: Incongruent > Neutral 
+1 foci from Corbetta M, 1998: Attention vs. Fixation Corbetta M, 1998: Attention vs. Eye Movement 
+1 foci from Gitelman D R, 1999: Posner Task vs. Baseline 
+2 foci from Milham M P, 2005: Congruent and Incongruent vs. Neutral Milham M P, 2005: Incongruent vs. Congruent 
+1 foci from Beauchamp M S, 2001: Shifts of Attention vs. Fixation 
+1 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Dove A, 2000: Task Switch - Task Repetition 
+2 foci from Kringelbach M L, 2003: Main Reversal Task Kringelbach M L, 2003: Conjunction of Main Reversal Task and Control  Reversal Task 
+3 foci from Milham M P, 2003: Oddball Milham M P, 2003: Incongruent, Eligible > Incongruent, Ineligible 
+2 foci from Norris D G, 2002: Incongruent vs. Neutral, GE-EPI, Activations Norris D G, 2002: Incongruent vs. Neutral, SE-EPI, Activations 
+2 foci from Pollmann S, 2000: Task Switch - Task Repetition 
+1 foci from Potenza M N, 2003: Normals Subjects 
+1 foci from Dreher J C, 2002: Switching vs. Baseline 
+1 foci from Luks T L, 2002: Informative Switch Cue > Baseline Luks T L, 2002: Informative Repeat Cue > Baseline Luks T L, 2002: Neutrally Cued Switch > Baseline Luks T L, 2002: Neutrally Cued Repeat > Baseline Luks T L, 2002: Neutrally Cued Switch > Repeat Luks T L, 2002: Switch > Repeat 
+1 foci from Sylvester C C, 2003: Normals, Group 1 
+2 foci from Zysset S, 2001: Incongruent vs. Neutral Zysset S, 2001: Congruent vs. Neutral Zysset S, 2001: Incongruent vs. Congruent 
+1 foci from Kerns J G, 2005: Normal Subjects 
+1 foci from Heckers S, 2004: Normals 
+1 foci from Weiss E M, 2003: Controls 
+1 foci from Weiss E M, 2007: Controls 
+3 foci from Nakao T, 2005: Normals 
+1 foci from Wagner G, 2006: Control Subjects 
+2 foci from Yucel M, 2007: Normals 
+1 foci from Kerns J G, 2006: Incongruent, Activations 
+1 foci from Rogers R D, 2000: Discrimination - Performance 
+1 foci from Sommer M, 2008: Incompatible > Compatible 
+1 foci from Wittfoth M, 2008: Incompatible > Compatible Wittfoth M, 2008: Error, Compatible > Compatible Wittfoth M, 2008: Error, Incompatible > Incompatible Wittfoth M, 2008: (Error, Compatible > Compatible) + (Incompatible >  Compatible) 
+1 foci from Matsumoto E, 2004: Uncrossed Incompatible > Uncrossed Compatible Matsumoto E, 2004: Crossed Incompatible > Crossed Compatible Matsumoto E, 2004: Incompatible > Compatible Matsumoto E, 2004: Crossed > Uncrossed Matsumoto E, 2004: (Incompatible vs. Compatible, Uncrossed) + (Incompatible  vs. Compatible, Crossed) 
+1 foci from Chikazoe J, 2009: Infrequent-Go vs. Frequent-Go 
+1 foci from Belger A, 1998: Shape Task > Fixation Belger A, 1998: Location Task > Fixation 
+2 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Olivers C N, 2005: Search-related Activity: Full-set vs. Single-set Olivers C N, 2005: Preview-related Activity: Preview vs. Single-set 
+1 foci from Barros-Loscertales A, 2011: Healthy Controls 
+2 foci from Haist F, 2005: Healthy Controls 
+1 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #6
+2 foci from Steel C, 2001: Stroop Interference vs. Control Steel C, 2001: Stroop Facilitation vs. Control Steel C, 2001: Stroop Negative Priming vs. Stroop Interference 
+2 foci from Bench C J, 1993: Normals Group 1 
+2 foci from Taylor S F, 1997: Normals, Group 1 
+1 foci from Peterson B S, 1999: Incongruent vs. Congruent (Increases) 
+1 foci from Milham M P, 2002: Young Subjects 
+1 foci from Corbetta M, 1998: Attention vs. Fixation Corbetta M, 1998: Attention vs. Eye Movement 
+1 foci from Gitelman D R, 1999: Posner Task vs. Baseline 
+2 foci from Milham M P, 2005: Congruent and Incongruent vs. Neutral Milham M P, 2005: Incongruent vs. Congruent 
+1 foci from Dove A, 2000: Task Switch - Task Repetition 
+1 foci from Kimberg D Y, 2000: Switch - Repeat 
+1 foci from Milham M P, 2003: Oddball Milham M P, 2003: Incongruent, Eligible > Incongruent, Ineligible 
+1 foci from Potenza M N, 2003: Normals Subjects 
+1 foci from Smith A B, 2004: Switch vs. Repeat 
+1 foci from Sylvester C C, 2003: Normals, Group 1 
+1 foci from Bohland J W, 2006: Complex Sequence > Simple Sequence 
+2 foci from Nakao T, 2005: Normals 
+1 foci from Carlsson K, 2000: Anticipation vs. Rest 
+1 foci from Sommer M, 2008: Incompatible > Compatible 
+1 foci from Wittfoth M, 2008: Incompatible > Compatible Wittfoth M, 2008: Error, Compatible > Compatible Wittfoth M, 2008: Error, Incompatible > Incompatible Wittfoth M, 2008: (Error, Compatible > Compatible) + (Incompatible >  Compatible) 
+1 foci from Matsumoto E, 2004: Uncrossed Incompatible > Uncrossed Compatible Matsumoto E, 2004: Crossed Incompatible > Crossed Compatible Matsumoto E, 2004: Incompatible > Compatible Matsumoto E, 2004: Crossed > Uncrossed Matsumoto E, 2004: (Incompatible vs. Compatible, Uncrossed) + (Incompatible  vs. Compatible, Crossed) 
+3 foci from Ye Z, 2009: Effects of Congruency in Stroop Task Ye Z, 2009: Effects of Congruency in Flanker Task 
+2 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Aron A R, 2007: Critical Stop > Critical Go 
+1 foci from Alonso-Lana S, 2016: Healthy Controls 
+1 foci from Haist F, 2005: Healthy Controls 
+1 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #7
+1 foci from Corbetta M, 1998: Attention vs. Fixation Corbetta M, 1998: Attention vs. Eye Movement 
+1 foci from Astafiev S V, 2003: Attention vs. Fixation 
+1 foci from Beauchamp M S, 2001: Shifts of Attention vs. Fixation 
+2 foci from Sylvester C C, 2003: Normals, Group 1 
+1 foci from Sylvester C C, 2003: Normals, Group 2 
+1 foci from Yucel M, 2007: Normals 
+4 foci from Matsumoto E, 2004: Uncrossed Incompatible > Uncrossed Compatible Matsumoto E, 2004: Crossed Incompatible > Crossed Compatible Matsumoto E, 2004: Incompatible > Compatible Matsumoto E, 2004: Crossed > Uncrossed Matsumoto E, 2004: (Incompatible vs. Compatible, Uncrossed) + (Incompatible  vs. Compatible, Crossed) 
+1 foci from Pierno A C, 2008: Main Effect of Type of Observed Behavior [(GT + GTD) -  (GAT + GATD)] 
+1 foci from Chikazoe J, 2009: Infrequent-Go vs. Frequent-Go 
+1 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Rodriguez-Cano E, 2017: Healthy Controls 

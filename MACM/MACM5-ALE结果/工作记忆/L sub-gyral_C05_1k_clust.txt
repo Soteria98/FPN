@@ -1,0 +1,158 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = L sub-gyral.txt
+Number of foci                = 242
+Number of experiments         = 11
+Total number of subjects      = 119
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = L sub-gyral_ALE.nii
+FWHM minimum value            = 9.282869490900032
+FWHM median value             = 10.002568195473065
+FWHM maximum value            = 11.37334466796002
+Minimum ALE score             = 7.7870647E-32
+Maximum ALE score             = 0.035881866
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = L sub-gyral_P.nii
+Minimum P value               = 8.987055E-16
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 13776 mm^3
+Chosen min. cluster size      = 840 mm^3
+Thresholded ALE image         = L sub-gyral_C05_1k_ALE.nii
+
+Cluster Analysis:
+ #1: 4352 mm^3 from (-52,-68,-30) to (-32,-50,-10) centered at (-40.6,-59.5,-20.9) with 1 peaks
+     with a max value of 0.0359 ALE, 8.987055E-16 P, 7.96 Z at (-40,-58,-22) 
+   Labels: (Gray Matter only)
+     Hemisphere: 85.1% Left Cerebellum, 14.9% Left Cerebrum
+     Lobe: 44.1% Posterior Lobe, 41% Anterior Lobe, 14.9% Temporal Lobe
+     Gyrus: 40.8% Culmen, 31.7% Declive, 14.9% Fusiform Gyrus, 12% Tuber
+     Cell Type: 14.9% Brodmann area 37
+
+ #2: 2448 mm^3 from (30,-62,-28) to (52,-50,-6) centered at (41.5,-55.7,-18.6) with 2 peaks
+     with a max value of 0.0229 ALE, 2.7219091E-9 P, 5.83 Z at (40,-56,-22) 
+   Labels: (Gray Matter only)
+     Hemisphere: 87.2% Right Cerebellum, 12.8% Right Cerebrum
+     Lobe: 61.7% Anterior Lobe, 25.5% Posterior Lobe, 12.8% Temporal Lobe
+     Gyrus: 61.7% Culmen, 25.5% Declive, 12.8% Fusiform Gyrus
+     Cell Type: 12.8% Brodmann area 37
+
+ #3: 2064 mm^3 from (-6,8,38) to (6,24,56) centered at (-1.3,15.7,47.2) with 1 peaks
+     with a max value of 0.0167 ALE, 1.282433E-6 P, 4.7 Z at (0,18,48) 
+   Labels: (Gray Matter only)
+     Hemisphere: 89.6% Left Cerebrum, 10.4% Right Cerebrum
+     Lobe: 79.2% Frontal Lobe, 20.8% Limbic Lobe
+     Gyrus: 41.6% Medial Frontal Gyrus, 37.7% Superior Frontal Gyrus, 20.8% Cingulate Gyrus
+     Cell Type: 51.9% Brodmann area 6, 30.5% Brodmann area 32, 10.4% Brodmann area 24, 7.1% Brodmann area 8
+
+ #4: 1552 mm^3 from (-26,4,-12) to (-10,22,2) centered at (-17.1,12.4,-5.5) with 3 peaks
+     with a max value of 0.0173 ALE, 6.892661E-7 P, 4.83 Z at (-14,18,-8) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Sub-lobar
+     Gyrus: 70.4% Lentiform Nucleus, 29.6% Caudate
+     Cell Type: 67.3% Putamen, 29.6% Caudate Head, 1.9% Lateral Globus Pallidus
+
+ #5: 1512 mm^3 from (-50,2,24) to (-34,16,38) centered at (-42.2,9.2,30.8) with 1 peaks
+     with a max value of 0.0176 ALE, 5.1725345E-7 P, 4.88 Z at (-44,12,32) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 47.1% Precentral Gyrus, 33.3% Inferior Frontal Gyrus, 19.6% Middle Frontal Gyrus
+     Cell Type: 76.5% Brodmann area 9, 23.5% Brodmann area 6
+
+ #6: 1008 mm^3 from (8,-18,-2) to (22,-8,14) centered at (15.2,-12.9,6.5) with 1 peaks
+     with a max value of 0.0155 ALE, 3.7515977E-6 P, 4.48 Z at (18,-12,8) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Sub-lobar
+     Gyrus: 100% Thalamus
+     Cell Type: 52% Ventral Lateral Nucleus, 8.9% Medial Dorsal Nucleus, 5.7% Mammillary Body, 4.9% Ventral Posterior Lateral Nucleus, 1.6% Ventral Anterior Nucleus
+
+ #7: 840 mm^3 from (36,-48,38) to (44,-34,46) centered at (39.4,-40.4,42.2) with 1 peaks
+     with a max value of 0.0163 ALE, 1.8757851E-6 P, 4.62 Z at (40,-38,42) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Parietal Lobe
+     Gyrus: 66.7% Inferior Parietal Lobule, 16.7% Sub-Gyral, 16.7% Supramarginal Gyrus
+     Cell Type: 100% Brodmann area 40
+
+
+Experiment Table:
+[ 1 4 2 1 1 2 2 1 1 1 1 ]
+[ 0 2 0 1 1 0 2 2 1 1 0 ]
+[ 1 3 1 1 1 0 0 1 1 0 0 ]
+[ 0 0 0 1 0 0 3 1 0 2 0 ]
+[ 1 2 0 1 1 0 0 1 1 0 0 ]
+[ 0 0 0 0 1 1 2 0 1 0 0 ]
+[ 0 0 0 1 1 0 1 0 0 0 1 ]
+
+Contributors to cluster #1
+1 foci from Owen A M, 1998: Nonspatial Working Memory vs. Control 
+4 foci from Kelley W M, 1998: Word Encoding vs. Fixation Kelley W M, 1998: Object Encoding vs. Fixation Kelley W M, 1998: Face Encoding vs. Fixation 
+2 foci from Druzgal T J, 2001: Working Memory Load 
+1 foci from Gruber O, 2003: Verbal Working Memory, Independent of or Enhanced by  Articulatory Suppression, Phonological Storage 
+1 foci from Jonides J, 1997: 2-back minus Control, Activations 
+2 foci from Chen J K, 2004: Verbal Working Memory Chen J K, 2004: Visual Abstract Working Memory 
+2 foci from Cairo T A, 2004: Encoding, Linear Regression with Load 
+1 foci from Yoo S S, 2005: Normals 
+1 foci from Koshino H, 2008: Controls 
+1 foci from Pfefferbaum A, 2001: Controls 
+1 foci from Sheridan M A, 2007: Normal Adolescent Girls 
+
+Contributors to cluster #2
+2 foci from Kelley W M, 1998: Word Encoding vs. Fixation Kelley W M, 1998: Object Encoding vs. Fixation Kelley W M, 1998: Face Encoding vs. Fixation 
+1 foci from Gruber O, 2003: Verbal Working Memory, Independent of or Enhanced by  Articulatory Suppression, Phonological Storage 
+1 foci from Jonides J, 1997: 2-back minus Control, Activations 
+2 foci from Cairo T A, 2004: Encoding, Linear Regression with Load 
+2 foci from Yoo S S, 2005: Normals 
+1 foci from Koshino H, 2008: Controls 
+1 foci from Pfefferbaum A, 2001: Controls 
+
+Contributors to cluster #3
+1 foci from Owen A M, 1998: Nonspatial Working Memory vs. Control 
+3 foci from Kelley W M, 1998: Word Encoding vs. Fixation Kelley W M, 1998: Object Encoding vs. Fixation Kelley W M, 1998: Face Encoding vs. Fixation 
+1 foci from Druzgal T J, 2001: Working Memory Load 
+1 foci from Gruber O, 2003: Verbal Working Memory, Independent of or Enhanced by  Articulatory Suppression, Phonological Storage 
+1 foci from Jonides J, 1997: 2-back minus Control, Activations 
+1 foci from Yoo S S, 2005: Normals 
+1 foci from Koshino H, 2008: Controls 
+
+Contributors to cluster #4
+1 foci from Gruber O, 2003: Verbal Working Memory, Independent of or Enhanced by  Articulatory Suppression, Phonological Storage 
+3 foci from Cairo T A, 2004: Encoding, Linear Regression with Load 
+1 foci from Yoo S S, 2005: Normals 
+2 foci from Pfefferbaum A, 2001: Controls 
+
+Contributors to cluster #5
+1 foci from Owen A M, 1998: Nonspatial Working Memory vs. Control 
+2 foci from Kelley W M, 1998: Word Encoding vs. Fixation Kelley W M, 1998: Object Encoding vs. Fixation Kelley W M, 1998: Face Encoding vs. Fixation 
+1 foci from Gruber O, 2003: Verbal Working Memory, Independent of or Enhanced by  Articulatory Suppression, Phonological Storage 
+1 foci from Jonides J, 1997: 2-back minus Control, Activations 
+1 foci from Yoo S S, 2005: Normals 
+1 foci from Koshino H, 2008: Controls 
+
+Contributors to cluster #6
+1 foci from Jonides J, 1997: 2-back minus Control, Activations 
+1 foci from Chen J K, 2004: Verbal Working Memory Chen J K, 2004: Visual Abstract Working Memory 
+2 foci from Cairo T A, 2004: Encoding, Linear Regression with Load 
+1 foci from Koshino H, 2008: Controls 
+
+Contributors to cluster #7
+1 foci from Gruber O, 2003: Verbal Working Memory, Independent of or Enhanced by  Articulatory Suppression, Phonological Storage 
+1 foci from Jonides J, 1997: 2-back minus Control, Activations 
+1 foci from Cairo T A, 2004: Encoding, Linear Regression with Load 
+1 foci from Sheridan M A, 2007: Normal Adolescent Girls 

@@ -1,0 +1,237 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = L inferior parietal gyrus.txt
+Number of foci                = 508
+Number of experiments         = 26
+Total number of subjects      = 381
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = L inferior parietal gyrus_ALE.nii
+FWHM minimum value            = 9.01191592595652
+FWHM median value             = 9.574940482272122
+FWHM maximum value            = 10.61174813139395
+Minimum ALE score             = 4.1074447E-23
+Maximum ALE score             = 0.07134915
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = L inferior parietal gyrus_P.nii
+Minimum P value               = 4.8493144E-27
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 34408 mm^3
+Chosen min. cluster size      = 824 mm^3
+Thresholded ALE image         = L inferior parietal gyrus_C05_1k_ALE.nii
+
+Cluster Analysis:
+ #1: 7456 mm^3 from (-58,-2,18) to (-34,20,46) centered at (-46,8.2,32.7) with 1 peaks
+     with a max value of 0.0713 ALE, 4.8493144E-27 P, 10.71 Z at (-46,8,32) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 53.5% Precentral Gyrus, 26.9% Middle Frontal Gyrus, 19.6% Inferior Frontal Gyrus
+     Cell Type: 61.1% Brodmann area 6, 36.7% Brodmann area 9, 2.2% Brodmann area 8
+
+ #2: 6280 mm^3 from (-52,-78,38) to (-18,-28,60) centered at (-31.6,-54.7,50.1) with 5 peaks
+     with a max value of 0.0277 ALE, 1.6972434E-8 P, 5.52 Z at (-26,-60,54) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Parietal Lobe
+     Gyrus: 36.6% Inferior Parietal Lobule, 32.9% Superior Parietal Lobule, 30.5% Precuneus
+     Cell Type: 63.4% Brodmann area 7, 35% Brodmann area 40, 1.5% Brodmann area 19
+
+ #3: 6016 mm^3 from (-10,6,28) to (12,36,62) centered at (0.5,22.9,41.6) with 2 peaks
+     with a max value of 0.0413 ALE, 1.3092748E-13 P, 7.31 Z at (-2,18,46) 
+   Labels: (Gray Matter only)
+     Hemisphere: 66.6% Left Cerebrum, 33.4% Right Cerebrum
+     Lobe: 73.2% Frontal Lobe, 26.8% Limbic Lobe
+     Gyrus: 45.2% Medial Frontal Gyrus, 39.2% Cingulate Gyrus, 15.6% Superior Frontal Gyrus
+     Cell Type: 48.4% Brodmann area 32, 28.2% Brodmann area 6, 21.3% Brodmann area 8, 2% Brodmann area 24
+
+ #4: 5608 mm^3 from (-52,8,-14) to (-26,40,28) centered at (-38.6,24,8.5) with 5 peaks
+     with a max value of 0.0239 ALE, 3.2875235E-7 P, 4.97 Z at (-32,22,4) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 74.7% Sub-lobar, 25.3% Frontal Lobe
+     Gyrus: 64.4% Insula, 14.9% Inferior Frontal Gyrus, 7.5% Claustrum, 7.5% Middle Frontal Gyrus, 2.9% Extra-Nuclear, 2.9% Precentral Gyrus
+     Cell Type: 60.9% Brodmann area 13, 13.2% Brodmann area 47, 7.5% Brodmann area 46, 4% Brodmann area 44, 2.9% Brodmann area 45
+
+ #5: 4248 mm^3 from (38,2,18) to (58,24,40) centered at (47.3,14.9,29.6) with 2 peaks
+     with a max value of 0.0316 ALE, 6.860388E-10 P, 6.06 Z at (52,16,30) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 40.1% Middle Frontal Gyrus, 30.6% Inferior Frontal Gyrus, 29.3% Precentral Gyrus
+     Cell Type: 89.8% Brodmann area 9, 7% Brodmann area 6, 3.2% Brodmann area 8
+
+ #6: 2168 mm^3 from (22,-72,42) to (36,-52,58) centered at (29.3,-63.6,50.1) with 1 peaks
+     with a max value of 0.0247 ALE, 1.7981728E-7 P, 5.09 Z at (30,-66,52) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Parietal Lobe
+     Gyrus: 68.2% Superior Parietal Lobule, 31.8% Precuneus
+     Cell Type: 99.1% Brodmann area 7
+
+ #7: 1760 mm^3 from (30,14,-12) to (44,26,6) centered at (36.1,19.8,-1.8) with 2 peaks
+     with a max value of 0.0236 ALE, 4.2047765E-7 P, 4.93 Z at (34,20,0) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 93.8% Sub-lobar, 6.2% Frontal Lobe
+     Gyrus: 46.2% Insula, 44.6% Claustrum, 6.2% Inferior Frontal Gyrus, 3.1% Extra-Nuclear
+     Cell Type: 33.8% Brodmann area 13, 12.3% Brodmann area 47
+
+ #8: 872 mm^3 from (-34,-8,50) to (-24,6,62) centered at (-30.2,-2.4,55.6) with 1 peaks
+     with a max value of 0.0197 ALE, 8.156884E-6 P, 4.31 Z at (-30,-4,54) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 53.1% Middle Frontal Gyrus, 46.9% Precentral Gyrus
+     Cell Type: 100% Brodmann area 6
+
+
+Experiment Table:
+[ 1 2 2 1 1 1 2 1 1 1 2 1 1 1 1 1 1 1 4 2 1 2 3 1 5 1 ]
+[ 0 1 0 0 3 1 1 1 1 0 2 2 1 1 1 0 0 0 5 3 0 1 4 0 1 1 ]
+[ 0 0 3 0 1 0 0 3 1 1 2 1 1 1 1 1 0 1 3 3 0 1 2 0 3 1 ]
+[ 0 1 5 0 0 0 3 3 1 0 0 1 0 0 2 0 1 1 3 1 1 0 4 0 1 2 ]
+[ 1 1 2 0 0 0 0 1 1 1 1 0 0 1 1 0 1 0 0 2 0 0 2 0 1 1 ]
+[ 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 1 1 0 1 1 0 1 1 ]
+[ 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 1 3 0 0 2 1 0 1 ]
+[ 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 2 0 0 0 1 0 1 0 ]
+
+Contributors to cluster #1
+1 foci from Ruff C C, 2001: Repeated Word Reading, Incongruent vs. Neutral 
+2 foci from Abel K M, 2003: Neutral Faces vs. Fixation, Placebo 
+2 foci from Leung H C, 2000: Stroop Positive Leung H C, 2000: Inverse Stroop Positive 
+1 foci from Mead L A, 2002: Incongruent > Neutral 
+1 foci from Milham M P, 2001: Incongruent > Neutral 
+1 foci from Beauchamp M S, 2001: Shifts of Attention vs. Fixation 
+2 foci from Cools R, 2004: Object-Rule-Switch vs. Nonswitch 
+1 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Dove A, 2000: Task Switch - Task Repetition 
+1 foci from Kringelbach M L, 2003: Conjunction of Main Reversal Task and Control  Reversal Task 
+2 foci from Norris D G, 2002: Incongruent vs. Neutral, GE-EPI, Activations Norris D G, 2002: Incongruent vs. Neutral, SE-EPI, Activations 
+1 foci from Banich M T, 2001: Incongruent, Color vs. Neutral 
+1 foci from Sylvester C C, 2003: Normals, Group 2 
+1 foci from Zysset S, 2001: Incongruent vs. Neutral 
+1 foci from Kerns J G, 2005: Normal Subjects 
+1 foci from Heckers S, 2004: Normals 
+1 foci from Weiss E M, 2003: Controls 
+1 foci from Weiss E M, 2007: Controls 
+4 foci from Bohland J W, 2006: Complex Sequence > Simple Sequence 
+2 foci from Nakao T, 2005: Normals 
+1 foci from Kerns J G, 2006: Regions Active during Good Adjustment Trials for Both iI  and iC 
+2 foci from Chikazoe J, 2009: Infrequent-Go vs. Frequent-Go 
+3 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Alonso-Lana S, 2016: Healthy Controls 
+5 foci from Haist F, 2005: Healthy Controls 
+1 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #2
+1 foci from Abel K M, 2003: Neutral Faces vs. Fixation, Placebo 
+3 foci from Milham M P, 2001: Incongruent > Neutral 
+1 foci from Beauchamp M S, 2001: Shifts of Attention vs. Fixation 
+1 foci from Cools R, 2004: Object-Rule-Switch vs. Nonswitch 
+1 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Dove A, 2000: Task Switch - Task Repetition 
+2 foci from Norris D G, 2002: Incongruent vs. Neutral, GE-EPI, Activations Norris D G, 2002: Incongruent vs. Neutral, SE-EPI, Activations 
+2 foci from Banich M T, 2001: Incongruent, Color vs. Neutral 
+1 foci from Sylvester C C, 2003: Normals, Group 2 
+1 foci from Zysset S, 2001: Incongruent vs. Neutral 
+1 foci from Kerns J G, 2005: Normal Subjects 
+5 foci from Bohland J W, 2006: Complex Sequence > Simple Sequence 
+3 foci from Nakao T, 2005: Normals 
+1 foci from Chikazoe J, 2009: Infrequent-Go vs. Frequent-Go 
+4 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Haist F, 2005: Healthy Controls 
+1 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #3
+3 foci from Leung H C, 2000: Stroop Positive Leung H C, 2000: Inverse Stroop Positive 
+1 foci from Milham M P, 2001: Incongruent > Neutral 
+3 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Dove A, 2000: Task Switch - Task Repetition 
+1 foci from Kringelbach M L, 2003: Conjunction of Main Reversal Task and Control  Reversal Task 
+2 foci from Norris D G, 2002: Incongruent vs. Neutral, GE-EPI, Activations Norris D G, 2002: Incongruent vs. Neutral, SE-EPI, Activations 
+1 foci from Banich M T, 2001: Incongruent, Color vs. Neutral 
+1 foci from Sylvester C C, 2003: Normals, Group 2 
+1 foci from Zysset S, 2001: Incongruent vs. Neutral 
+1 foci from Kerns J G, 2005: Normal Subjects 
+1 foci from Heckers S, 2004: Normals 
+1 foci from Weiss E M, 2007: Controls 
+3 foci from Bohland J W, 2006: Complex Sequence > Simple Sequence 
+3 foci from Nakao T, 2005: Normals 
+1 foci from Chikazoe J, 2009: Infrequent-Go vs. Frequent-Go 
+2 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+3 foci from Haist F, 2005: Healthy Controls 
+1 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #4
+1 foci from Abel K M, 2003: Neutral Faces vs. Fixation, Placebo 
+5 foci from Leung H C, 2000: Stroop Positive Leung H C, 2000: Inverse Stroop Positive 
+3 foci from Cools R, 2004: Object-Rule-Switch vs. Nonswitch 
+3 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Dove A, 2000: Task Switch - Task Repetition 
+1 foci from Banich M T, 2001: Incongruent, Color vs. Neutral 
+2 foci from Kerns J G, 2005: Normal Subjects 
+1 foci from Weiss E M, 2003: Controls 
+1 foci from Weiss E M, 2007: Controls 
+3 foci from Bohland J W, 2006: Complex Sequence > Simple Sequence 
+1 foci from Nakao T, 2005: Normals 
+1 foci from Kerns J G, 2006: Regions Active during Good Adjustment Trials for Both iI  and iC 
+4 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Haist F, 2005: Healthy Controls 
+2 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #5
+1 foci from Ruff C C, 2001: Repeated Word Reading, Incongruent vs. Neutral 
+1 foci from Abel K M, 2003: Neutral Faces vs. Fixation, Placebo 
+2 foci from Leung H C, 2000: Stroop Positive Leung H C, 2000: Inverse Stroop Positive 
+1 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Dove A, 2000: Task Switch - Task Repetition 
+1 foci from Kringelbach M L, 2003: Conjunction of Main Reversal Task and Control  Reversal Task 
+1 foci from Norris D G, 2002: Incongruent vs. Neutral, GE-EPI, Activations Norris D G, 2002: Incongruent vs. Neutral, SE-EPI, Activations 
+1 foci from Zysset S, 2001: Incongruent vs. Neutral 
+1 foci from Kerns J G, 2005: Normal Subjects 
+1 foci from Weiss E M, 2003: Controls 
+2 foci from Nakao T, 2005: Normals 
+2 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Haist F, 2005: Healthy Controls 
+1 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #6
+1 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Norris D G, 2002: Incongruent vs. Neutral, GE-EPI, Activations Norris D G, 2002: Incongruent vs. Neutral, SE-EPI, Activations 
+1 foci from Zysset S, 2001: Incongruent vs. Neutral 
+1 foci from Bohland J W, 2006: Complex Sequence > Simple Sequence 
+1 foci from Nakao T, 2005: Normals 
+1 foci from Chikazoe J, 2009: Infrequent-Go vs. Frequent-Go 
+1 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Haist F, 2005: Healthy Controls 
+1 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #7
+1 foci from DiGirolamo G J, 2001: Young Normals 
+1 foci from Heckers S, 2004: Normals 
+1 foci from Bohland J W, 2006: Complex Sequence > Simple Sequence 
+3 foci from Nakao T, 2005: Normals 
+2 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Alonso-Lana S, 2016: Healthy Controls 
+1 foci from Laurens K R, 2005: Control Subjects 
+
+Contributors to cluster #8
+1 foci from Beauchamp M S, 2001: Shifts of Attention vs. Fixation 
+1 foci from Kerns J G, 2005: Normal Subjects 
+2 foci from Bohland J W, 2006: Complex Sequence > Simple Sequence 
+1 foci from Fassbender C, 2006: Cue-Related Activations Fassbender C, 2006: Cued and Un-cued Correct Responses to Incongruent  Stimuli 
+1 foci from Haist F, 2005: Healthy Controls 

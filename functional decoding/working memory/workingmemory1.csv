@@ -1,0 +1,62 @@
+Category,Domain,Raw Counts,Fractional,Standardized,Z-score
+Language (Speech),Cognition,26,0.003991403,0.974010496,2.053186804
+Language (Semantics),Cognition,26,0.003364825,0.664126358,1.610604587
+Language (Orthography),Cognition,9,0.005220418,1.581838732,1.56389512
+Imagination,Action,8,0.005598321,1.768736474,1.552320458
+Respiration Regulation,Interoception,4,0.007984032,2.948627167,1.338633017
+Memory (Working),Cognition,21,0.003201708,0.583454278,1.323762956
+Language (Phonology),Cognition,8,0.004454343,1.2029646,1.283281232
+Valence,Emotion,4,0.004489338,1.220271842,0.914423169
+Language (Syntax),Cognition,3,0.004934211,1.440290556,0.862743829
+Spatial,Cognition,6,0.003537736,0.749642285,0.838429297
+Memory (Expliicit),Cognition,17,0.002745035,0.357599612,0.825145902
+Language (Unspecified),Cognition,3,0.004316547,1.134815335,0.761166149
+Negative (Punishment/Loss),Emotion,1,0.008196721,3.053816006,0.677050447
+Positive (Humor),Emotion,1,0.007142857,2.532611091,0.634827929
+Somatic,Cognition,2,0.004158004,1.056405625,0.596950417
+Positive (Reward/Gain),Emotion,15,0.002485913,0.229447015,0.537365453
+Intensity,Emotion,1,0.004926108,1.436283511,0.497416002
+Hunger,Interoception,1,0.004651163,1.300304896,0.472839858
+Execution (Speech),Action,7,0.002581121,0.276533506,0.429686184
+Social Cognition,Cognition,8,0.002324906,0.149818199,0.26981673
+Music,Cognition,7,0.002346631,0.160562812,0.268567633
+Vision (Shape),Perception,7,0.002188868,0.082538733,0.145595161
+Temporal,Cognition,1,0.002386635,0.180347381,0.112544569
+Positive (Unspecified),Emotion,3,0.002039429,0.008631311,0.010513867
+Motor Learning,Action,1,0.001883239,-0.068614778,-0.05120867
+Negative (Fear),Emotion,3,0.00192926,-0.045854239,-0.058221574
+Somesthesis (Unspecified),Perception,5,0.001948558,-0.036310303,-0.059080138
+Attention,Cognition,31,0.001967255,-0.027063578,-0.108868171
+Somesthesis (Pain),Perception,7,0.001906837,-0.05694392,-0.111406956
+Negative (Saddness),Emotion,2,0.00165426,-0.181860128,-0.211071004
+Negative (Anger),Emotion,1,0.00137931,-0.317840617,-0.296972139
+Reasoning,Cognition,14,0.001791427,-0.114022043,-0.330361185
+Positive (Happiness),Emotion,2,0.001441961,-0.286855728,-0.367349825
+Heartbeat Detection,Interoception,0,0,-1,-0.389814699
+Observation,Action,2,0.001402525,-0.306359674,-0.400085814
+Baroregulation,Interoception,0,0,-1,-0.491022123
+Rest,Action,0,0,-1,-0.536378982
+Vision (Motion),Perception,4,0.001414427,-0.300473051,-0.551638256
+Memory (Implicit),Cognition,0,0,-1,-0.576433886
+Negative (Guilt),Emotion,0,0,-1,-0.602218503
+Vestibular,Interoception,0,0,-1,-0.630166939
+Gustation,Perception,1,9.45E-04,-0.532546737,-0.643533826
+Osmoregulation,Interoception,0,0,-1,-0.681154014
+Negative (Embarrassment),Emotion,0,0,-1,-0.694410146
+Thirst,Interoception,0,0,-1,-0.705984446
+Sleep,Interoception,0,0,-1,-0.708848492
+Gastrointestinal/Genitourinary,Interoception,0,0,-1,-0.812711452
+Negative (Unspecified),Emotion,3,0.001036628,-0.487319745,-0.95927832
+Preparation,Action,0,0,-1,-1.044043796
+Audition,Perception,4,0.001065246,-0.473165856,-1.056034723
+Vision (Unspecified),Perception,6,0.001179941,-0.416441826,-1.06204491
+Thermoregulation,Interoception,0,0,-1,-1.078409054
+Execution (Unspecified),Action,12,0.001304631,-0.35477423,-1.193857223
+Memory (Unspecified),Cognition,0,0,-1,-1.208635126
+Vision (Color),Perception,0,0,-1,-1.221972193
+Negative (Anxiety),Emotion,0,0,-1,-1.273129475
+Olfaction,Perception,0,0,-1,-1.28737251
+Negative (Disgust),Emotion,0,0,-1,-1.466863958
+Inhibition,Action,1,3.47E-04,-0.82839502,-1.849132649
+Sexuality,Interoception,0,0,-1,-2.126545475
+Behavioral Analysis Plugin v3.1,,,,,

@@ -1,0 +1,237 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = R culmen.txt
+Number of foci                = 658
+Number of experiments         = 25
+Total number of subjects      = 387
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = R culmen_ALE.nii
+FWHM minimum value            = 8.727885998662787
+FWHM median value             = 9.755397007122182
+FWHM maximum value            = 10.61174813139395
+Minimum ALE score             = 1.0379861E-31
+Maximum ALE score             = 0.07999327
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = R culmen_P.nii
+Minimum P value               = 5.8570938E-30
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 47128 mm^3
+Chosen min. cluster size      = 960 mm^3
+Thresholded ALE image         = R culmen_C05_1k_ALE.nii
+
+Cluster Analysis:
+ #1: 14480 mm^3 from (-58,-34,40) to (-20,2,74) centered at (-39.4,-19.6,56.3) with 4 peaks
+     with a max value of 0.049 ALE, 7.8814256E-16 P, 7.97 Z at (-38,-22,52) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 59.8% Parietal Lobe, 40.2% Frontal Lobe
+     Gyrus: 52.6% Postcentral Gyrus, 36.2% Precentral Gyrus, 7.3% Inferior Parietal Lobule, 3.5% Middle Frontal Gyrus
+     Cell Type: 32.2% Brodmann area 3, 31.8% Brodmann area 4, 13.9% Brodmann area 2, 11.6% Brodmann area 40, 8.3% Brodmann area 6, 2.2% Brodmann area 1
+
+ #2: 9760 mm^3 from (-14,-18,40) to (10,18,68) centered at (-3.1,-1.5,54.1) with 4 peaks
+     with a max value of 0.0488 ALE, 1.0133881E-15 P, 7.94 Z at (-6,-6,54) 
+   Labels: (Gray Matter only)
+     Hemisphere: 81.4% Left Cerebrum, 18.6% Right Cerebrum
+     Lobe: 73% Frontal Lobe, 27% Limbic Lobe
+     Gyrus: 65.4% Medial Frontal Gyrus, 26.4% Cingulate Gyrus, 6.1% Paracentral Lobule, 2.1% Superior Frontal Gyrus
+     Cell Type: 63.9% Brodmann area 6, 21.1% Brodmann area 24, 7.6% Brodmann area 31, 7.4% Brodmann area 32
+
+ #3: 9184 mm^3 from (-4,-68,-36) to (32,-44,-8) centered at (16.5,-55.6,-21.5) with 3 peaks
+     with a max value of 0.08 ALE, 5.8570938E-30 P, 11.31 Z at (20,-54,-22) 
+   Labels: (Gray Matter only)
+     Hemisphere: 91.2% Right Cerebellum, 8.8% Left Cerebellum
+     Lobe: 85.5% Anterior Lobe, 14.5% Posterior Lobe
+     Gyrus: 58.9% Culmen, 11.8% Declive, 4.3% Nodule, 1.6% Fastigium
+     Cell Type: 11.5% Dentate
+
+ #4: 4248 mm^3 from (-64,-42,6) to (-46,-14,30) centered at (-54.8,-23.9,18.4) with 6 peaks
+     with a max value of 0.0271 ALE, 9.2188564E-8 P, 5.21 Z at (-52,-22,18) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 40.6% Temporal Lobe, 29.7% Sub-lobar, 29.7% Parietal Lobe
+     Gyrus: 29.7% Insula, 24.3% Superior Temporal Gyrus, 20.8% Postcentral Gyrus, 16.3% Transverse Temporal Gyrus, 8.9% Inferior Parietal Lobule
+     Cell Type: 33.7% Brodmann area 40, 29.7% Brodmann area 41, 24.3% Brodmann area 13, 10.4% Brodmann area 42, 2% Brodmann area 43
+
+ #5: 2856 mm^3 from (-22,-28,-2) to (-6,-12,14) centered at (-13.5,-19.5,6.4) with 1 peaks
+     with a max value of 0.0608 ALE, 7.641222E-21 P, 9.29 Z at (-14,-20,8) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Sub-lobar
+     Gyrus: 100% Thalamus
+     Cell Type: 20.3% Pulvinar, 12.4% Medial Dorsal Nucleus, 10.4% Ventral Posterior Lateral Nucleus, 9.9% Ventral Lateral Nucleus, 9.6% Ventral Posterior Medial Nucleus, 7.9% Mammillary Body, 7.6% Lateral Posterior Nucleus, 1.4% Lateral Dorsal Nucleus
+
+ #6: 2776 mm^3 from (-56,-14,-6) to (-18,18,10) centered at (-34.2,-.8,2.8) with 4 peaks
+     with a max value of 0.0239 ALE, 1.0217541E-6 P, 4.75 Z at (-26,-6,2) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 93.9% Sub-lobar, 6.1% Frontal Lobe
+     Gyrus: 79.8% Lentiform Nucleus, 11.3% Insula, 6.1% Precentral Gyrus, 2.8% Claustrum
+     Cell Type: 63.4% Putamen, 16% Lateral Globus Pallidus, 11.3% Brodmann area 13, 6.1% Brodmann area 44
+
+ #7: 2184 mm^3 from (36,-46,40) to (58,-30,54) centered at (46.3,-38.4,47.6) with 2 peaks
+     with a max value of 0.0261 ALE, 1.9841218E-7 P, 5.07 Z at (46,-36,46) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Parietal Lobe
+     Gyrus: 100% Inferior Parietal Lobule
+     Cell Type: 100% Brodmann area 40
+
+ #8: 1640 mm^3 from (-36,-64,-30) to (-14,-54,-18) centered at (-25.6,-58.1,-24.2) with 2 peaks
+     with a max value of 0.0225 ALE, 2.6682685E-6 P, 4.55 Z at (-24,-58,-24) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebellum
+     Lobe: 97.1% Anterior Lobe, 2.9% Posterior Lobe
+     Gyrus: 80% Culmen, 2.9% Declive
+     Cell Type: 9.8% Dentate
+
+
+Experiment Table:
+[ 2 4 5 1 2 2 1 2 14 1 0 5 1 9 3 0 1 1 7 6 1 6 9 3 3 ]
+[ 3 3 2 1 1 2 0 0 12 0 0 3 5 11 2 0 0 3 1 3 1 1 3 2 4 ]
+[ 2 3 3 1 1 1 1 1 14 1 1 4 2 6 3 1 1 1 9 3 1 2 4 2 3 ]
+[ 0 3 0 0 1 0 3 0 8 0 0 3 0 0 0 0 0 0 2 4 1 0 0 0 2 ]
+[ 0 0 1 0 0 0 0 1 5 0 1 0 1 3 1 0 1 1 1 2 0 0 0 1 0 ]
+[ 0 3 0 0 0 0 0 0 1 0 0 2 3 2 0 0 0 2 0 7 0 0 0 0 0 ]
+[ 0 2 0 0 0 0 0 2 0 1 0 0 0 1 0 0 0 1 0 0 0 1 2 2 0 ]
+[ 0 2 0 1 0 1 0 0 0 0 1 0 0 2 0 0 0 0 0 0 1 0 0 1 1 ]
+
+Contributors to cluster #1
+2 foci from Indovina I, 2001: Move vs. No-Move 
+4 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+5 foci from Katanoda K, 2001: Writing - Naming 
+1 foci from Mostofsky S H, 2003: All Normal Subjects 
+2 foci from Kiehl K A, 2000: Task 2, Correct Hits 
+2 foci from Rounis E, 2005: Main Effects of Movement 
+1 foci from Johnson-Frey S H, 2005: Tool, No Go, Right > Move, No Go, Right 
+2 foci from Kroliczak G, 2007: Grasp - Reach 
+14 foci from Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 1, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 5, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 7T  Scanner 
+1 foci from Dresel C, 2005: Late Activated Areas During Whistling 
+5 foci from Thaut M H, 2008: Polyrhythmic vs. No Movement 
+1 foci from Yu H, 2007: Healthy Controls 
+9 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+3 foci from Kasahara M, 2010: Healthy Controls 
+1 foci from Njiboer M, 2014: Tracking > Baseline 
+1 foci from Misra G, 2015: Force Only > Baseline 
+7 foci from Post M, 2009: All Conditions > Rest 
+6 foci from Valera E M, 2010: Healthy Controls 
+1 foci from Aramaki Y, 2006: Mirror 
+6 foci from Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Right Hand vs.  Baseline Kuhtz-Buschbeck J P, 2003: Execution > Imagery, Right Hand 
+9 foci from Jancke L, 2000: Auditory Continuation > Rest Jancke L, 2000: Visual Synchronization > Rest Jancke L, 2000: Visual Continuation > Rest 
+3 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+3 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 
+
+Contributors to cluster #2
+3 foci from Indovina I, 2001: Move vs. No-Move 
+3 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+2 foci from Katanoda K, 2001: Writing - Naming 
+1 foci from Mostofsky S H, 2003: All Normal Subjects 
+1 foci from Kiehl K A, 2000: Task 2, Correct Hits 
+2 foci from Rounis E, 2005: Main Effects of Movement 
+12 foci from Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 1, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 5, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 7T  Scanner 
+3 foci from Thaut M H, 2008: Polyrhythmic vs. No Movement 
+5 foci from Yu H, 2007: Healthy Controls 
+11 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+2 foci from Kasahara M, 2010: Healthy Controls 
+3 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Post M, 2009: All Conditions > Rest 
+3 foci from Valera E M, 2010: Healthy Controls 
+1 foci from Aramaki Y, 2006: Mirror 
+1 foci from Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Right Hand vs.  Baseline Kuhtz-Buschbeck J P, 2003: Execution > Imagery, Right Hand 
+3 foci from Jancke L, 2000: Auditory Continuation > Rest Jancke L, 2000: Visual Synchronization > Rest Jancke L, 2000: Visual Continuation > Rest 
+2 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+4 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 
+
+Contributors to cluster #3
+2 foci from Indovina I, 2001: Move vs. No-Move 
+3 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+3 foci from Katanoda K, 2001: Writing - Naming 
+1 foci from Mostofsky S H, 2003: All Normal Subjects 
+1 foci from Kiehl K A, 2000: Task 2, Correct Hits 
+1 foci from Rounis E, 2005: Main Effects of Movement 
+1 foci from Johnson-Frey S H, 2005: Tool, No Go, Right > Move, No Go, Right 
+1 foci from Kroliczak G, 2007: Grasp - Reach 
+14 foci from Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 1, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 5, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 7T  Scanner 
+1 foci from Dresel C, 2005: Late Activated Areas During Whistling 
+1 foci from M¨¹ller R A, 2003: Normals 
+4 foci from Thaut M H, 2008: Polyrhythmic vs. No Movement 
+2 foci from Yu H, 2007: Healthy Controls 
+6 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+3 foci from Kasahara M, 2010: Healthy Controls 
+1 foci from Mechelli A, 2009: Go > Nogo 
+1 foci from Njiboer M, 2014: Tracking > Baseline 
+1 foci from Misra G, 2015: Force Only > Baseline 
+9 foci from Post M, 2009: All Conditions > Rest 
+3 foci from Valera E M, 2010: Healthy Controls 
+1 foci from Aramaki Y, 2006: Mirror 
+2 foci from Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Right Hand vs.  Baseline Kuhtz-Buschbeck J P, 2003: Execution > Imagery, Right Hand 
+4 foci from Jancke L, 2000: Auditory Continuation > Rest Jancke L, 2000: Visual Synchronization > Rest Jancke L, 2000: Visual Continuation > Rest 
+2 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+3 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 
+
+Contributors to cluster #4
+3 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+1 foci from Kiehl K A, 2000: Task 2, Correct Hits 
+3 foci from Johnson-Frey S H, 2005: Tool, No Go, Right > Move, No Go, Right 
+8 foci from Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 1, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 5, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 7T  Scanner 
+3 foci from Thaut M H, 2008: Polyrhythmic vs. No Movement 
+2 foci from Post M, 2009: All Conditions > Rest 
+4 foci from Valera E M, 2010: Healthy Controls 
+1 foci from Aramaki Y, 2006: Mirror 
+2 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 
+
+Contributors to cluster #5
+1 foci from Katanoda K, 2001: Writing - Naming 
+1 foci from Kroliczak G, 2007: Grasp - Reach 
+5 foci from Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 1, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 5, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 7T  Scanner 
+1 foci from M¨¹ller R A, 2003: Normals 
+1 foci from Yu H, 2007: Healthy Controls 
+3 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+1 foci from Kasahara M, 2010: Healthy Controls 
+1 foci from Njiboer M, 2014: Tracking > Baseline 
+1 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Post M, 2009: All Conditions > Rest 
+2 foci from Valera E M, 2010: Healthy Controls 
+1 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+
+Contributors to cluster #6
+3 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+1 foci from Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 1, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 2, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 3, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 5, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 6, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 7, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 8, 7T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 1.5T  Scanner Gizewski E R, 2007: Signal Changes for Activated Regions, Subject 9, 7T  Scanner 
+2 foci from Thaut M H, 2008: Polyrhythmic vs. No Movement 
+3 foci from Yu H, 2007: Healthy Controls 
+2 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+2 foci from Misra G, 2015: Force Only > Baseline 
+7 foci from Valera E M, 2010: Healthy Controls 
+
+Contributors to cluster #7
+2 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+2 foci from Kroliczak G, 2007: Grasp - Reach 
+1 foci from Dresel C, 2005: Late Activated Areas During Whistling 
+1 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+1 foci from Misra G, 2015: Force Only > Baseline 
+1 foci from Kuhtz-Buschbeck J P, 2003: Motor Execution, Complex, Right Hand vs.  Baseline Kuhtz-Buschbeck J P, 2003: Execution > Imagery, Right Hand 
+2 foci from Jancke L, 2000: Auditory Continuation > Rest Jancke L, 2000: Visual Synchronization > Rest Jancke L, 2000: Visual Continuation > Rest 
+2 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+
+Contributors to cluster #8
+2 foci from Joliot M, 1999: PET Joliot M, 1999: fMRI-Average Joliot M, 1999: fMRI-Correlation 
+1 foci from Mostofsky S H, 2003: All Normal Subjects 
+1 foci from Rounis E, 2005: Main Effects of Movement 
+1 foci from M¨¹ller R A, 2003: Normals 
+2 foci from Shah C, 2011: Creative writing Shah C, 2011: Reading Shah C, 2011: Copying 
+1 foci from Aramaki Y, 2006: Mirror 
+1 foci from Lacourse M G, 2005: Novel, Move vs. Rest 
+1 foci from Lutz K, 2000: Random > Rest Lutz K, 2000: Regular > Rest 

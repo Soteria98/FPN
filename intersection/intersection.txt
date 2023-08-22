@@ -1,0 +1,215 @@
+D:\Documents\FPN\intersection\intersectROIData.nii,1
+Type: S
+df: 1
+Threshold
+-- p value = 1
+-- intensity = -1.633123935319537e+16
+-- cluster size = 5
+Number of clusters found: 9
+----------------------
+Cluster 1
+Number of voxels: 182
+Peak MNI coordinate: 36  22  -8
+Peak MNI coordinate region:  // Right Cerebrum // Frontal Lobe // Inferior Frontal Gyrus // White Matter // undefined // Frontal_Inf_Orb_R (aal)
+Peak intensity: 0.06124
+# voxels	structure
+  182	--TOTAL # VOXELS--
+  182	Right Cerebrum
+  154	Insula_R (aal)
+  127	Inferior Frontal Gyrus
+  124	Frontal Lobe
+  109	White Matter
+   62	Gray Matter
+   58	Sub-lobar
+   46	Insula
+   25	brodmann area 47
+   25	brodmann area 13
+   19	Frontal_Inf_Orb_R (aal)
+    8	Extra-Nuclear
+    6	brodmann area 45
+    1	Frontal_Inf_Tri_R (aal)
+    1	Frontal_Inf_Oper_R (aal)
+    1	Sub-Gyral
+----------------------
+Cluster 2
+Number of voxels: 114
+Peak MNI coordinate: -34  22   0
+Peak MNI coordinate region:  // Left Cerebrum // Sub-lobar // Extra-Nuclear // White Matter // undefined // Insula_L (aal)
+Peak intensity: 0.084433
+# voxels	structure
+  114	--TOTAL # VOXELS--
+  114	Left Cerebrum
+  106	Insula_L (aal)
+   94	Sub-lobar
+   69	Insula
+   63	White Matter
+   44	Gray Matter
+   23	brodmann area 13
+   22	Inferior Frontal Gyrus
+   20	Frontal Lobe
+   20	Extra-Nuclear
+   12	brodmann area 47
+    3	Claustrum
+    1	brodmann area 45
+----------------------
+Cluster 3
+Number of voxels: 474
+Peak MNI coordinate: 52   6  30
+Peak MNI coordinate region:  // Right Cerebrum // Frontal Lobe // Inferior Frontal Gyrus // White Matter // undefined // Precentral_R (aal)
+Peak intensity: 0.067292
+# voxels	structure
+  474	--TOTAL # VOXELS--
+  474	Frontal Lobe
+  474	Right Cerebrum
+  328	Inferior Frontal Gyrus
+  315	White Matter
+  226	Frontal_Inf_Oper_R (aal)
+  145	Gray Matter
+  137	Precentral_R (aal)
+  128	Middle Frontal Gyrus
+  102	brodmann area 9
+   96	Frontal_Inf_Tri_R (aal)
+   16	Sub-Gyral
+   14	brodmann area 45
+   13	Frontal_Mid_R (aal)
+   12	brodmann area 46
+   10	brodmann area 44
+    7	brodmann area 6
+    2	Precentral Gyrus
+----------------------
+Cluster 4
+Number of voxels: 94
+Peak MNI coordinate: 46  38  22
+Peak MNI coordinate region:  // Right Cerebrum // Frontal Lobe // Middle Frontal Gyrus // White Matter // undefined // Frontal_Mid_R (aal)
+Peak intensity: 0.089243
+# voxels	structure
+   94	--TOTAL # VOXELS--
+   94	Frontal Lobe
+   94	Right Cerebrum
+   93	Middle Frontal Gyrus
+   81	Frontal_Mid_R (aal)
+   60	White Matter
+   30	Gray Matter
+   22	brodmann area 46
+   13	Frontal_Inf_Tri_R (aal)
+    8	brodmann area 10
+    1	Sub-Gyral
+----------------------
+Cluster 5
+Number of voxels: 546
+Peak MNI coordinate: -32  -4  52
+Peak MNI coordinate region:  // Left Cerebrum // Frontal Lobe // Middle Frontal Gyrus // Gray Matter // brodmann area 6 // Frontal_Mid_L (aal)
+Peak intensity: 0.094397
+# voxels	structure
+  546	--TOTAL # VOXELS--
+  546	Frontal Lobe
+  546	Left Cerebrum
+  370	Precentral_L (aal)
+  327	White Matter
+  326	Middle Frontal Gyrus
+  201	Gray Matter
+  154	Inferior Frontal Gyrus
+  135	Frontal_Mid_L (aal)
+  127	brodmann area 6
+   74	brodmann area 9
+   37	Precentral Gyrus
+   29	Sub-Gyral
+   25	Frontal_Inf_Oper_L (aal)
+   16	Frontal_Sup_L (aal)
+----------------------
+Cluster 6
+Number of voxels: 849
+Peak MNI coordinate: 0   4  54
+Peak MNI coordinate region:  // Left Cerebrum // Frontal Lobe // Superior Frontal Gyrus // undefined // undefined // Supp_Motor_Area_L (aal)
+Peak intensity: 0.12964
+# voxels	structure
+  849	--TOTAL # VOXELS--
+  509	Frontal Lobe
+  434	Right Cerebrum
+  378	Gray Matter
+  361	Cingulate Gyrus
+  348	Supp_Motor_Area_L (aal)
+  341	Left Cerebrum
+  266	Limbic Lobe
+  233	White Matter
+  215	Medial Frontal Gyrus
+  207	brodmann area 32
+  204	Supp_Motor_Area_R (aal)
+  199	Superior Frontal Gyrus
+  158	Cingulum_Mid_R (aal)
+  120	brodmann area 6
+   88	Cingulum_Mid_L (aal)
+   74	Inter-Hemispheric
+   49	brodmann area 8
+   34	Frontal_Sup_Medial_L (aal)
+   16	Frontal_Sup_Medial_R (aal)
+    2	brodmann area 24
+----------------------
+Cluster 7
+Number of voxels: 1020
+Peak MNI coordinate: 42 -48  46
+Peak MNI coordinate region:  // Right Cerebrum // Parietal Lobe // Inferior Parietal Lobule // Gray Matter // brodmann area 40 // Parietal_Inf_R (aal)
+Peak intensity: 0.083317
+# voxels	structure
+ 1020	--TOTAL # VOXELS--
+ 1010	Parietal Lobe
+ 1010	Right Cerebrum
+  551	White Matter
+  463	Parietal_Sup_R (aal)
+  425	Gray Matter
+  391	Superior Parietal Lobule
+  337	Inferior Parietal Lobule
+  284	brodmann area 7
+  280	Parietal_Inf_R (aal)
+  200	Angular_R (aal)
+  189	Precuneus
+  136	brodmann area 40
+   93	Sub-Gyral
+   52	Occipital_Sup_R (aal)
+   12	Precuneus_R (aal)
+    4	Occipital_Mid_R (aal)
+    3	brodmann area 19
+    2	brodmann area 39
+----------------------
+Cluster 8
+Number of voxels: 1233
+Peak MNI coordinate: -36 -50  44
+Peak MNI coordinate region:  // Left Cerebrum // Parietal Lobe // Inferior Parietal Lobule // Gray Matter // brodmann area 40 // Parietal_Inf_L (aal)
+Peak intensity: 0.10178
+# voxels	structure
+ 1233	--TOTAL # VOXELS--
+ 1228	Left Cerebrum
+ 1228	Parietal Lobe
+  696	White Matter
+  620	Parietal_Inf_L (aal)
+  497	Parietal_Sup_L (aal)
+  494	Gray Matter
+  473	Inferior Parietal Lobule
+  332	Superior Parietal Lobule
+  294	brodmann area 7
+  280	Precuneus
+  200	brodmann area 40
+  122	Sub-Gyral
+   87	Precuneus_L (aal)
+   27	Postcentral_L (aal)
+   17	Postcentral Gyrus
+    4	Supramarginal Gyrus
+    2	Occipital_Mid_L (aal)
+----------------------
+Cluster 9
+Number of voxels: 116
+Peak MNI coordinate: 38  -2  50
+Peak MNI coordinate region:  // Right Cerebrum // Frontal Lobe // Middle Frontal Gyrus // White Matter // undefined // Precentral_R (aal)
+Peak intensity: 0.082485
+# voxels	structure
+  116	--TOTAL # VOXELS--
+  116	Frontal Lobe
+  116	Right Cerebrum
+  102	Middle Frontal Gyrus
+   85	White Matter
+   42	Frontal_Mid_R (aal)
+   38	Precentral_R (aal)
+   36	Frontal_Sup_R (aal)
+   31	brodmann area 6
+   31	Gray Matter
+   14	Sub-Gyral
